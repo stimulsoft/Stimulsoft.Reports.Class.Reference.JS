@@ -1,0 +1,75 @@
+---
+title: "StiLocalizationExt Class"
+---
+
+## StiLocalizationExt Class
+
+**Namespace:** `Stimulsoft.Report.Check`
+
+### Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| **cultureName** `static` | string |  |
+
+### Methods
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| **addLocalizationFile** `static` | string |  |
+| **loadLocalization** `static` | string |  |
+| **loadLocalizationFile** `static` | void |  |
+| **setLocalizationFile** `static` | void |  |
+
+---
+
+### Method Details
+
+#### addLocalizationFile `static`
+
+**addLocalizationFile**(**filePath**: string, **load**: any, **language**: any): string
+
+**Parameters**
+
+- **filePath** (string)  
+- **load** (any)  
+- **language** (any)  
+
+**Returns** string
+
+
+---
+
+#### loadLocalization `static`
+
+**loadLocalization**(**localizationXml**: string): string
+
+**Parameters**
+
+- **localizationXml** (string)  
+
+**Returns** string
+
+
+---
+
+#### loadLocalizationFile `static`
+
+**loadLocalizationFile**(**filePath**: string): void
+
+**Parameters**
+
+- **filePath** (string)  
+
+
+---
+
+#### setLocalizationFile `static`
+
+**setLocalizationFile**(**filePath**: string, **onlyThis**: any): void
+
+**Parameters**
+
+- **filePath** (string)  
+- **onlyThis** (any)  
+

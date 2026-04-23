@@ -1,0 +1,148 @@
+---
+title: "StiTextDrawing Class"
+---
+
+## StiTextDrawing Class
+
+**Namespace:** `Stimulsoft.Base.Drawing`
+
+### Methods
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| **getAlignment** `static` | [StringAlignment](../../Stimulsoft_System/Drawing/StringAlignment.md) |  |
+| **getAlignment2** `static` | [StringAlignment](../../Stimulsoft_System/Drawing/StringAlignment.md) |  |
+| **getStringFormat** `static` | [StringFormat](../../Stimulsoft_System/Drawing/StringFormat.md) |  |
+| **getStringFormat2** `static` | [StringFormat](../../Stimulsoft_System/Drawing/StringFormat.md) |  |
+| **splitString** `static` | string[] |  |
+| **splitTextWordwrap** `static` | [LineInfo](LineInfo.md)[] |  |
+| **splitTextWordwrap2** `static` | [LineInfo](LineInfo.md)[] |  |
+| **splitTextWordwrapWidth** `static` | string[] |  |
+
+---
+
+### Method Details
+
+#### getAlignment `static`
+
+**getAlignment**(**alignment**: [StiTextHorAlignment](StiTextHorAlignment.md)): [StringAlignment](../../Stimulsoft_System/Drawing/StringAlignment.md)
+
+**Parameters**
+
+- **alignment** ([StiTextHorAlignment](StiTextHorAlignment.md))  
+
+**Returns** [StringAlignment](../../Stimulsoft_System/Drawing/StringAlignment.md)
+
+
+---
+
+#### getAlignment2 `static`
+
+**getAlignment2**(**alignment**: [StiVertAlignment](StiVertAlignment.md)): [StringAlignment](../../Stimulsoft_System/Drawing/StringAlignment.md)
+
+**Parameters**
+
+- **alignment** ([StiVertAlignment](StiVertAlignment.md))  
+
+**Returns** [StringAlignment](../../Stimulsoft_System/Drawing/StringAlignment.md)
+
+
+---
+
+#### getStringFormat `static`
+
+**getStringFormat**(**textOptions**: StiTextOptions, **ha**: [StiTextHorAlignment](StiTextHorAlignment.md), **va**: [StiVertAlignment](StiVertAlignment.md), **zoom**: number): [StringFormat](../../Stimulsoft_System/Drawing/StringFormat.md)
+
+**Parameters**
+
+- **textOptions** (StiTextOptions)  
+- **ha** ([StiTextHorAlignment](StiTextHorAlignment.md))  
+- **va** ([StiVertAlignment](StiVertAlignment.md))  
+- **zoom** (number)  
+
+**Returns** [StringFormat](../../Stimulsoft_System/Drawing/StringFormat.md)
+
+
+---
+
+#### getStringFormat2 `static`
+
+**getStringFormat2**(**textOptions**: StiTextOptions, **ha**: [StiTextHorAlignment](StiTextHorAlignment.md), **va**: [StiVertAlignment](StiVertAlignment.md), **antialiasing**: boolean, **zoom**: number): [StringFormat](../../Stimulsoft_System/Drawing/StringFormat.md)
+
+**Parameters**
+
+- **textOptions** (StiTextOptions)  
+- **ha** ([StiTextHorAlignment](StiTextHorAlignment.md))  
+- **va** ([StiVertAlignment](StiVertAlignment.md))  
+- **antialiasing** (boolean)  
+- **zoom** (number)  
+
+**Returns** [StringFormat](../../Stimulsoft_System/Drawing/StringFormat.md)
+
+
+---
+
+#### splitString `static`
+
+**splitString**(**inputString**: string, **removeControl**: boolean): string[]
+
+**Parameters**
+
+- **inputString** (string)  
+- **removeControl** (boolean)  
+
+**Returns** string[]
+
+
+---
+
+#### splitTextWordwrap `static`
+
+**splitTextWordwrap**(**text**: string, **g**: [Graphics](../../Stimulsoft_System/Drawing/Graphics.md), **font**: [Font](../Dashboard/Font.md), **rect**: [Rectangle](../../Stimulsoft_System/Drawing/Rectangle.md), **textOptions**: StiTextOptions, **ha**: [StiTextHorAlignment](StiTextHorAlignment.md), **typographic**: boolean): [LineInfo](LineInfo.md)[]
+
+**Parameters**
+
+- **text** (string)  
+- **g** ([Graphics](../../Stimulsoft_System/Drawing/Graphics.md))  
+- **font** ([Font](../Dashboard/Font.md))  
+- **rect** ([Rectangle](../../Stimulsoft_System/Drawing/Rectangle.md))  
+- **textOptions** (StiTextOptions)  
+- **ha** ([StiTextHorAlignment](StiTextHorAlignment.md))  
+- **typographic** (boolean)  
+
+**Returns** [LineInfo](LineInfo.md)[]
+
+
+---
+
+#### splitTextWordwrap2 `static`
+
+**splitTextWordwrap2**(**text**: string, **g**: [Graphics](../../Stimulsoft_System/Drawing/Graphics.md), **font**: [Font](../Dashboard/Font.md), **rect**: [Rectangle](../../Stimulsoft_System/Drawing/Rectangle.md), **sf**: [StringFormat](../../Stimulsoft_System/Drawing/StringFormat.md), **horAlignWidth**: any): [LineInfo](LineInfo.md)[]
+
+**Parameters**
+
+- **text** (string)  
+- **g** ([Graphics](../../Stimulsoft_System/Drawing/Graphics.md))  
+- **font** ([Font](../Dashboard/Font.md))  
+- **rect** ([Rectangle](../../Stimulsoft_System/Drawing/Rectangle.md))  
+- **sf** ([StringFormat](../../Stimulsoft_System/Drawing/StringFormat.md))  
+- **horAlignWidth** (any)  
+
+**Returns** [LineInfo](LineInfo.md)[]
+
+
+---
+
+#### splitTextWordwrapWidth `static`
+
+**splitTextWordwrapWidth**(**text**: string, **g**: [Graphics](../../Stimulsoft_System/Drawing/Graphics.md), **font**: [Font](../Dashboard/Font.md), **rect**: [Rectangle](../../Stimulsoft_System/Drawing/Rectangle.md)): string[]
+
+**Parameters**
+
+- **text** (string)  
+- **g** ([Graphics](../../Stimulsoft_System/Drawing/Graphics.md))  
+- **font** ([Font](../Dashboard/Font.md))  
+- **rect** ([Rectangle](../../Stimulsoft_System/Drawing/Rectangle.md))  
+
+**Returns** string[]
+

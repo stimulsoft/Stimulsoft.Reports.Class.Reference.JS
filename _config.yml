@@ -1,0 +1,28 @@
+title: Stimulsoft Reports Documentation
+description:
+baseurl: "/Stimulsoft.Reports.Class.Reference.JS"
+url: "https://stimulsoft.github.io"
+sidebar_title: "Class Reference for JS"
+exclude_from_menu: []
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      render_with_liquid: false
+
+exclude:
+  - scripts/
+  - "*.py"
+  - README.md
+  - ARCHITECTURE.md
+  - Gemfile
+  - Gemfile.lock

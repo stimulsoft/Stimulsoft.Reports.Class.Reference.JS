@@ -1,0 +1,81 @@
+---
+title: "StiIcon Enum"
+---
+
+## StiIcon Enum
+
+**Namespace:** `Stimulsoft.Report.Components`
+
+### Members
+
+| Member | Value | Description |
+| --- | --- | --- |
+| **None** |  |  |
+| **ArrowRightDownGray** |  |  |
+| **ArrowRightUpGray** |  |  |
+| **ArrowDownGray** |  |  |
+| **ArrowRightGray** |  |  |
+| **ArrowUpGray** |  |  |
+| **ArrowUpGreen** |  |  |
+| **ArrowDownRed** |  |  |
+| **ArrowRightYellow** |  |  |
+| **ArrowRightDownYellow** |  |  |
+| **ArrowRightUpYellow** |  |  |
+| **CheckGreen** |  |  |
+| **CircleBlack** |  |  |
+| **CircleGreen** |  |  |
+| **CircleCheckGreen** |  |  |
+| **CircleRed** |  |  |
+| **CircleCrossRed** |  |  |
+| **CircleYellow** |  |  |
+| **CircleExclamationYellow** |  |  |
+| **CrossRed** |  |  |
+| **ExclamationYellow** |  |  |
+| **FlagGreen** |  |  |
+| **FlagRed** |  |  |
+| **FlagYellow** |  |  |
+| **FromRedToBlackGray** |  |  |
+| **FromRedToBlackPink** |  |  |
+| **FromRedToBlackRed** |  |  |
+| **Latin1** |  |  |
+| **Latin2** |  |  |
+| **Latin3** |  |  |
+| **Latin4** |  |  |
+| **LightsGreen** |  |  |
+| **LightsRed** |  |  |
+| **LightsYellow** |  |  |
+| **MinusYellow** |  |  |
+| **QuarterFull** |  |  |
+| **QuarterFullGreen** |  |  |
+| **QuarterFullRed** |  |  |
+| **QuarterHalf** |  |  |
+| **QuarterHalfGreen** |  |  |
+| **QuarterHalfRed** |  |  |
+| **QuarterNone** |  |  |
+| **QuarterNoneGreen** |  |  |
+| **QuarterNoneRed** |  |  |
+| **QuarterQuarter** |  |  |
+| **QuarterQuarterGreen** |  |  |
+| **QuarterQuarterRed** |  |  |
+| **QuarterThreeFourth** |  |  |
+| **QuarterThreeFourthGreen** |  |  |
+| **QuarterThreeFourthRed** |  |  |
+| **Rating0** |  |  |
+| **Rating1** |  |  |
+| **Rating2** |  |  |
+| **Rating3** |  |  |
+| **Rating4** |  |  |
+| **RhombRed** |  |  |
+| **Square0** |  |  |
+| **Square1** |  |  |
+| **Square2** |  |  |
+| **Square3** |  |  |
+| **Square4** |  |  |
+| **StarFull** |  |  |
+| **StarHalf** |  |  |
+| **StarNone** |  |  |
+| **StarQuarter** |  |  |
+| **StarThreeFourth** |  |  |
+| **TriangleGreen** |  |  |
+| **TriangleRed** |  |  |
+| **TriangleYellow** |  |  |

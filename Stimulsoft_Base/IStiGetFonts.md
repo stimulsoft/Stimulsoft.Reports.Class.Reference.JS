@@ -12,7 +12,7 @@ Describes the interface to list of used fonts
 
 | Method | Returns | Description |
 | --- | --- | --- |
-| **getFonts** | [Font](Dashboard/Font.md)[] | Returns list of fonts used in component. |
+| **getFonts** | [Font](../Stimulsoft_Base_Dashboard/Font.md)[] | Returns list of fonts used in component. |
 
 ---
 
@@ -20,9 +20,9 @@ Describes the interface to list of used fonts
 
 #### getFonts
 
-**getFonts**(): [Font](Dashboard/Font.md)[]
+**getFonts**(): [Font](../Stimulsoft_Base_Dashboard/Font.md)[]
 
 Returns list of fonts used in component.
 
-**Returns** [Font](Dashboard/Font.md)[] — The list of fonts used in component.
+**Returns** [Font](../Stimulsoft_Base_Dashboard/Font.md)[] — The list of fonts used in component.
 

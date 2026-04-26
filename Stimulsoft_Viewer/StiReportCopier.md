@@ -79,3 +79,10 @@ title: "StiReportCopier Class"
 - **reportFrom** ([StiReport](../Stimulsoft_Report/StiReport.md))  
 - **reportTo** ([StiReport](../Stimulsoft_Report/StiReport.md))  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **reportCopy** | any |  |
+| **tempResources** | any |  |

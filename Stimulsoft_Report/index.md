@@ -8,14 +8,18 @@ title: "Stimulsoft.Report Namespace"
 
 | Name | Description |
 | --- | --- |
+| [List](List.md) |  |
 | [NumberStorage](NumberStorage.md) |  |
 | [ObjectsProvider](ObjectsProvider.md) |  |
+| [Range](Range.md) |  |
 | [RangeConverter](RangeConverter.md) |  |
 | [RangeStorage](RangeStorage.md) |  |
 | [StiAbbreviationNumberFormatHelper](StiAbbreviationNumberFormatHelper.md) |  |
+| [StiBookmarkTreeNode](StiBookmarkTreeNode.md) |  |
 | [StiCells](StiCells.md) |  |
 | [StiConditionsHelper](StiConditionsHelper.md) |  |
 | [StiCurveHelper](StiCurveHelper.md) |  |
+| [StiDialogInfoItem](StiDialogInfoItem.md) |  |
 | [StiDpiHelper](StiDpiHelper.md) |  |
 | [StiEditableItem](StiEditableItem.md) |  |
 | [StiEditableItemsContainer](StiEditableItemsContainer.md) |  |

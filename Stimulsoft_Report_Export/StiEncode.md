@@ -35,3 +35,10 @@ title: "StiEncode Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **symb** | any |  |
+| **tempEnc** | any |  |

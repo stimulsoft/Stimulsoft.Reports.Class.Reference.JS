@@ -14,3 +14,16 @@ title: "StiSeriesPointsInfo Class"
 
 **constructor**()
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **additionalSeriesId** | any |  |
+| **points** | PointD[] |  |
+| **pointsEnd** | PointD[] |  |
+| **pointsFrom** | PointD[] |  |
+| **pointsIds** | string[] |  |
+| **pointsNullConnect** | PointD[] |  |
+| **pointsStart** | PointD[] |  |
+| **pointsZeroConnect** | PointD[] |  |

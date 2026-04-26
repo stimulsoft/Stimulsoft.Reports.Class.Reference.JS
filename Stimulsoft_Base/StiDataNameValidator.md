@@ -26,3 +26,9 @@ title: "StiDataNameValidator Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **str** | any |  |

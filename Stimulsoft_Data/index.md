@@ -1,8 +1,8 @@
 ---
-title: " Namespace"
+title: "Stimulsoft.Data Namespace"
 ---
 
-##  Namespace
+## Stimulsoft.Data Namespace
 
 ### Classes
 

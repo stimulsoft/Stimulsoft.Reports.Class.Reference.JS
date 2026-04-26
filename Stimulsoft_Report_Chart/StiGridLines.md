@@ -8,23 +8,23 @@ title: "StiGridLines Class"
 
 ### Inheritance
 
-Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonReportObject.md)  
+Implements: [IStiJsonReportObject](../Stimulsoft_Base_JsonReportObject/IStiJsonReportObject.md)  
 
 ### Constructors
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([Color](../Stimulsoft_System/Drawing/Color.md) color, [StiPenStyle](../Stimulsoft_Base/Drawing/StiPenStyle.md) style, any visible, [Color](../Stimulsoft_System/Drawing/Color.md) minorColor, [StiPenStyle](../Stimulsoft_Base/Drawing/StiPenStyle.md) minorStyle, any minorVisible, any minorCount, any allowApplyStyle) |  |
+| **constructor**([Color](../Stimulsoft_System_Drawing/Color.md) color, [StiPenStyle](../Stimulsoft_Base_Drawing/StiPenStyle.md) style, any visible, [Color](../Stimulsoft_System_Drawing/Color.md) minorColor, [StiPenStyle](../Stimulsoft_Base_Drawing/StiPenStyle.md) minorStyle, any minorVisible, any minorCount, any allowApplyStyle) |  |
 
-**constructor**(**color**: [Color](../Stimulsoft_System/Drawing/Color.md), **style**: [StiPenStyle](../Stimulsoft_Base/Drawing/StiPenStyle.md), **visible**: any, **minorColor**: [Color](../Stimulsoft_System/Drawing/Color.md), **minorStyle**: [StiPenStyle](../Stimulsoft_Base/Drawing/StiPenStyle.md), **minorVisible**: any, **minorCount**: any, **allowApplyStyle**: any)
+**constructor**(**color**: [Color](../Stimulsoft_System_Drawing/Color.md), **style**: [StiPenStyle](../Stimulsoft_Base_Drawing/StiPenStyle.md), **visible**: any, **minorColor**: [Color](../Stimulsoft_System_Drawing/Color.md), **minorStyle**: [StiPenStyle](../Stimulsoft_Base_Drawing/StiPenStyle.md), **minorVisible**: any, **minorCount**: any, **allowApplyStyle**: any)
 
 **Parameters**
 
-- **color** ([Color](../Stimulsoft_System/Drawing/Color.md))  
-- **style** ([StiPenStyle](../Stimulsoft_Base/Drawing/StiPenStyle.md))  
+- **color** ([Color](../Stimulsoft_System_Drawing/Color.md))  
+- **style** ([StiPenStyle](../Stimulsoft_Base_Drawing/StiPenStyle.md))  
 - **visible** (any)  
-- **minorColor** ([Color](../Stimulsoft_System/Drawing/Color.md))  
-- **minorStyle** ([StiPenStyle](../Stimulsoft_Base/Drawing/StiPenStyle.md))  
+- **minorColor** ([Color](../Stimulsoft_System_Drawing/Color.md))  
+- **minorStyle** ([StiPenStyle](../Stimulsoft_Base_Drawing/StiPenStyle.md))  
 - **minorVisible** (any)  
 - **minorCount** (any)  
 - **allowApplyStyle** (any)  
@@ -46,7 +46,7 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 | **implements** | any[] |  |
 | **loadFromJsonObject** | void |  |
 | **loadFromXml** | void |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 
 ---
@@ -84,20 +84,20 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 #### loadFromXml
 
-**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xn** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xn** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---
@@ -117,4 +117,14 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 | Field | Type | Description |
 | --- | --- | --- |
-| **_hash** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **ICloneable** | any |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **area** | IStiArea |  |
+| **color** | any |  |
+| **core** | StiGridLinesCoreXF |  |
+| **minorColor** | any |  |
+| **minorStyle** | any |  |
+| **minorVisible** | any |  |
+| **needSetAreaJsonPropertyInternal** | any |  |
+| **style** | any |  |
+| **visible** | any |  |

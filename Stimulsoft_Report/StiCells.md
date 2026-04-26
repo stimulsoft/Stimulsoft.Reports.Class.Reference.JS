@@ -62,3 +62,11 @@ title: "StiCells Class"
 - **y** (number)  
 - **value** (number)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **distX** | any |  |
+| **distY** | any |  |
+| **row** | any |  |

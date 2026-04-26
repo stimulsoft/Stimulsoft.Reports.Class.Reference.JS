@@ -18,11 +18,26 @@ title: "DataFont Class"
 
 #### equals
 
-**equals**(**dataFont**: [DataFont](DataFont.md)): boolean
+**equals**(**obj**: [DataFont](DataFont.md)): boolean
 
 **Parameters**
 
-- **dataFont** ([DataFont](DataFont.md))  
+- **obj** ([DataFont](DataFont.md))  
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **Bold** | boolean |  |
+| **Charset** | number |  |
+| **Color** | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
+| **Family** | number |  |
+| **Family** | number) |  |
+| **Height** | number |  |
+| **Italic** | boolean |  |
+| **Name** | string |  |
+| **Strikeout** | boolean |  |
+| **Underlined** | boolean |  |

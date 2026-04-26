@@ -8,7 +8,7 @@ title: "StiGlobalizationItem Class"
 
 ### Inheritance
 
-Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonReportObject.md)  
+Implements: [IStiJsonReportObject](../Stimulsoft_Base_JsonReportObject/IStiJsonReportObject.md)  
 
 ### Constructors
 
@@ -50,11 +50,11 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 #### loadFromXmlObject
 
-**loadFromXmlObject**(**xmlNode**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXmlObject**(**xmlNode**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xmlNode** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xmlNode** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
@@ -78,3 +78,10 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **propertyName** | any |  |
+| **text** | any |  |

@@ -8,7 +8,7 @@ title: "CheckComparer Class"
 
 ### Inheritance
 
-Implements: [IComparer](../Stimulsoft_System/Collections/IComparer.md)  
+Implements: [IComparer](../Stimulsoft_System_Collections/IComparer.md)  
 
 ### Methods
 

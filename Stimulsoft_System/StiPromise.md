@@ -159,3 +159,9 @@ title: "StiPromise<T> Class"
 
 - **lockObject** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **returnValue** | T |  |

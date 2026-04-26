@@ -8,4 +8,10 @@ title: "StiWebDesignerBase Class"
 
 ### Inheritance
 
-Implements: [IStiDesignerBase](../Stimulsoft_Report/Design/IStiDesignerBase.md)  
+Implements: [IStiDesignerBase](../Stimulsoft_Report_Design/IStiDesignerBase.md)  
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **useAliases** | any |  |

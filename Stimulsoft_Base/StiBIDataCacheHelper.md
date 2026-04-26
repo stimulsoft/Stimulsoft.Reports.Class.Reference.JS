@@ -19,7 +19,7 @@ title: "StiBIDataCacheHelper Class"
 | **getTableCount** `static` | number |  |
 | **getTableName** `static` | string |  |
 | **remove** `static` | void |  |
-| **runQuery** `static` | [DataTable](../Stimulsoft_System/Data/DataTable.md) |  |
+| **runQuery** `static` | [DataTable](../Stimulsoft_System_Data/DataTable.md) |  |
 
 ---
 
@@ -27,26 +27,26 @@ title: "StiBIDataCacheHelper Class"
 
 #### add `static`
 
-**add**(**app**: IStiApp, **tableKey**: string, **dataTable**: [DataTable](../Stimulsoft_System/Data/DataTable.md)): void
+**add**(**app**: IStiApp, **tableKey**: string, **dataTable**: [DataTable](../Stimulsoft_System_Data/DataTable.md)): void
 
 **Parameters**
 
 - **app** (IStiApp)  
 - **tableKey** (string)  
-- **dataTable** ([DataTable](../Stimulsoft_System/Data/DataTable.md))  
+- **dataTable** ([DataTable](../Stimulsoft_System_Data/DataTable.md))  
 
 
 ---
 
 #### add2 `static`
 
-**add2**(**appKey**: string, **tableKey**: string, **dataTable**: [DataTable](../Stimulsoft_System/Data/DataTable.md)): void
+**add2**(**appKey**: string, **tableKey**: string, **dataTable**: [DataTable](../Stimulsoft_System_Data/DataTable.md)): void
 
 **Parameters**
 
 - **appKey** (string)  
 - **tableKey** (string)  
-- **dataTable** ([DataTable](../Stimulsoft_System/Data/DataTable.md))  
+- **dataTable** ([DataTable](../Stimulsoft_System_Data/DataTable.md))  
 
 
 ---
@@ -131,11 +131,11 @@ title: "StiBIDataCacheHelper Class"
 
 #### runQuery `static`
 
-**runQuery**(**query**: string): [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**runQuery**(**query**: string): [DataTable](../Stimulsoft_System_Data/DataTable.md)
 
 **Parameters**
 
 - **query** (string)  
 
-**Returns** [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**Returns** [DataTable](../Stimulsoft_System_Data/DataTable.md)
 

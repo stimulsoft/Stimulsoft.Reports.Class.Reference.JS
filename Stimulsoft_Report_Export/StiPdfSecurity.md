@@ -35,14 +35,14 @@ title: "StiPdfSecurity Class"
 
 #### computingCryptoValues
 
-**computingCryptoValues**(**userAccessPrivileges**: [StiUserAccessPrivileges](../Stimulsoft_Report/Export/StiUserAccessPrivileges.md), **passwordInputOwner**: string, **passwordInputUser**: string, **keyLength**: [StiPdfEncryptionKeyLength](../Stimulsoft_Report/Export/StiPdfEncryptionKeyLength.md), **IDValue**: number[]): boolean
+**computingCryptoValues**(**userAccessPrivileges**: [StiUserAccessPrivileges](StiUserAccessPrivileges.md), **passwordInputOwner**: string, **passwordInputUser**: string, **keyLength**: [StiPdfEncryptionKeyLength](StiPdfEncryptionKeyLength.md), **IDValue**: number[]): boolean
 
 **Parameters**
 
-- **userAccessPrivileges** ([StiUserAccessPrivileges](../Stimulsoft_Report/Export/StiUserAccessPrivileges.md))  
+- **userAccessPrivileges** ([StiUserAccessPrivileges](StiUserAccessPrivileges.md))  
 - **passwordInputOwner** (string)  
 - **passwordInputUser** (string)  
-- **keyLength** ([StiPdfEncryptionKeyLength](../Stimulsoft_Report/Export/StiPdfEncryptionKeyLength.md))  
+- **keyLength** ([StiPdfEncryptionKeyLength](StiPdfEncryptionKeyLength.md))  
 - **IDValue** (number[])  
 
 **Returns** boolean
@@ -93,10 +93,81 @@ title: "StiPdfSecurity Class"
 
 #### renderEncodeRecord
 
-**renderEncodeRecord**(**sw**: [Stimulsoft.System.IO.MemoryStream](../Stimulsoft_System/IO/MemoryStream.md), **pdfService**: StiPdfExportService): void
+**renderEncodeRecord**(**sw**: [Stimulsoft.System.IO.MemoryStream](../Stimulsoft_System_IO/MemoryStream.md), **pdfService**: StiPdfExportService): void
 
 **Parameters**
 
-- **sw** ([Stimulsoft.System.IO.MemoryStream](../Stimulsoft_System/IO/MemoryStream.md))  
+- **sw** ([Stimulsoft.System.IO.MemoryStream](../Stimulsoft_System_IO/MemoryStream.md))  
 - **pdfService** (StiPdfExportService)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **IDValue** | number[] |  |
+| **block_size** | any |  |
+| **buf** | any |  |
+| **buf** | any |  |
+| **buf** | any |  |
+| **data** | any |  |
+| **data** | any |  |
+| **data** | any |  |
+| **data_len** | any |  |
+| **encrypted** | any |  |
+| **encrypted** | any |  |
+| **encryptionKey** | number[] |  |
+| **encryptionKeyLength** | any |  |
+| **forEncrypt** | any |  |
+| **forEncrypt** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **hash** | any |  |
+| **i** | any |  |
+| **i** | any |  |
+| **j** | any |  |
+| **j** | any |  |
+| **j** | any |  |
+| **keyLength** | [StiPdfEncryptionKeyLength](StiPdfEncryptionKeyLength.md) |  |
+| **ms** | any |  |
+| **ms** | any |  |
+| **ownerExtendedValue** | number[] |  |
+| **ownerValue** | number[] |  |
+| **passOwner** | any |  |
+| **passUser** | any |  |
+| **passwordInputOwner** | any |  |
+| **passwordInputUser** | any |  |
+| **passwordOwner** | any |  |
+| **passwordUser** | any |  |
+| **pdfService** | StiPdfExportService |  |
+| **permsValue** | number[] |  |
+| **result** | any |  |
+| **result** | any |  |
+| **result** | any |  |
+| **result** | any |  |
+| **result1** | any |  |
+| **result1** | any |  |
+| **result1** | any |  |
+| **result1** | any |  |
+| **result2** | any |  |
+| **securityFlags** | any |  |
+| **userExtendedValue** | number[] |  |
+| **userValue** | number[] |  |
+| **x** | any |  |
+| **x** | any |  |

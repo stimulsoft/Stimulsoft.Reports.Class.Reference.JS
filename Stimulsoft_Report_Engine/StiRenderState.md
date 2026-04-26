@@ -1,0 +1,25 @@
+---
+title: "StiRenderState Class"
+---
+
+## StiRenderState Class
+
+**Namespace:** `Stimulsoft.Report.Engine`
+
+### Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| **destroyPagesWhichNotInRange** | boolean |  |
+| **fromPage** | number |  |
+| **renderOnlyPagesFromRange** | boolean |  |
+| **toPage** | number |  |
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **destroyPagesWhichNotInRange** | any |  |
+| **isSubReportMode** | any |  |
+| **latestProgressValue** | any |  |
+| **showProgress** | any |  |

@@ -120,3 +120,23 @@ title: "StiWizardHelper Class"
 - **callbackResult** (any)  
 - **designer** ([StiDesigner](StiDesigner.md))  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **dataBand** | any |  |
+| **first** | any |  |
+| **footerBand** | any |  |
+| **headerBand** | any |  |
+| **indexDataText** | any |  |
+| **indexFooterText** | any |  |
+| **indexHeaderText** | any |  |
+| **masterDataband** | any |  |
+| **masterDataband** | any |  |
+| **nameStylesCollection** | any |  |
+| **report** | any |  |
+| **table** | any |  |
+| **totalStr** | any |  |
+| **totalStr** | any |  |
+| **width** | any |  |

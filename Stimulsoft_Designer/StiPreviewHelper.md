@@ -29,3 +29,14 @@ title: "StiPreviewHelper Class"
 
 **Returns** any[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **pageBackgrounds** | any |  |
+| **pageBackgrounds** | any |  |
+| **pageMargins** | any |  |
+| **pageMargins** | any |  |
+| **pageSizes** | any |  |
+| **pageSizes** | any |  |

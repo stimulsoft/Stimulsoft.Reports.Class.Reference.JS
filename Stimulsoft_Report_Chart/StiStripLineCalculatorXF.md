@@ -92,3 +92,18 @@ title: "StiStripLineCalculatorXF Class"
 
 **Returns** StiStripLinesXF
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **countAfterComma** | any |  |
+| **index** | any |  |
+| **pos** | any |  |
+| **pos** | any |  |
+| **pos** | any |  |
+| **pos** | any |  |
+| **pos** | any |  |
+| **pos** | any |  |
+| **pos** | any |  |
+| **startStepValue** | any |  |

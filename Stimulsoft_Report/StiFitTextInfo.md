@@ -44,11 +44,21 @@ title: "StiFitTextInfo Class"
 
 #### getFontString
 
-**getFontString**(**font**: [Font](../Stimulsoft_Base/Dashboard/Font.md)): string
+**getFontString**(**font**: [Font](../Stimulsoft_Base_Dashboard/Font.md)): string
 
 **Parameters**
 
-- **font** ([Font](../Stimulsoft_Base/Dashboard/Font.md))  
+- **font** ([Font](../Stimulsoft_Base_Dashboard/Font.md))  
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **fontSize** | any |  |
+| **hashComponent** | [Hashtable](../Stimulsoft_System_Collections/Hashtable.md) |  |
+| **hashObj** | any |  |
+| **hashSt** | any |  |
+| **hashText** | [Hashtable](../Stimulsoft_System_Collections/Hashtable.md) |  |

@@ -14,3 +14,16 @@ title: "ParagraphStyleData Class"
 
 **constructor**()
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **Angle** | number |  |
+| **Bold** | boolean |  |
+| **FontColor** | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
+| **FontName** | string |  |
+| **FontSize** | number |  |
+| **HorAlign** | [StiTextHorAlignment](../Stimulsoft_Base_Drawing/StiTextHorAlignment.md) |  |
+| **Italic** | boolean |  |
+| **Underline** | boolean |  |

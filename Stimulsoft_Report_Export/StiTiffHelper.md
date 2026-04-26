@@ -359,12 +359,40 @@ title: "StiTiffHelper Class"
 
 #### saveToStream `static`
 
-**saveToStream**(**imageForExport**: [Image](../Stimulsoft_System/Drawing/Image.md), **paletteType**: [StiPcxPaletteType](../Stimulsoft_Report/Export/StiPcxPaletteType.md), **ditheringType**: [StiMonochromeDitheringType](../Stimulsoft_Report/Export/StiMonochromeDitheringType.md), **stream**: [MemoryStream](../Stimulsoft_System/IO/MemoryStream.md)): void
+**saveToStream**(**imageForExport**: [Image](../Stimulsoft_System_Drawing/Image.md), **paletteType**: [StiPcxPaletteType](StiPcxPaletteType.md), **ditheringType**: [StiMonochromeDitheringType](StiMonochromeDitheringType.md), **stream**: [MemoryStream](../Stimulsoft_System_IO/MemoryStream.md)): void
 
 **Parameters**
 
-- **imageForExport** ([Image](../Stimulsoft_System/Drawing/Image.md))  
-- **paletteType** ([StiPcxPaletteType](../Stimulsoft_Report/Export/StiPcxPaletteType.md))  
-- **ditheringType** ([StiMonochromeDitheringType](../Stimulsoft_Report/Export/StiMonochromeDitheringType.md))  
-- **stream** ([MemoryStream](../Stimulsoft_System/IO/MemoryStream.md))  
+- **imageForExport** ([Image](../Stimulsoft_System_Drawing/Image.md))  
+- **paletteType** ([StiPcxPaletteType](StiPcxPaletteType.md))  
+- **ditheringType** ([StiMonochromeDitheringType](StiMonochromeDitheringType.md))  
+- **stream** ([MemoryStream](../Stimulsoft_System_IO/MemoryStream.md))  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **C** | any |  |
+| **H** | any |  |
+| **J** | any |  |
+| **K** | any |  |
+| **buf** | any |  |
+| **buf** | any |  |
+| **dpiX** | any |  |
+| **dpiY** | any |  |
+| **e** | any |  |
+| **f** | any |  |
+| **f** | any |  |
+| **k** | any |  |
+| **length** | any |  |
+| **m** | any |  |
+| **n** | any |  |
+| **newPixel** | any |  |
+| **newPixel** | any |  |
+| **newPixel** | any |  |
+| **o** | any |  |
+| **s** | any |  |
+| **t** | any |  |
+| **v** | any |  |
+| **z** | any |  |

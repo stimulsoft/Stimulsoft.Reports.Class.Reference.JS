@@ -216,3 +216,13 @@ title: "Cff Class"
 | **StringIndex** | StiStringIndex |  |
 | **TablesList** | [Cff_Block](Cff_Block.md)[] |  |
 | **TopDictIndex** | Cff_DictIndex |  |
+| **debugInfo** | any |  |
+| **fd** | any |  |
+| **fontBytes** | Uint8Array |  |
+| **fontBytesOffset** | number |  |
+| **newBytes** | Uint8Array |  |
+| **newBytesOffset** | number |  |
+| **pos** | any |  |
+| **pos** | any |  |
+| **prev** | any |  |
+| **sid** | any |  |

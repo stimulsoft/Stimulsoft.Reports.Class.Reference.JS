@@ -27,7 +27,7 @@ title: "StiLegendItemCoreXF Class"
 | Method | Returns | Description |
 | --- | --- | --- |
 | **getText** | string |  |
-| **measureString** | [Size](../Stimulsoft_System/Drawing/Size.md) |  |
+| **measureString** | [Size](../Stimulsoft_System_Drawing/Size.md) |  |
 
 ---
 
@@ -35,11 +35,11 @@ title: "StiLegendItemCoreXF Class"
 
 #### getText
 
-**getText**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **font**: StiFontGeom): string
+**getText**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **font**: StiFontGeom): string
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **font** (StiFontGeom)  
 
 **Returns** string
@@ -49,12 +49,21 @@ title: "StiLegendItemCoreXF Class"
 
 #### measureString
 
-**measureString**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **font**: StiFontGeom): [Size](../Stimulsoft_System/Drawing/Size.md)
+**measureString**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **font**: StiFontGeom): [Size](../Stimulsoft_System_Drawing/Size.md)
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **font** (StiFontGeom)  
 
-**Returns** [Size](../Stimulsoft_System/Drawing/Size.md)
+**Returns** [Size](../Stimulsoft_System_Drawing/Size.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **colorIndex** | any |  |
+| **index** | any |  |
+| **series** | IStiSeries |  |
+| **text** | string |  |

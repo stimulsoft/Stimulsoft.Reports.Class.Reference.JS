@@ -4,7 +4,7 @@ title: "ObjectConstructor Interface"
 
 ## ObjectConstructor Interface
 
-**Namespace:** ``
+**Namespace:** `Stimulsoft.System`
 
 ### Methods
 

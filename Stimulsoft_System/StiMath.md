@@ -467,3 +467,14 @@ title: "StiMath Class"
 
 **Returns** number
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **precision** | any |  |
+| **tmp** | any |  |
+| **tmp** | any |  |
+| **tmp** | any |  |
+| **value** | any |  |
+| **value** | any |  |

@@ -36,3 +36,54 @@ title: "TypeHelper Class"
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |

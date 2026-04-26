@@ -26,3 +26,9 @@ title: "StiConditionDialogHelper Class"
 - **param** (any)  
 - **callbackResult** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **fileContent** | any |  |

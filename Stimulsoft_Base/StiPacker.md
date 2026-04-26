@@ -52,11 +52,11 @@ title: "StiPacker Class"
 
 #### packAndEncryptToString `static`
 
-**packAndEncryptToString**(**data**: number[] | string): string
+**packAndEncryptToString**(**data**: number[] \| string): string
 
 **Parameters**
 
-- **data** (number[] | string)  
+- **data** (number[] \| string)  
 
 **Returns** string
 
@@ -78,14 +78,14 @@ title: "StiPacker Class"
 
 #### unpack `static`
 
-**unpack**(**bytes**: number[], **returnString**: boolean): number[] | string
+**unpack**(**bytes**: number[], **returnString**: boolean): number[] \| string
 
 **Parameters**
 
 - **bytes** (number[])  
 - **returnString** (boolean)  
 
-**Returns** number[] | string
+**Returns** number[] \| string
 
 
 ---
@@ -105,14 +105,14 @@ title: "StiPacker Class"
 
 #### unpackAndDecrypt `static`
 
-**unpackAndDecrypt**(**str**: string, **returnString**: boolean): number[] | string
+**unpackAndDecrypt**(**str**: string, **returnString**: boolean): number[] \| string
 
 **Parameters**
 
 - **str** (string)  
 - **returnString** (boolean)  
 
-**Returns** number[] | string
+**Returns** number[] \| string
 
 
 ---
@@ -140,3 +140,15 @@ title: "StiPacker Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **array** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |

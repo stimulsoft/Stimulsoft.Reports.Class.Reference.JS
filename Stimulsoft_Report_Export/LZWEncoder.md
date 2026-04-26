@@ -135,3 +135,46 @@ title: "LZWEncoder Class"
 - **code** (any)  
 - **outs** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **BITS** | any |  |
+| **ClearCode** | any |  |
+| **EOF** | any |  |
+| **EOFCode** | any |  |
+| **HSIZE** | any |  |
+| **a_count** | any |  |
+| **accum** | any |  |
+| **clear_flg** | any |  |
+| **codetab** | any |  |
+| **curPixel** | any |  |
+| **cur_accum** | any |  |
+| **cur_bits** | any |  |
+| **disp** | any |  |
+| **ent** | any |  |
+| **ent** | any |  |
+| **ent** | any |  |
+| **ent** | any |  |
+| **exports** | any |  |
+| **fcode** | any |  |
+| **free_ent** | any |  |
+| **g_init_bits** | any |  |
+| **hshift** | any |  |
+| **hshift** | any |  |
+| **hsize** | any |  |
+| **hsize_reg** | any |  |
+| **htab** | any |  |
+| **i** | any |  |
+| **imgH** | any |  |
+| **imgW** | any |  |
+| **initCodeSize** | any |  |
+| **masks** | any |  |
+| **maxbits** | any |  |
+| **maxcode** | any |  |
+| **maxmaxcode** | any |  |
+| **n_bits** | any |  |
+| **outer_loop** | while ((c |  |
+| **pixAry** | any |  |
+| **remaining** | any |  |

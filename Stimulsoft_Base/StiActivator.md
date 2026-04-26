@@ -41,3 +41,9 @@ title: "StiActivator Class"
 
 **Returns** any
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **type** | any |  |

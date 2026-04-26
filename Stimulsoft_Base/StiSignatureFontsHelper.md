@@ -18,11 +18,11 @@ title: "StiSignatureFontsHelper Class"
 
 #### getFontName `static`
 
-**getFontName**(**style**: [StiSignatureStyle](SignatureFonts/StiSignatureStyle.md)): string
+**getFontName**(**style**: [StiSignatureStyle](../Stimulsoft_Base_SignatureFonts/StiSignatureStyle.md)): string
 
 **Parameters**
 
-- **style** ([StiSignatureStyle](SignatureFonts/StiSignatureStyle.md))  
+- **style** ([StiSignatureStyle](../Stimulsoft_Base_SignatureFonts/StiSignatureStyle.md))  
 
 **Returns** string
 

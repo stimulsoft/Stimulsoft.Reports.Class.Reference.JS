@@ -8,7 +8,7 @@ title: "StiLegendLineMarker Class"
 
 ### Inheritance
 
-Implements: [IStiLegendMarker](../Stimulsoft_Report/Chart/IStiLegendMarker.md)  
+Implements: [IStiLegendMarker](IStiLegendMarker.md)  
 
 ### Methods
 
@@ -23,11 +23,11 @@ Implements: [IStiLegendMarker](../Stimulsoft_Report/Chart/IStiLegendMarker.md)
 
 #### draw
 
-**draw**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **serie**: IStiSeries, **rect**: RectangleD, **colorIndex**: number, **colorCount**: number, **index**: number): void
+**draw**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **serie**: IStiSeries, **rect**: RectangleD, **colorIndex**: number, **colorCount**: number, **index**: number): void
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **serie** (IStiSeries)  
 - **rect** (RectangleD)  
 - **colorIndex** (number)  
@@ -43,3 +43,37 @@ Implements: [IStiLegendMarker](../Stimulsoft_Report/Chart/IStiLegendMarker.md)
 
 **Returns** any[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **colorMarker** | any |  |
+| **colorMarker** | any |  |
+| **colorMarker** | any |  |
+| **colorMarker** | any |  |
+| **colorMarker** | any |  |
+| **colorMarker** | any |  |
+| **colorMarker** | any |  |
+| **drawLine** | any |  |
+| **drawLine** | any |  |
+| **drawLine** | any |  |
+| **drawLine** | any |  |
+| **drawLine** | any |  |
+| **drawLine** | any |  |
+| **drawMarker** | any |  |
+| **drawMarker** | any |  |
+| **drawMarker** | any |  |
+| **drawMarker** | any |  |
+| **drawMarker** | any |  |
+| **drawMarker** | any |  |
+| **drawMarker** | any |  |
+| **icon** | any |  |
+| **icon** | any |  |
+| **icon** | any |  |
+| **icon** | any |  |
+| **icon** | any |  |
+| **icon** | any |  |
+| **rect** | any |  |
+| **seriesBrush** | any |  |
+| **seriesBrush** | any |  |

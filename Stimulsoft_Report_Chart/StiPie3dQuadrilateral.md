@@ -10,19 +10,19 @@ title: "StiPie3dQuadrilateral Class"
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md) rectangle, [Point](../Stimulsoft_System/Drawing/Point.md) point1, [Point](../Stimulsoft_System/Drawing/Point.md) point2, [Point](../Stimulsoft_System/Drawing/Point.md) point3, [Point](../Stimulsoft_System/Drawing/Point.md) point4, boolean toClose, [StiAnimation](../Stimulsoft_Report/Stimulsoft/Base/Context/Animation/StiAnimation.md) animation) |  |
+| **constructor**([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md) rectangle, [Point](../Stimulsoft_System_Drawing/Point.md) point1, [Point](../Stimulsoft_System_Drawing/Point.md) point2, [Point](../Stimulsoft_System_Drawing/Point.md) point3, [Point](../Stimulsoft_System_Drawing/Point.md) point4, boolean toClose, [StiAnimation](../Stimulsoft_Base_Context_Animation/StiAnimation.md) animation) |  |
 
-**constructor**(**rectangle**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **point1**: [Point](../Stimulsoft_System/Drawing/Point.md), **point2**: [Point](../Stimulsoft_System/Drawing/Point.md), **point3**: [Point](../Stimulsoft_System/Drawing/Point.md), **point4**: [Point](../Stimulsoft_System/Drawing/Point.md), **toClose**: boolean, **animation**: [StiAnimation](../Stimulsoft_Report/Stimulsoft/Base/Context/Animation/StiAnimation.md))
+**constructor**(**rectangle**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **point1**: [Point](../Stimulsoft_System_Drawing/Point.md), **point2**: [Point](../Stimulsoft_System_Drawing/Point.md), **point3**: [Point](../Stimulsoft_System_Drawing/Point.md), **point4**: [Point](../Stimulsoft_System_Drawing/Point.md), **toClose**: boolean, **animation**: [StiAnimation](../Stimulsoft_Base_Context_Animation/StiAnimation.md))
 
 **Parameters**
 
-- **rectangle** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
-- **point1** ([Point](../Stimulsoft_System/Drawing/Point.md))  
-- **point2** ([Point](../Stimulsoft_System/Drawing/Point.md))  
-- **point3** ([Point](../Stimulsoft_System/Drawing/Point.md))  
-- **point4** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **rectangle** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
+- **point1** ([Point](../Stimulsoft_System_Drawing/Point.md))  
+- **point2** ([Point](../Stimulsoft_System_Drawing/Point.md))  
+- **point3** ([Point](../Stimulsoft_System_Drawing/Point.md))  
+- **point4** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 - **toClose** (boolean)  
-- **animation** ([StiAnimation](../Stimulsoft_Report/Stimulsoft/Base/Context/Animation/StiAnimation.md))  
+- **animation** ([StiAnimation](../Stimulsoft_Base_Context_Animation/StiAnimation.md))  
 
 
 ### Methods
@@ -38,13 +38,13 @@ title: "StiPie3dQuadrilateral Class"
 
 #### draw
 
-**draw**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **pen**: StiPenGeom, **brush**: [StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md)): void
+**draw**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **pen**: StiPenGeom, **brush**: [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md)): void
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **pen** (StiPenGeom)  
-- **brush** ([StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md))  
+- **brush** ([StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md))  
 
 
 ---
@@ -55,3 +55,15 @@ title: "StiPie3dQuadrilateral Class"
 
 **Returns** [StiPie3dQuadrilateral](StiPie3dQuadrilateral.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **animation** | [StiAnimation](../Stimulsoft_Base_Context_Animation/StiAnimation.md) |  |
+| **point1** | [Point](../Stimulsoft_System_Drawing/Point.md) |  |
+| **point2** | [Point](../Stimulsoft_System_Drawing/Point.md) |  |
+| **point3** | [Point](../Stimulsoft_System_Drawing/Point.md) |  |
+| **point4** | [Point](../Stimulsoft_System_Drawing/Point.md) |  |
+| **rectangle** | [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md) |  |
+| **toClose** | boolean |  |

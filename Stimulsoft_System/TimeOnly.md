@@ -16,11 +16,11 @@ Implements: [IComparable](IComparable.md)
 | --- | --- |
 | **constructor**(number \| DateTime param) |  |
 
-**constructor**(**param**: number | DateTime)
+**constructor**(**param**: number \| DateTime)
 
 **Parameters**
 
-- **param** (number | DateTime)  
+- **param** (number \| DateTime)  
 
 
 ### Properties
@@ -154,3 +154,12 @@ Implements: [IComparable](IComparable.md)
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **hashCode** | any |  |
+| **hashCode** | any |  |
+| **hashCode** | any |  |
+| **hashCode** | any |  |

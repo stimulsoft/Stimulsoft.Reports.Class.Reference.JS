@@ -26,3 +26,20 @@ title: "StiPdfRenderGauge Class"
 - **assemble** (boolean)  
 - **pageNumber** (number)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **currentStartAngle** | any |  |
+| **currentStartAngle** | any |  |
+| **isClosed** | any |  |
+| **isClosed** | any |  |
+| **isFirst** | any |  |
+| **isFirst** | any |  |
+| **isFirst** | any |  |
+| **isFirst** | any |  |
+| **isFirst** | any |  |
+| **isFirst** | any |  |
+| **offset** | any |  |
+| **restRadius** | any |  |

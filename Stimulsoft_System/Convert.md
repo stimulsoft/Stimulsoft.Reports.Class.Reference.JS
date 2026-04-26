@@ -21,7 +21,7 @@ title: "Convert Class"
 | **toBoolean** `static` | boolean |  |
 | **toDateTime** `static` | [DateTime](DateTime.md) |  |
 | **toDouble** `static` | number |  |
-| **toFont** `static` | [Stimulsoft.System.Drawing.Font](Drawing/Font.md) |  |
+| **toFont** `static` | [Stimulsoft.System.Drawing.Font](../Stimulsoft_System_Drawing/Font.md) |  |
 | **toInt32** `static` | number |  |
 | **toInt64** `static` | number |  |
 | **toNumber** `static` | number |  |
@@ -102,11 +102,11 @@ title: "Convert Class"
 
 #### isUTF16LE `static`
 
-**isUTF16LE**(**input**: string | number[] | Uint8Array): boolean
+**isUTF16LE**(**input**: string \| number[] \| Uint8Array): boolean
 
 **Parameters**
 
-- **input** (string | number[] | Uint8Array)  
+- **input** (string \| number[] \| Uint8Array)  
 
 **Returns** boolean
 
@@ -128,11 +128,11 @@ title: "Convert Class"
 
 #### toBase64String `static`
 
-**toBase64String**(**input**: string | number[] | Uint8Array): string
+**toBase64String**(**input**: string \| number[] \| Uint8Array): string
 
 **Parameters**
 
-- **input** (string | number[] | Uint8Array)  
+- **input** (string \| number[] \| Uint8Array)  
 
 **Returns** string
 
@@ -180,13 +180,13 @@ title: "Convert Class"
 
 #### toFont `static`
 
-**toFont**(**value**: string): [Stimulsoft.System.Drawing.Font](Drawing/Font.md)
+**toFont**(**value**: string): [Stimulsoft.System.Drawing.Font](../Stimulsoft_System_Drawing/Font.md)
 
 **Parameters**
 
 - **value** (string)  
 
-**Returns** [Stimulsoft.System.Drawing.Font](Drawing/Font.md)
+**Returns** [Stimulsoft.System.Drawing.Font](../Stimulsoft_System_Drawing/Font.md)
 
 
 ---
@@ -268,3 +268,31 @@ title: "Convert Class"
 
 **Returns** number
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **chunk** | any |  |
+| **chunk** | any |  |
+| **chunk** | any |  |
+| **d** | any |  |
+| **findStyle** | any |  |
+| **i** | any |  |
+| **input** | any |  |
+| **input** | any |  |
+| **input** | any |  |
+| **styles** | any |  |
+| **tmp** | any |  |
+| **tmp** | any |  |
+| **tmp** | any |  |

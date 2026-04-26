@@ -248,3 +248,21 @@ title: "StiDataTransformationHelper Class"
 - **param** (any)  
 - **callbackResult** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **dataTransformation** | any |  |
+| **dataTransformation** | any |  |
+| **dataTransformation** | any |  |
+| **draggedColumns** | any |  |
+| **funcs** | any |  |
+| **funcs** | any |  |
+| **funcs** | any |  |
+| **netTable** | any |  |
+| **rowValue** | any |  |
+| **rowValue** | any |  |
+| **rows** | any |  |
+| **rows** | any |  |
+| **value** | any |  |

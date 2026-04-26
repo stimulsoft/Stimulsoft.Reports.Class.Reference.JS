@@ -8,7 +8,7 @@ title: "StiAxis Class"
 
 ### Inheritance
 
-Implements: IStiAxis, [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonReportObject.md)  
+Implements: IStiAxis, [IStiJsonReportObject](../Stimulsoft_Base_JsonReportObject/IStiJsonReportObject.md)  
 
 ### Constructors
 
@@ -30,7 +30,7 @@ Implements: IStiAxis, [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject
 | **allowApplyStyle** | boolean |  |
 | **step** | number |  |
 | **title** | IStiAxisTitle |  |
-| **titleDirection** | [StiLegendDirection](../Stimulsoft_Report/Chart/StiLegendDirection.md) |  |
+| **titleDirection** | [StiLegendDirection](StiLegendDirection.md) |  |
 
 ### Methods
 
@@ -40,7 +40,7 @@ Implements: IStiAxis, [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject
 | **implements** | any[] |  |
 | **loadFromJsonObject** | void |  |
 | **loadFromXml** | void |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 
 ---
@@ -78,20 +78,20 @@ Implements: IStiAxis, [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject
 
 #### loadFromXml
 
-**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xn** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xn** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---
@@ -111,4 +111,30 @@ Implements: IStiAxis, [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject
 
 | Field | Type | Description |
 | --- | --- | --- |
-| **_hash** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **allowApplyStyle** | any |  |
+| **area** | IStiAxisArea |  |
+| **arrowStyle** | any |  |
+| **arrowStyle** | [StiArrowStyle](StiArrowStyle.md) |  |
+| **core** | StiAxisCoreXF |  |
+| **info** | any |  |
+| **interaction** | IStiAxisInteraction |  |
+| **interaction** | IStiAxisInteraction |  |
+| **labels** | IStiAxisLabels |  |
+| **lineColor** | any |  |
+| **lineColor** | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
+| **lineStyle** | any |  |
+| **lineStyle** | [StiPenStyle](../Stimulsoft_Base_Drawing/StiPenStyle.md) |  |
+| **lineWidth** | any |  |
+| **lineWidth** | any |  |
+| **logarithmicScale** | any |  |
+| **logarithmicScale** | any |  |
+| **range** | IStiAxisRange |  |
+| **range** | IStiAxisRange |  |
+| **startFromZero** | any |  |
+| **startFromZero** | any |  |
+| **ticks** | IStiAxisTicks |  |
+| **ticks** | IStiAxisTicks |  |
+| **title** | IStiAxisTitle |  |
+| **visible** | any |  |
+| **visible** | any |  |

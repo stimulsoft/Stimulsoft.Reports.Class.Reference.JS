@@ -13,7 +13,7 @@ title: "StiExportsHelper Class"
 | **exportDashboardAsync** `static` | Promise<number[] | string> | Exports dashboard page or element to the specified format |
 | **exportReportAsync** `static` | Promise<number[] | string | Uint8Array> |  |
 | **getDashboardExportSettings** `static` | IStiDashboardExportSettings |  |
-| **getExportSettings** `static` | [StiExportSettings](../Stimulsoft_Report/Export/StiExportSettings.md) |  |
+| **getExportSettings** `static` | [StiExportSettings](../Stimulsoft_Report_Export/StiExportSettings.md) |  |
 | **getReportFileContentType** `static` | string |  |
 | **getReportFileName** `static` | string |  |
 
@@ -23,7 +23,7 @@ title: "StiExportsHelper Class"
 
 #### exportDashboardAsync `static`
 
-**exportDashboardAsync**(**requestParams**: any, **report**: [StiReport](../Stimulsoft_Report/StiReport.md), **exportSettings**: IStiDashboardExportSettings): Promise<number[] | string>
+**exportDashboardAsync**(**requestParams**: any, **report**: [StiReport](../Stimulsoft_Report/StiReport.md), **exportSettings**: IStiDashboardExportSettings): Promise<number[] \| string>
 
 Exports dashboard page or element to the specified format
 
@@ -33,23 +33,23 @@ Exports dashboard page or element to the specified format
 - **report** ([StiReport](../Stimulsoft_Report/StiReport.md))  
 - **exportSettings** (IStiDashboardExportSettings)  
 
-**Returns** Promise<number[] | string>
+**Returns** Promise<number[] \| string>
 
 
 ---
 
 #### exportReportAsync `static`
 
-**exportReportAsync**(**exportFormat**: [StiExportFormat](../Stimulsoft_Report/StiExportFormat.md), **exportSettings**: any, **report**: [StiReport](../Stimulsoft_Report/StiReport.md), **settings**: [StiExportSettings](../Stimulsoft_Report/Export/StiExportSettings.md)): Promise<number[] | string | Uint8Array>
+**exportReportAsync**(**exportFormat**: [StiExportFormat](../Stimulsoft_Report/StiExportFormat.md), **exportSettings**: any, **report**: [StiReport](../Stimulsoft_Report/StiReport.md), **settings**: [StiExportSettings](../Stimulsoft_Report_Export/StiExportSettings.md)): Promise<number[] \| string \| Uint8Array>
 
 **Parameters**
 
 - **exportFormat** ([StiExportFormat](../Stimulsoft_Report/StiExportFormat.md))  
 - **exportSettings** (any)  
 - **report** ([StiReport](../Stimulsoft_Report/StiReport.md))  
-- **settings** ([StiExportSettings](../Stimulsoft_Report/Export/StiExportSettings.md))  
+- **settings** ([StiExportSettings](../Stimulsoft_Report_Export/StiExportSettings.md))  
 
-**Returns** Promise<number[] | string | Uint8Array>
+**Returns** Promise<number[] \| string \| Uint8Array>
 
 
 ---
@@ -70,14 +70,14 @@ Exports dashboard page or element to the specified format
 
 #### getExportSettings `static`
 
-**getExportSettings**(**exportFormat**: [StiExportFormat](../Stimulsoft_Report/StiExportFormat.md), **exportSettings**: any): [StiExportSettings](../Stimulsoft_Report/Export/StiExportSettings.md)
+**getExportSettings**(**exportFormat**: [StiExportFormat](../Stimulsoft_Report/StiExportFormat.md), **exportSettings**: any): [StiExportSettings](../Stimulsoft_Report_Export/StiExportSettings.md)
 
 **Parameters**
 
 - **exportFormat** ([StiExportFormat](../Stimulsoft_Report/StiExportFormat.md))  
 - **exportSettings** (any)  
 
-**Returns** [StiExportSettings](../Stimulsoft_Report/Export/StiExportSettings.md)
+**Returns** [StiExportSettings](../Stimulsoft_Report_Export/StiExportSettings.md)
 
 
 ---
@@ -109,3 +109,18 @@ Exports dashboard page or element to the specified format
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **asArray** | any |  |
+| **asArray** | any |  |
+| **dashboard** | any |  |
+| **ext** | any |  |
+| **ext** | any |  |
+| **ext** | any |  |
+| **fileName** | any |  |
+| **service** | any |  |
+| **service** | any |  |
+| **service** | any |  |

@@ -27,3 +27,10 @@ title: "StringExt Class"
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **dateTime** | any |  |
+| **solidValue** | any |  |

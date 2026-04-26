@@ -10,11 +10,19 @@ title: "RangeStorage Class"
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([Range](../Stimulsoft_Base/Drawing/Range.md) range) |  |
+| **constructor**([Range](../Stimulsoft_Base_Drawing/Range.md) range) |  |
 
-**constructor**(**range**: [Range](../Stimulsoft_Base/Drawing/Range.md))
+**constructor**(**range**: [Range](../Stimulsoft_Base_Drawing/Range.md))
 
 **Parameters**
 
-- **range** ([Range](../Stimulsoft_Base/Drawing/Range.md))  
+- **range** ([Range](../Stimulsoft_Base_Drawing/Range.md))  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **from** | any |  |
+| **rangeType** | [Type](../Stimulsoft_System/Type.md) |  |
+| **to** | any |  |

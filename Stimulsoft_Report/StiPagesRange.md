@@ -55,3 +55,12 @@ title: "StiPagesRange Class"
 
 **Returns** StiPagesCollection
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **currentPage** | any |  |
+| **endIndex** | any |  |
+| **pageRanges** | any |  |
+| **rangeType** | [StiRangeType](StiRangeType.md) |  |

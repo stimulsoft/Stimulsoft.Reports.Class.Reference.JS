@@ -20,3 +20,11 @@ title: "StiReportContainer Class"
 - **resourcesIncluded** (boolean)  
 - **command** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **command** | string |  |
+| **report** | [StiReport](../Stimulsoft_Report/StiReport.md) |  |
+| **resourcesIncluded** | boolean |  |

@@ -8,7 +8,7 @@ title: "StiBlocksParser Class"
 
 ### Inheritance
 
-Implements: [IStiBlocksParser](../Stimulsoft_Base/Blocks/IStiBlocksParser.md)  
+Implements: [IStiBlocksParser](../Stimulsoft_Base_Blocks/IStiBlocksParser.md)  
 
 ### Methods
 

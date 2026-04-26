@@ -108,3 +108,63 @@ title: "StiVariablesHelper Class"
 
 **Returns** any
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **dateValue** | any |  |
+| **dateValue** | any |  |
+| **dateValue** | any |  |
+| **dateValue** | any |  |
+| **dateValue** | any |  |
+| **isColumnsInitializationTypeItems** | any |  |
+| **items** | any |  |
+| **itemsVariableValueBinding** | any |  |
+| **keyStr** | any |  |
+| **keyStr** | any |  |
+| **keyStr** | any |  |
+| **keyStr** | any |  |
+| **label** | any |  |
+| **labelIndex** | any |  |
+| **selectedItem** | any |  |
+| **selectedItem** | any |  |
+| **selectedItem** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **valueFrom** | any |  |
+| **valueFrom** | any |  |
+| **valueFrom** | any |  |
+| **valueFrom** | any |  |
+| **valueTo** | any |  |
+| **valueTo** | any |  |
+| **valueTo** | any |  |
+| **valueTo** | any |  |
+| **values** | any |  |
+| **variableGuid** | any |  |
+| **variableGuid** | any |  |

@@ -46,11 +46,11 @@ title: "StiODataHelper Class"
 
 #### fillDataTable
 
-**fillDataTable**(**table**: [DataTable](../Stimulsoft_System/Data/DataTable.md), **query**: string): void
+**fillDataTable**(**table**: [DataTable](../Stimulsoft_System_Data/DataTable.md), **query**: string): void
 
 **Parameters**
 
-- **table** ([DataTable](../Stimulsoft_System/Data/DataTable.md))  
+- **table** ([DataTable](../Stimulsoft_System_Data/DataTable.md))  
 - **query** (string)  
 
 
@@ -113,3 +113,14 @@ title: "StiODataHelper Class"
 
 **Returns** [StiTestConnectionResult](StiTestConnectionResult.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **allowException** | any |  |
+| **baseTable** | any |  |
+| **baseTable** | any |  |
+| **connectionString** | string |  |
+| **dbType** | any |  |
+| **headers** | [Header](../Stimulsoft_System/Header.md)[] |  |

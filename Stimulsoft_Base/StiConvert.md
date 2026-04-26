@@ -28,3 +28,74 @@ title: "StiConvert Class"
 
 **Returns** any
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |
+| **conversionType** | any |  |

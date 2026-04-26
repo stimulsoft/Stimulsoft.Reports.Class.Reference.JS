@@ -12,7 +12,7 @@ title: "StiPreviewToolBarOptions Class"
 | --- | --- | --- |
 | **loadFromJsonObject** | void |  |
 | **loadFromXml** | void |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 
 ---
@@ -32,20 +32,20 @@ title: "StiPreviewToolBarOptions Class"
 
 #### loadFromXml
 
-**loadFromXml**(**xmlNode**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xmlNode**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xmlNode** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xmlNode** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---
@@ -65,4 +65,8 @@ title: "StiPreviewToolBarOptions Class"
 
 | Field | Type | Description |
 | --- | --- | --- |
-| **_hash** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **dashboardToolbarHorAlignment** | any |  |
+| **dashboardToolbarReverse** | any |  |
+| **reportToolbarHorAlignment** | any |  |
+| **reportToolbarReverse** | any |  |

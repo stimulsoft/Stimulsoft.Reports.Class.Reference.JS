@@ -326,3 +326,22 @@ title: "StiNameCreation Class"
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **baseName** | any |  |
+| **baseName** | any |  |
+| **baseName** | any |  |
+| **baseName** | any |  |
+| **baseName** | any |  |
+| **baseName** | any |  |
+| **baseName** | any |  |
+| **baseName** | any |  |
+| **componentName** | any |  |
+| **name** | any |  |
+| **name** | any |  |
+| **name** | any |  |
+| **name** | any |  |
+| **name** | any |  |

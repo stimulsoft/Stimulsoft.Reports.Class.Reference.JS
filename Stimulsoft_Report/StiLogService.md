@@ -20,11 +20,17 @@ The service that is responsible for keeping the log in the report system.
 
 #### write `static`
 
-**write**(**type**: Type | object, **e**: Exception | string, **asError**: any): void
+**write**(**type**: Type \| object, **e**: Exception \| string, **asError**: any): void
 
 **Parameters**
 
-- **type** (Type | object)  
-- **e** (Exception | string)  
+- **type** (Type \| object)  
+- **e** (Exception \| string)  
 - **asError** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **message** | any |  |

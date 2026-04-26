@@ -10,8 +10,8 @@ title: "StiMouseOverHelper Class"
 
 | Method | Returns | Description |
 | --- | --- | --- |
-| **getLineMouseOverColor** `static` | [Color](../Stimulsoft_System/Drawing/Color.md) |  |
-| **getMouseOverColor** `static` | [Color](../Stimulsoft_System/Drawing/Color.md) |  |
+| **getLineMouseOverColor** `static` | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
+| **getMouseOverColor** `static` | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
 
 ---
 
@@ -19,16 +19,16 @@ title: "StiMouseOverHelper Class"
 
 #### getLineMouseOverColor `static`
 
-**getLineMouseOverColor**(): [Color](../Stimulsoft_System/Drawing/Color.md)
+**getLineMouseOverColor**(): [Color](../Stimulsoft_System_Drawing/Color.md)
 
-**Returns** [Color](../Stimulsoft_System/Drawing/Color.md)
+**Returns** [Color](../Stimulsoft_System_Drawing/Color.md)
 
 
 ---
 
 #### getMouseOverColor `static`
 
-**getMouseOverColor**(): [Color](../Stimulsoft_System/Drawing/Color.md)
+**getMouseOverColor**(): [Color](../Stimulsoft_System_Drawing/Color.md)
 
-**Returns** [Color](../Stimulsoft_System/Drawing/Color.md)
+**Returns** [Color](../Stimulsoft_System_Drawing/Color.md)
 

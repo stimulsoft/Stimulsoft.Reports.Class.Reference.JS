@@ -42,3 +42,14 @@ title: "StiPdfData Class"
 
 **Returns** [StiPdfData](StiPdfData.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **Component** | StiComponent |  |
+| **Height** | any |  |
+| **Width** | any |  |
+| **X** | any |  |
+| **Y** | any |  |
+| **service** | StiPdfExportService |  |

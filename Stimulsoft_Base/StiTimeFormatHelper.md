@@ -110,3 +110,9 @@ title: "StiTimeFormatHelper Class"
 
 **Returns** string[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **mask** | any |  |

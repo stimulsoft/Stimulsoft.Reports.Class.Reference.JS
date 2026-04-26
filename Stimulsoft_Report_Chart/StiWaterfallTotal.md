@@ -18,7 +18,7 @@ Implements: IStiWaterfallTotal
 | **implements** | any[] |  |
 | **loadFromJsonObject** | void |  |
 | **loadFromXml** | void |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 
 ---
@@ -56,20 +56,20 @@ Implements: IStiWaterfallTotal
 
 #### loadFromXml
 
-**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xn** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xn** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---
@@ -89,4 +89,7 @@ Implements: IStiWaterfallTotal
 
 | Field | Type | Description |
 | --- | --- | --- |
-| **_hash** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **IStiJsonReportObject** | any |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **text** | any |  |
+| **visible** | any |  |

@@ -21,3 +21,12 @@ title: "StiEditableItem Class"
 - **componentName** (string)  
 - **textValue** (string)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **componentName** | string |  |
+| **pageIndex** | any |  |
+| **position** | any |  |
+| **textValue** | string |  |

@@ -40,12 +40,12 @@ title: "StiPie3dSlice Class"
 
 #### drawLabels
 
-**drawLabels**(**areaGeom**: StiAreaGeom, **context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md)): void
+**drawLabels**(**areaGeom**: StiAreaGeom, **context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md)): void
 
 **Parameters**
 
 - **areaGeom** (StiAreaGeom)  
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 
 
 ---
@@ -93,3 +93,21 @@ title: "StiPie3dSlice Class"
 
 **Returns** [StiPie3dSlice](StiPie3dSlice.md)[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **argumentText** | string |  |
+| **colorCount** | number |  |
+| **colorIndex** | number |  |
+| **endSideExists** | any |  |
+| **index** | number |  |
+| **interaction** | StiSeriesInteractionData |  |
+| **newSweepAngle** | any |  |
+| **startAngle** | number |  |
+| **startSideExists** | any |  |
+| **sweepAngle** | number |  |
+| **tag** | string |  |
+| **textPosition** | any |  |
+| **value** | number |  |

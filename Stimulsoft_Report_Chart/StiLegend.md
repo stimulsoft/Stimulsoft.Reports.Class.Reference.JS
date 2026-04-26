@@ -8,7 +8,7 @@ title: "StiLegend Class"
 
 ### Inheritance
 
-Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonReportObject.md)  
+Implements: [IStiJsonReportObject](../Stimulsoft_Base_JsonReportObject/IStiJsonReportObject.md)  
 
 ### Constructors
 
@@ -37,7 +37,7 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 | **loadFromJsonObjectInternal** `static` | IStiLegend |  |
 | **loadFromXml** | void |  |
 | **loadLabelsFromXml** `static` | [StiLegend](StiLegend.md) |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 
 ---
@@ -89,22 +89,22 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 #### loadFromXml
 
-**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xn** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xn** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### loadLabelsFromXml `static`
 
-**loadLabelsFromXml**(**xmlNode**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md), **chart**: IStiChart): [StiLegend](StiLegend.md)
+**loadLabelsFromXml**(**xmlNode**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md), **chart**: IStiChart): [StiLegend](StiLegend.md)
 
 **Parameters**
 
-- **xmlNode** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xmlNode** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 - **chart** (IStiChart)  
 
 **Returns** [StiLegend](StiLegend.md)
@@ -114,9 +114,9 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---
@@ -136,4 +136,29 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 | Field | Type | Description |
 | --- | --- | --- |
-| **_hash** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **IStiLegend** | any |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **borderColor** | any |  |
+| **brush** | [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md) |  |
+| **chart** | IStiChart |  |
+| **columnWidth** | any |  |
+| **core** | StiLegendCoreXF |  |
+| **direction** | any |  |
+| **font** | any |  |
+| **hideSeriesWithEmptyTitle** | any |  |
+| **horAlignment** | any |  |
+| **horSpacing** | any |  |
+| **labelsColor** | any |  |
+| **markerAlignment** | any |  |
+| **markerBorder** | any |  |
+| **markerSize** | any |  |
+| **markerVisible** | any |  |
+| **showShadow** | any |  |
+| **size** | SizeD |  |
+| **title** | any |  |
+| **titleColor** | any |  |
+| **titleFont** | any |  |
+| **vertAlignment** | any |  |
+| **vertSpacing** | any |  |
+| **visible** | any |  |
+| **wordWrap** | any |  |

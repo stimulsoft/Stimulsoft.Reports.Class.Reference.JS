@@ -18,7 +18,7 @@ title: "StiReportEdit Class"
 | **afterFunction** *(+1 overloads)* | void |  |
 | **alignToGridComponents** `static` | void |  |
 | **applyStyles** `static` | void |  |
-| **base64ToImage** `static` | [Stimulsoft.System.Drawing.Image](../Stimulsoft_System/Drawing/Image.md) |  |
+| **base64ToImage** `static` | [Stimulsoft.System.Drawing.Image](../Stimulsoft_System_Drawing/Image.md) |  |
 | **base64ToImageByteArray** `static` | number[] |  |
 | **borderToStr** `static` | string |  |
 | **brushToStr** `static` | string |  |
@@ -184,23 +184,23 @@ title: "StiReportEdit Class"
 | **setToClipboard** `static` | void |  |
 | **setTopNProperty** `static` | void |  |
 | **simpleBorderToStr** `static` | string |  |
-| **strBordersToConditionBorderSidesObject** `static` | [StiConditionBorderSides](../Stimulsoft_Report/Components/StiConditionBorderSides.md) |  |
-| **strPermissionsToConditionPermissionsObject** `static` | [StiConditionPermissions](../Stimulsoft_Report/Components/StiConditionPermissions.md) |  |
-| **strToBorder** `static` | [StiBorder](../Stimulsoft_Base/Drawing/StiBorder.md) |  |
-| **strToBrush** `static` | [StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md) |  |
-| **strToColor** `static` | [Color](../Stimulsoft_System/Drawing/Color.md) |  |
+| **strBordersToConditionBorderSidesObject** `static` | [StiConditionBorderSides](../Stimulsoft_Report_Components/StiConditionBorderSides.md) |  |
+| **strPermissionsToConditionPermissionsObject** `static` | [StiConditionPermissions](../Stimulsoft_Report_Components/StiConditionPermissions.md) |  |
+| **strToBorder** `static` | [StiBorder](../Stimulsoft_Base_Drawing/StiBorder.md) |  |
+| **strToBrush** `static` | [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md) |  |
+| **strToColor** `static` | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
 | **strToCornerRadius** `static` | StiCornerRadius |  |
 | **strToDateTime** `static` | [DateTime](../Stimulsoft_System/DateTime.md) |  |
-| **strToFont** `static` | [Font](../Stimulsoft_Base/Dashboard/Font.md) |  |
+| **strToFont** `static` | [Font](../Stimulsoft_Base_Dashboard/Font.md) |  |
 | **strToIndicatorConditionsPermissions** `static` | void |  |
-| **strToMargin** `static` | [StiMargin](../Stimulsoft_Report/Dashboard/StiMargin.md) |  |
-| **strToMargins** `static` | [StiMargins](../Stimulsoft_Report/Components/StiMargins.md) |  |
+| **strToMargin** `static` | [StiMargin](../Stimulsoft_Report_Dashboard/StiMargin.md) |  |
+| **strToMargins** `static` | [StiMargins](../Stimulsoft_Report_Components/StiMargins.md) |  |
 | **strToNumber** `static` | number |  |
-| **strToPadding** `static` | [StiPadding](../Stimulsoft_Report/Dashboard/StiPadding.md) |  |
+| **strToPadding** `static` | [StiPadding](../Stimulsoft_Report_Dashboard/StiPadding.md) |  |
 | **strToProgressConditionsPermissions** `static` | void |  |
-| **strToSimpleBorder** `static` | [StiSimpleBorder](../Stimulsoft_Base/Drawing/StiSimpleBorder.md) |  |
+| **strToSimpleBorder** `static` | [StiSimpleBorder](../Stimulsoft_Base_Drawing/StiSimpleBorder.md) |  |
 | **strToTableConditionsPermissions** `static` | void |  |
-| **strToTitlePadding** `static` | [StiTitlePadding](../Stimulsoft_Report/Dashboard/StiTitlePadding.md) |  |
+| **strToTitlePadding** `static` | [StiTitlePadding](../Stimulsoft_Report_Dashboard/StiTitlePadding.md) |  |
 | **titlePaddingToStr** `static` | string |  |
 | **updateReportAliases** `static` | void |  |
 | **upperFirstChar** `static` | string |  |
@@ -311,13 +311,13 @@ title: "StiReportEdit Class"
 
 #### base64ToImage `static`
 
-**base64ToImage**(**base64String**: string): [Stimulsoft.System.Drawing.Image](../Stimulsoft_System/Drawing/Image.md)
+**base64ToImage**(**base64String**: string): [Stimulsoft.System.Drawing.Image](../Stimulsoft_System_Drawing/Image.md)
 
 **Parameters**
 
 - **base64String** (string)  
 
-**Returns** [Stimulsoft.System.Drawing.Image](../Stimulsoft_System/Drawing/Image.md)
+**Returns** [Stimulsoft.System.Drawing.Image](../Stimulsoft_System_Drawing/Image.md)
 
 
 ---
@@ -337,11 +337,11 @@ title: "StiReportEdit Class"
 
 #### borderToStr `static`
 
-**borderToStr**(**border**: [StiBorder](../Stimulsoft_Base/Drawing/StiBorder.md)): string
+**borderToStr**(**border**: [StiBorder](../Stimulsoft_Base_Drawing/StiBorder.md)): string
 
 **Parameters**
 
-- **border** ([StiBorder](../Stimulsoft_Base/Drawing/StiBorder.md))  
+- **border** ([StiBorder](../Stimulsoft_Base_Drawing/StiBorder.md))  
 
 **Returns** string
 
@@ -350,11 +350,11 @@ title: "StiReportEdit Class"
 
 #### brushToStr `static`
 
-**brushToStr**(**brush**: [StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md)): string
+**brushToStr**(**brush**: [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md)): string
 
 **Parameters**
 
-- **brush** ([StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md))  
+- **brush** ([StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md))  
 
 **Returns** string
 
@@ -688,11 +688,11 @@ title: "StiReportEdit Class"
 
 #### fontToStr `static`
 
-**fontToStr**(**font**: [Font](../Stimulsoft_Base/Dashboard/Font.md)): string
+**fontToStr**(**font**: [Font](../Stimulsoft_Base_Dashboard/Font.md)): string
 
 **Parameters**
 
-- **font** ([Font](../Stimulsoft_Base/Dashboard/Font.md))  
+- **font** ([Font](../Stimulsoft_Base_Dashboard/Font.md))  
 
 **Returns** string
 
@@ -790,11 +790,11 @@ title: "StiReportEdit Class"
 
 #### getColorsCollectionProperty `static`
 
-**getColorsCollectionProperty**(**colors**: [Color](../Stimulsoft_System/Drawing/Color.md)[]): string[]
+**getColorsCollectionProperty**(**colors**: [Color](../Stimulsoft_System_Drawing/Color.md)[]): string[]
 
 **Parameters**
 
-- **colors** ([Color](../Stimulsoft_System/Drawing/Color.md)[])  
+- **colors** ([Color](../Stimulsoft_System_Drawing/Color.md)[])  
 
 **Returns** string[]
 
@@ -975,11 +975,11 @@ title: "StiReportEdit Class"
 
 #### getFilterDataProperty `static`
 
-**getFilterDataProperty**(**component**: StiBaseCondition | StiComponent): string
+**getFilterDataProperty**(**component**: StiBaseCondition \| StiComponent): string
 
 **Parameters**
 
-- **component** (StiBaseCondition | StiComponent)  
+- **component** (StiBaseCondition \| StiComponent)  
 
 **Returns** string
 
@@ -988,11 +988,11 @@ title: "StiReportEdit Class"
 
 #### getFilterModeProperty `static`
 
-**getFilterModeProperty**(**component**: StiBaseCondition | StiComponent): string
+**getFilterModeProperty**(**component**: StiBaseCondition \| StiComponent): string
 
 **Parameters**
 
-- **component** (StiBaseCondition | StiComponent)  
+- **component** (StiBaseCondition \| StiComponent)  
 
 **Returns** string
 
@@ -1001,11 +1001,11 @@ title: "StiReportEdit Class"
 
 #### getFilterOnProperty `static`
 
-**getFilterOnProperty**(**component**: StiBaseCondition | StiComponent): boolean
+**getFilterOnProperty**(**component**: StiBaseCondition \| StiComponent): boolean
 
 **Parameters**
 
-- **component** (StiBaseCondition | StiComponent)  
+- **component** (StiBaseCondition \| StiComponent)  
 
 **Returns** boolean
 
@@ -1103,11 +1103,11 @@ title: "StiReportEdit Class"
 
 #### getInteractionProperty `static`
 
-**getInteractionProperty**(**interaction**: [StiInteraction](../Stimulsoft_Report/Components/StiInteraction.md)): any
+**getInteractionProperty**(**interaction**: [StiInteraction](../Stimulsoft_Report_Components/StiInteraction.md)): any
 
 **Parameters**
 
-- **interaction** ([StiInteraction](../Stimulsoft_Report/Components/StiInteraction.md))  
+- **interaction** ([StiInteraction](../Stimulsoft_Report_Components/StiInteraction.md))  
 
 **Returns** any
 
@@ -1392,11 +1392,11 @@ title: "StiReportEdit Class"
 
 #### getStringFromColor `static`
 
-**getStringFromColor**(**color**: [Color](../Stimulsoft_System/Drawing/Color.md)): string
+**getStringFromColor**(**color**: [Color](../Stimulsoft_System_Drawing/Color.md)): string
 
 **Parameters**
 
-- **color** ([Color](../Stimulsoft_System/Drawing/Color.md))  
+- **color** ([Color](../Stimulsoft_System_Drawing/Color.md))  
 
 **Returns** string
 
@@ -1513,11 +1513,11 @@ title: "StiReportEdit Class"
 
 #### imageToBase64 `static`
 
-**imageToBase64**(**image**: [Stimulsoft.System.Drawing.Image](../Stimulsoft_System/Drawing/Image.md)): string
+**imageToBase64**(**image**: [Stimulsoft.System.Drawing.Image](../Stimulsoft_System_Drawing/Image.md)): string
 
 **Parameters**
 
-- **image** ([Stimulsoft.System.Drawing.Image](../Stimulsoft_System/Drawing/Image.md))  
+- **image** ([Stimulsoft.System.Drawing.Image](../Stimulsoft_System_Drawing/Image.md))  
 
 **Returns** string
 
@@ -1578,11 +1578,11 @@ title: "StiReportEdit Class"
 
 #### marginToStr `static`
 
-**marginToStr**(**margin**: [StiMargin](../Stimulsoft_Report/Dashboard/StiMargin.md)): string
+**marginToStr**(**margin**: [StiMargin](../Stimulsoft_Report_Dashboard/StiMargin.md)): string
 
 **Parameters**
 
-- **margin** ([StiMargin](../Stimulsoft_Report/Dashboard/StiMargin.md))  
+- **margin** ([StiMargin](../Stimulsoft_Report_Dashboard/StiMargin.md))  
 
 **Returns** string
 
@@ -1591,11 +1591,11 @@ title: "StiReportEdit Class"
 
 #### marginsToStr `static`
 
-**marginsToStr**(**margins**: [StiMargins](../Stimulsoft_Report/Components/StiMargins.md)): string
+**marginsToStr**(**margins**: [StiMargins](../Stimulsoft_Report_Components/StiMargins.md)): string
 
 **Parameters**
 
-- **margins** ([StiMargins](../Stimulsoft_Report/Components/StiMargins.md))  
+- **margins** ([StiMargins](../Stimulsoft_Report_Components/StiMargins.md))  
 
 **Returns** string
 
@@ -1668,11 +1668,11 @@ title: "StiReportEdit Class"
 
 #### paddingToStr `static`
 
-**paddingToStr**(**padding**: [StiPadding](../Stimulsoft_Report/Dashboard/StiPadding.md)): string
+**paddingToStr**(**padding**: [StiPadding](../Stimulsoft_Report_Dashboard/StiPadding.md)): string
 
 **Parameters**
 
-- **padding** ([StiPadding](../Stimulsoft_Report/Dashboard/StiPadding.md))  
+- **padding** ([StiPadding](../Stimulsoft_Report_Dashboard/StiPadding.md))  
 
 **Returns** string
 
@@ -2053,11 +2053,11 @@ title: "StiReportEdit Class"
 
 #### setFilterDataProperty1 `static`
 
-**setFilterDataProperty1**(**component**: StiBaseCondition | any, **filters**: any[]): void
+**setFilterDataProperty1**(**component**: StiBaseCondition \| any, **filters**: any[]): void
 
 **Parameters**
 
-- **component** (StiBaseCondition | any)  
+- **component** (StiBaseCondition \| any)  
 - **filters** (any[])  
 
 
@@ -2065,11 +2065,11 @@ title: "StiReportEdit Class"
 
 #### setFilterDataProperty2 `static`
 
-**setFilterDataProperty2**(**component**: StiBaseCondition | any, **propertyValue**: string): void
+**setFilterDataProperty2**(**component**: StiBaseCondition \| any, **propertyValue**: string): void
 
 **Parameters**
 
-- **component** (StiBaseCondition | any)  
+- **component** (StiBaseCondition \| any)  
 - **propertyValue** (string)  
 
 
@@ -2077,11 +2077,11 @@ title: "StiReportEdit Class"
 
 #### setFilterModeProperty `static`
 
-**setFilterModeProperty**(**component**: StiBaseCondition | StiComponent, **propertyValue**: string): void
+**setFilterModeProperty**(**component**: StiBaseCondition \| StiComponent, **propertyValue**: string): void
 
 **Parameters**
 
-- **component** (StiBaseCondition | StiComponent)  
+- **component** (StiBaseCondition \| StiComponent)  
 - **propertyValue** (string)  
 
 
@@ -2089,11 +2089,11 @@ title: "StiReportEdit Class"
 
 #### setFilterOnProperty `static`
 
-**setFilterOnProperty**(**component**: StiBaseCondition | StiComponent, **propertyValue**: string): void
+**setFilterOnProperty**(**component**: StiBaseCondition \| StiComponent, **propertyValue**: string): void
 
 **Parameters**
 
-- **component** (StiBaseCondition | StiComponent)  
+- **component** (StiBaseCondition \| StiComponent)  
 - **propertyValue** (string)  
 
 
@@ -2421,11 +2421,11 @@ title: "StiReportEdit Class"
 
 #### simpleBorderToStr `static`
 
-**simpleBorderToStr**(**border**: [StiSimpleBorder](../Stimulsoft_Base/Drawing/StiSimpleBorder.md)): string
+**simpleBorderToStr**(**border**: [StiSimpleBorder](../Stimulsoft_Base_Drawing/StiSimpleBorder.md)): string
 
 **Parameters**
 
-- **border** ([StiSimpleBorder](../Stimulsoft_Base/Drawing/StiSimpleBorder.md))  
+- **border** ([StiSimpleBorder](../Stimulsoft_Base_Drawing/StiSimpleBorder.md))  
 
 **Returns** string
 
@@ -2434,65 +2434,65 @@ title: "StiReportEdit Class"
 
 #### strBordersToConditionBorderSidesObject `static`
 
-**strBordersToConditionBorderSidesObject**(**borders**: string): [StiConditionBorderSides](../Stimulsoft_Report/Components/StiConditionBorderSides.md)
+**strBordersToConditionBorderSidesObject**(**borders**: string): [StiConditionBorderSides](../Stimulsoft_Report_Components/StiConditionBorderSides.md)
 
 **Parameters**
 
 - **borders** (string)  
 
-**Returns** [StiConditionBorderSides](../Stimulsoft_Report/Components/StiConditionBorderSides.md)
+**Returns** [StiConditionBorderSides](../Stimulsoft_Report_Components/StiConditionBorderSides.md)
 
 
 ---
 
 #### strPermissionsToConditionPermissionsObject `static`
 
-**strPermissionsToConditionPermissionsObject**(**strPermissions**: string): [StiConditionPermissions](../Stimulsoft_Report/Components/StiConditionPermissions.md)
+**strPermissionsToConditionPermissionsObject**(**strPermissions**: string): [StiConditionPermissions](../Stimulsoft_Report_Components/StiConditionPermissions.md)
 
 **Parameters**
 
 - **strPermissions** (string)  
 
-**Returns** [StiConditionPermissions](../Stimulsoft_Report/Components/StiConditionPermissions.md)
+**Returns** [StiConditionPermissions](../Stimulsoft_Report_Components/StiConditionPermissions.md)
 
 
 ---
 
 #### strToBorder `static`
 
-**strToBorder**(**value**: string): [StiBorder](../Stimulsoft_Base/Drawing/StiBorder.md)
+**strToBorder**(**value**: string): [StiBorder](../Stimulsoft_Base_Drawing/StiBorder.md)
 
 **Parameters**
 
 - **value** (string)  
 
-**Returns** [StiBorder](../Stimulsoft_Base/Drawing/StiBorder.md)
+**Returns** [StiBorder](../Stimulsoft_Base_Drawing/StiBorder.md)
 
 
 ---
 
 #### strToBrush `static`
 
-**strToBrush**(**value**: string): [StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md)
+**strToBrush**(**value**: string): [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md)
 
 **Parameters**
 
 - **value** (string)  
 
-**Returns** [StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md)
+**Returns** [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md)
 
 
 ---
 
 #### strToColor `static`
 
-**strToColor**(**colorStr**: string): [Color](../Stimulsoft_System/Drawing/Color.md)
+**strToColor**(**colorStr**: string): [Color](../Stimulsoft_System_Drawing/Color.md)
 
 **Parameters**
 
 - **colorStr** (string)  
 
-**Returns** [Color](../Stimulsoft_System/Drawing/Color.md)
+**Returns** [Color](../Stimulsoft_System_Drawing/Color.md)
 
 
 ---
@@ -2525,13 +2525,13 @@ title: "StiReportEdit Class"
 
 #### strToFont `static`
 
-**strToFont**(**value**: string): [Font](../Stimulsoft_Base/Dashboard/Font.md)
+**strToFont**(**value**: string): [Font](../Stimulsoft_Base_Dashboard/Font.md)
 
 **Parameters**
 
 - **value** (string)  
 
-**Returns** [Font](../Stimulsoft_Base/Dashboard/Font.md)
+**Returns** [Font](../Stimulsoft_Base_Dashboard/Font.md)
 
 
 ---
@@ -2549,26 +2549,26 @@ title: "StiReportEdit Class"
 
 #### strToMargin `static`
 
-**strToMargin**(**str**: string): [StiMargin](../Stimulsoft_Report/Dashboard/StiMargin.md)
+**strToMargin**(**str**: string): [StiMargin](../Stimulsoft_Report_Dashboard/StiMargin.md)
 
 **Parameters**
 
 - **str** (string)  
 
-**Returns** [StiMargin](../Stimulsoft_Report/Dashboard/StiMargin.md)
+**Returns** [StiMargin](../Stimulsoft_Report_Dashboard/StiMargin.md)
 
 
 ---
 
 #### strToMargins `static`
 
-**strToMargins**(**str**: string): [StiMargins](../Stimulsoft_Report/Components/StiMargins.md)
+**strToMargins**(**str**: string): [StiMargins](../Stimulsoft_Report_Components/StiMargins.md)
 
 **Parameters**
 
 - **str** (string)  
 
-**Returns** [StiMargins](../Stimulsoft_Report/Components/StiMargins.md)
+**Returns** [StiMargins](../Stimulsoft_Report_Components/StiMargins.md)
 
 
 ---
@@ -2588,13 +2588,13 @@ title: "StiReportEdit Class"
 
 #### strToPadding `static`
 
-**strToPadding**(**str**: string): [StiPadding](../Stimulsoft_Report/Dashboard/StiPadding.md)
+**strToPadding**(**str**: string): [StiPadding](../Stimulsoft_Report_Dashboard/StiPadding.md)
 
 **Parameters**
 
 - **str** (string)  
 
-**Returns** [StiPadding](../Stimulsoft_Report/Dashboard/StiPadding.md)
+**Returns** [StiPadding](../Stimulsoft_Report_Dashboard/StiPadding.md)
 
 
 ---
@@ -2612,13 +2612,13 @@ title: "StiReportEdit Class"
 
 #### strToSimpleBorder `static`
 
-**strToSimpleBorder**(**value**: string): [StiSimpleBorder](../Stimulsoft_Base/Drawing/StiSimpleBorder.md)
+**strToSimpleBorder**(**value**: string): [StiSimpleBorder](../Stimulsoft_Base_Drawing/StiSimpleBorder.md)
 
 **Parameters**
 
 - **value** (string)  
 
-**Returns** [StiSimpleBorder](../Stimulsoft_Base/Drawing/StiSimpleBorder.md)
+**Returns** [StiSimpleBorder](../Stimulsoft_Base_Drawing/StiSimpleBorder.md)
 
 
 ---
@@ -2636,24 +2636,24 @@ title: "StiReportEdit Class"
 
 #### strToTitlePadding `static`
 
-**strToTitlePadding**(**str**: string): [StiTitlePadding](../Stimulsoft_Report/Dashboard/StiTitlePadding.md)
+**strToTitlePadding**(**str**: string): [StiTitlePadding](../Stimulsoft_Report_Dashboard/StiTitlePadding.md)
 
 **Parameters**
 
 - **str** (string)  
 
-**Returns** [StiTitlePadding](../Stimulsoft_Report/Dashboard/StiTitlePadding.md)
+**Returns** [StiTitlePadding](../Stimulsoft_Report_Dashboard/StiTitlePadding.md)
 
 
 ---
 
 #### titlePaddingToStr `static`
 
-**titlePaddingToStr**(**padding**: [StiTitlePadding](../Stimulsoft_Report/Dashboard/StiTitlePadding.md)): string
+**titlePaddingToStr**(**padding**: [StiTitlePadding](../Stimulsoft_Report_Dashboard/StiTitlePadding.md)): string
 
 **Parameters**
 
-- **padding** ([StiTitlePadding](../Stimulsoft_Report/Dashboard/StiTitlePadding.md))  
+- **padding** ([StiTitlePadding](../Stimulsoft_Report_Dashboard/StiTitlePadding.md))  
 
 **Returns** string
 
@@ -2713,3 +2713,169 @@ title: "StiReportEdit Class"
 
 **Returns** any
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **allChildComponents** | any |  |
+| **body** | any |  |
+| **border** | any |  |
+| **border** | any |  |
+| **borderStr** | any |  |
+| **borderStr** | any |  |
+| **brushStr** | any |  |
+| **brushStr** | any |  |
+| **brushStr** | any |  |
+| **brushStr** | any |  |
+| **brushStr** | any |  |
+| **brushStr** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **column** | any |  |
+| **column** | any |  |
+| **columnWidth** | any |  |
+| **columnWidth** | any |  |
+| **columnWidth** | any |  |
+| **columnWidth** | any |  |
+| **comp1XPos** | any |  |
+| **comp1XPos** | any |  |
+| **comp2XPos** | any |  |
+| **compHeight** | any |  |
+| **compHeight** | any |  |
+| **compWidth** | any |  |
+| **compWidth** | any |  |
+| **compXPos** | any |  |
+| **compXPos** | any |  |
+| **crossTabHelper** | any |  |
+| **currPage** | any |  |
+| **currentReport** | any |  |
+| **currentReport** | any |  |
+| **dataSource** | any |  |
+| **dataSource** | any |  |
+| **event** | any |  |
+| **eventNames** | any |  |
+| **eventNames** | any |  |
+| **eventNames** | any |  |
+| **eventNames** | any |  |
+| **expression** | any |  |
+| **expression** | any |  |
+| **fileContent** | any |  |
+| **fileName** | any |  |
+| **fileName** | any |  |
+| **filePath** | any |  |
+| **filterMode** | any |  |
+| **filterOn** | any |  |
+| **filters** | any |  |
+| **font** | any |  |
+| **fontStr** | any |  |
+| **fontStyle** | any |  |
+| **fontStyle** | any |  |
+| **fontStyle** | any |  |
+| **fontStyle** | any |  |
+| **fontStyle** | any |  |
+| **fontStyle** | any |  |
+| **footerBand** | any |  |
+| **headerBand** | any |  |
+| **ignoreOffset** | any |  |
+| **ignoreOffset** | any |  |
+| **image** | any |  |
+| **isEvenStyleDataBand** | any |  |
+| **isOddStyleDataBand** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **needToRepaintImage** | any |  |
+| **newColor** | any |  |
+| **newColor** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newComponent** | any |  |
+| **newName** | any |  |
+| **newName** | any |  |
+| **newName** | any |  |
+| **newName** | any |  |
+| **newPage** | any |  |
+| **newPage** | any |  |
+| **newReport** | any |  |
+| **object_** | any |  |
+| **object_** | any |  |
+| **object_** | any |  |
+| **owner** | any |  |
+| **owner** | any |  |
+| **owner** | any |  |
+| **owner** | any |  |
+| **page** | any |  |
+| **page** | any |  |
+| **page** | any |  |
+| **page** | any |  |
+| **page** | any |  |
+| **parent** | any |  |
+| **parentOwner** | any |  |
+| **parentOwner** | any |  |
+| **permissions** | any |  |
+| **permissions** | any |  |
+| **promise** | any |  |
+| **promise** | any |  |
+| **property** | any |  |
+| **property** | any |  |
+| **propertyName** | any |  |
+| **propertyName** | any |  |
+| **propertyName** | any |  |
+| **propertyName** | any |  |
+| **propertyValue** | any |  |
+| **propertyValue** | any |  |
+| **propertyValue** | any |  |
+| **propertyValue** | any |  |
+| **propertyValue** | any |  |
+| **propertyValue** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **relations** | any |  |
+| **reportForPreview** | any |  |
+| **resizingTableCell** | any |  |
+| **result** | any |  |
+| **result** | any |  |
+| **result** | any |  |
+| **resultProperties** | any |  |
+| **resultProperties** | any |  |
+| **singleSort** | any |  |
+| **str** | any |  |
+| **style** | any |  |
+| **stylesCollection** | any |  |
+| **stylesCollection** | any |  |
+| **svgContent** | any |  |
+| **svgContent** | any |  |
+| **svgContent** | any |  |
+| **undoArray** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |

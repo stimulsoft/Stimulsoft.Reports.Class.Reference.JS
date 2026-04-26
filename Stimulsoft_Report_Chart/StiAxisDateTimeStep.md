@@ -8,19 +8,19 @@ title: "StiAxisDateTimeStep Class"
 
 ### Inheritance
 
-Implements: IStiAxisDateTimeStep, [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonReportObject.md)  
+Implements: IStiAxisDateTimeStep, [IStiJsonReportObject](../Stimulsoft_Base_JsonReportObject/IStiJsonReportObject.md)  
 
 ### Constructors
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([StiTimeDateStep](../Stimulsoft_Report/Chart/StiTimeDateStep.md) step, any numberOfValues, any interpolation, any aggregation) |  |
+| **constructor**([StiTimeDateStep](StiTimeDateStep.md) step, any numberOfValues, any interpolation, any aggregation) |  |
 
-**constructor**(**step**: [StiTimeDateStep](../Stimulsoft_Report/Chart/StiTimeDateStep.md), **numberOfValues**: any, **interpolation**: any, **aggregation**: any)
+**constructor**(**step**: [StiTimeDateStep](StiTimeDateStep.md), **numberOfValues**: any, **interpolation**: any, **aggregation**: any)
 
 **Parameters**
 
-- **step** ([StiTimeDateStep](../Stimulsoft_Report/Chart/StiTimeDateStep.md))  
+- **step** ([StiTimeDateStep](StiTimeDateStep.md))  
 - **numberOfValues** (any)  
 - **interpolation** (any)  
 - **aggregation** (any)  
@@ -34,7 +34,7 @@ Implements: IStiAxisDateTimeStep, [IStiJsonReportObject](../Stimulsoft_Base/Json
 | **implements** | any[] |  |
 | **loadFromJsonObject** | void |  |
 | **loadFromXml** | void |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 
 ---
@@ -72,20 +72,20 @@ Implements: IStiAxisDateTimeStep, [IStiJsonReportObject](../Stimulsoft_Base/Json
 
 #### loadFromXml
 
-**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xn** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xn** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---
@@ -105,4 +105,8 @@ Implements: IStiAxisDateTimeStep, [IStiJsonReportObject](../Stimulsoft_Base/Json
 
 | Field | Type | Description |
 | --- | --- | --- |
-| **_hash** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **aggregation** | any |  |
+| **interpolation** | any |  |
+| **numberOfValues** | any |  |
+| **step** | any |  |

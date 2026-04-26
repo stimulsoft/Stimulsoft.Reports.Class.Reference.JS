@@ -48,11 +48,11 @@ title: "StiViewer Class"
 
 #### renderHtml
 
-**renderHtml**(**element**: string | HTMLElement): void
+**renderHtml**(**element**: string \| HTMLElement): void
 
 **Parameters**
 
-- **element** (string | HTMLElement)  
+- **element** (string \| HTMLElement)  
 
 
 ---
@@ -89,3 +89,34 @@ title: "StiViewer Class"
 
 **resolve**(): void
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **content** | any |  |
+| **currentReportGuid** | string |  |
+| **data** | any |  |
+| **data** | any |  |
+| **databasesPromptUserAndPassword** | any |  |
+| **drillDownReportCache** | any |  |
+| **emailSettings** | any |  |
+| **firstPage** | any |  |
+| **firstPage** | any |  |
+| **images** |  |  |
+| **interactionParameters** | any |  |
+| **interactionParameters** | any |  |
+| **interactionParameters** | any |  |
+| **jsObject** | StiJsViewer |  |
+| **options** | [StiViewerOptions](StiViewerOptions.md) |  |
+| **page** | any |  |
+| **paramsVariables** | any |  |
+| **renderedReport** | any |  |
+| **report** | any |  |
+| **report** | any |  |
+| **report** | any |  |
+| **reportIsChanged** | any |  |
+| **settings** | any |  |
+| **settings** | any |  |
+| **viewerId** | string |  |
+| **viewerId** | any |  |

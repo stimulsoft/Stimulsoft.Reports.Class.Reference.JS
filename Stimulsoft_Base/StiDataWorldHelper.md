@@ -32,7 +32,7 @@ title: "StiDataWorldHelper Class"
 | Method | Returns | Description |
 | --- | --- | --- |
 | **getColumns** | StiDataColumnSchema[] |  |
-| **getDataTable** | [DataTable](../Stimulsoft_System/Data/DataTable.md) |  |
+| **getDataTable** | [DataTable](../Stimulsoft_System_Data/DataTable.md) |  |
 | **getTableNames** | string[] |  |
 | **retrieveSchema** | StiDataSchema |  |
 | **testConnection** | [StiTestConnectionResult](StiTestConnectionResult.md) |  |
@@ -56,14 +56,14 @@ title: "StiDataWorldHelper Class"
 
 #### getDataTable
 
-**getDataTable**(**collectionName**: string, **query**: string): [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**getDataTable**(**collectionName**: string, **query**: string): [DataTable](../Stimulsoft_System_Data/DataTable.md)
 
 **Parameters**
 
 - **collectionName** (string)  
 - **query** (string)  
 
-**Returns** [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**Returns** [DataTable](../Stimulsoft_System_Data/DataTable.md)
 
 
 ---
@@ -92,3 +92,11 @@ title: "StiDataWorldHelper Class"
 
 **Returns** [StiTestConnectionResult](StiTestConnectionResult.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **connectionString** | string |  |
+| **query** | any |  |
+| **urlBase** | any |  |

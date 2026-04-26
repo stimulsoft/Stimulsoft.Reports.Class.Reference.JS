@@ -112,3 +112,18 @@ title: "StiEncryption Class"
 
 **Returns** number[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **dst** | any |  |
+| **dst** | any |  |
+| **dst** | any |  |
+| **dst** | any |  |
+| **dst** | any |  |
+| **dst** | any |  |
+| **hash** | any |  |
+| **ms** | any |  |
+| **res** | any |  |
+| **res** | any |  |

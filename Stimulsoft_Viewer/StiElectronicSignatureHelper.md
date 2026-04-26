@@ -16,8 +16,8 @@ title: "StiElectronicSignatureHelper Class"
 | **clearSignature** `static` | void |  |
 | **getSignatureData** `static` | any |  |
 | **getStylesForSignature** `static` | any[] |  |
-| **jsonToFont** `static` | [Font](../Stimulsoft_Base/Dashboard/Font.md) |  |
-| **stringToColor** `static` | [Color](../Stimulsoft_System/Drawing/Color.md) |  |
+| **jsonToFont** `static` | [Font](../Stimulsoft_Base_Dashboard/Font.md) |  |
+| **stringToColor** `static` | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
 
 ---
 
@@ -98,24 +98,37 @@ title: "StiElectronicSignatureHelper Class"
 
 #### jsonToFont `static`
 
-**jsonToFont**(**fontJson**: any): [Font](../Stimulsoft_Base/Dashboard/Font.md)
+**jsonToFont**(**fontJson**: any): [Font](../Stimulsoft_Base_Dashboard/Font.md)
 
 **Parameters**
 
 - **fontJson** (any)  
 
-**Returns** [Font](../Stimulsoft_Base/Dashboard/Font.md)
+**Returns** [Font](../Stimulsoft_Base_Dashboard/Font.md)
 
 
 ---
 
 #### stringToColor `static`
 
-**stringToColor**(**colorStr**: string): [Color](../Stimulsoft_System/Drawing/Color.md)
+**stringToColor**(**colorStr**: string): [Color](../Stimulsoft_System_Drawing/Color.md)
 
 **Parameters**
 
 - **colorStr** (string)  
 
-**Returns** [Color](../Stimulsoft_System/Drawing/Color.md)
+**Returns** [Color](../Stimulsoft_System_Drawing/Color.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **bytes** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **newColor** | any |  |
+| **newColor** | any |  |

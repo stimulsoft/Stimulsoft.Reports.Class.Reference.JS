@@ -18,12 +18,12 @@ title: "StiSortDataTableComparer Class"
 
 #### compare `static`
 
-**compare**(**x**: [DataTable](../Stimulsoft_System/Data/DataTable.md), **y**: [DataTable](../Stimulsoft_System/Data/DataTable.md)): number
+**compare**(**x**: [DataTable](../Stimulsoft_System_Data/DataTable.md), **y**: [DataTable](../Stimulsoft_System_Data/DataTable.md)): number
 
 **Parameters**
 
-- **x** ([DataTable](../Stimulsoft_System/Data/DataTable.md))  
-- **y** ([DataTable](../Stimulsoft_System/Data/DataTable.md))  
+- **x** ([DataTable](../Stimulsoft_System_Data/DataTable.md))  
+- **y** ([DataTable](../Stimulsoft_System_Data/DataTable.md))  
 
 **Returns** number
 

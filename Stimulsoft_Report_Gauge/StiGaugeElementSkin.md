@@ -18,13 +18,13 @@ title: "StiGaugeElementSkin Class"
 
 #### draw
 
-**draw**(**context**: [StiGaugeContextPainter](../Stimulsoft_Report/Painters/StiGaugeContextPainter.md), **element**: StiGaugeElement, **rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **angle**: number, **centerPoint**: [Point](../Stimulsoft_System/Drawing/Point.md)): void
+**draw**(**context**: [StiGaugeContextPainter](../Stimulsoft_Report_Painters/StiGaugeContextPainter.md), **element**: StiGaugeElement, **rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **angle**: number, **centerPoint**: [Point](../Stimulsoft_System_Drawing/Point.md)): void
 
 **Parameters**
 
-- **context** ([StiGaugeContextPainter](../Stimulsoft_Report/Painters/StiGaugeContextPainter.md))  
+- **context** ([StiGaugeContextPainter](../Stimulsoft_Report_Painters/StiGaugeContextPainter.md))  
 - **element** (StiGaugeElement)  
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **angle** (number)  
-- **centerPoint** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **centerPoint** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 

@@ -13,7 +13,7 @@ title: "StiGalleriesHelper Class"
 | **getHtmlStringFromRichTextItem** `static` | string |  |
 | **getHtmlTextFromText** `static` | string |  |
 | **getImageColumns** `static` | StiDataColumn[] |  |
-| **getImageFromColumn** `static` | [Image](../Stimulsoft_System/Drawing/Image.md) |  |
+| **getImageFromColumn** `static` | [Image](../Stimulsoft_System_Drawing/Image.md) |  |
 | **getImageResources** `static` | StiResource[] |  |
 | **getImageVariables** `static` | StiVariable[] |  |
 | **getRichTextAsHtmlFromColumn** `static` | string |  |
@@ -68,14 +68,14 @@ title: "StiGalleriesHelper Class"
 
 #### getImageFromColumn `static`
 
-**getImageFromColumn**(**column**: StiDataColumn, **report**: [StiReport](../Stimulsoft_Report/StiReport.md)): [Image](../Stimulsoft_System/Drawing/Image.md)
+**getImageFromColumn**(**column**: StiDataColumn, **report**: [StiReport](../Stimulsoft_Report/StiReport.md)): [Image](../Stimulsoft_System_Drawing/Image.md)
 
 **Parameters**
 
 - **column** (StiDataColumn)  
 - **report** ([StiReport](../Stimulsoft_Report/StiReport.md))  
 
-**Returns** [Image](../Stimulsoft_System/Drawing/Image.md)
+**Returns** [Image](../Stimulsoft_System_Drawing/Image.md)
 
 
 ---
@@ -170,3 +170,10 @@ title: "StiGalleriesHelper Class"
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **resourceName** | any |  |
+| **variableName** | any |  |

@@ -4,4 +4,4 @@ title: "FormatObject Interface"
 
 ## FormatObject Interface
 
-**Namespace:** ``
+**Namespace:** `Stimulsoft.System`

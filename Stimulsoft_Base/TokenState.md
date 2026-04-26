@@ -12,12 +12,19 @@ Represents the state of a token during parsing.
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md) token, number index) |  |
+| **constructor**([StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md) token, number index) |  |
 
-**constructor**(**token**: [StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md), **index**: number)
+**constructor**(**token**: [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md), **index**: number)
 
 **Parameters**
 
-- **token** ([StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md))  
+- **token** ([StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md))  
 - **index** (number)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **index** | number |  |
+| **token** | [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md) |  |

@@ -4,4 +4,4 @@ title: "ConfigTypeMap Interface"
 
 ## ConfigTypeMap Interface
 
-**Namespace:** ``
+**Namespace:** `Stimulsoft.System`

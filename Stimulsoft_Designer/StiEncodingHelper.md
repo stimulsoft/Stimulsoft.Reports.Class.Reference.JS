@@ -40,3 +40,9 @@ title: "StiEncodingHelper Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **result** | any |  |

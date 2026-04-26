@@ -21,3 +21,12 @@ title: "StiLineF Class"
 - **x2** (number)  
 - **y2** (number)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **x1** | number |  |
+| **x2** | number |  |
+| **y1** | number |  |
+| **y2** | number |  |

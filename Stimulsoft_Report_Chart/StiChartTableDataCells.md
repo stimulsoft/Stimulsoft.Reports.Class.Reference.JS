@@ -8,21 +8,21 @@ title: "StiChartTableDataCells Class"
 
 ### Inheritance
 
-Implements: IStiChartTableDataCells, [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonReportObject.md)  
+Implements: IStiChartTableDataCells, [IStiJsonReportObject](../Stimulsoft_Base_JsonReportObject/IStiJsonReportObject.md)  
 
 ### Constructors
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**(any shrinkFontToFit, any shrinkFontToFitMinimumSize, [Font](../Stimulsoft_Base/Dashboard/Font.md) font, any 8) |  |
+| **constructor**(any shrinkFontToFit, any shrinkFontToFitMinimumSize, [Font](../Stimulsoft_Base_Dashboard/Font.md) font, any 8) |  |
 
-**constructor**(**shrinkFontToFit**: any, **shrinkFontToFitMinimumSize**: any, **font**: [Font](../Stimulsoft_Base/Dashboard/Font.md), **8**: any)
+**constructor**(**shrinkFontToFit**: any, **shrinkFontToFitMinimumSize**: any, **font**: [Font](../Stimulsoft_Base_Dashboard/Font.md), **8**: any)
 
 **Parameters**
 
 - **shrinkFontToFit** (any)  
 - **shrinkFontToFitMinimumSize** (any)  
-- **font** ([Font](../Stimulsoft_Base/Dashboard/Font.md))  
+- **font** ([Font](../Stimulsoft_Base_Dashboard/Font.md))  
 - **8** (any)  
 
 
@@ -33,7 +33,7 @@ Implements: IStiChartTableDataCells, [IStiJsonReportObject](../Stimulsoft_Base/J
 | **clone** | [StiChartTableDataCells](StiChartTableDataCells.md) |  |
 | **loadFromJsonObject** | void |  |
 | **loadFromXml** | void |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 
 ---
@@ -62,20 +62,20 @@ Implements: IStiChartTableDataCells, [IStiJsonReportObject](../Stimulsoft_Base/J
 
 #### loadFromXml
 
-**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xn** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xn** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---
@@ -95,4 +95,8 @@ Implements: IStiChartTableDataCells, [IStiJsonReportObject](../Stimulsoft_Base/J
 
 | Field | Type | Description |
 | --- | --- | --- |
-| **_hash** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **font** | any |  |
+| **shrinkFontToFit** | any |  |
+| **shrinkFontToFitMinimumSize** | any |  |
+| **textColor** | any |  |

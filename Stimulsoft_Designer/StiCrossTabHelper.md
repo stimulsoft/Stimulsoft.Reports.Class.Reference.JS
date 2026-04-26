@@ -90,3 +90,61 @@ title: "StiCrossTabHelper Class"
 
 **restorePositions**(): void
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **colTotal** | any |  |
+| **colorName** | any |  |
+| **colorName** | any |  |
+| **colorName** | any |  |
+| **colorName** | any |  |
+| **colorName** | any |  |
+| **createNewField** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distX** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **distY** | any |  |
+| **field** | any |  |
+| **field** | any |  |
+| **field** | any |  |
+| **field** | any |  |
+| **field** | any |  |
+| **field** | any |  |
+| **field** | any |  |
+| **field** | any |  |
+| **fieldRect** | any |  |
+| **finded** | any |  |
+| **finded** | any |  |
+| **first** | any |  |
+| **first** | any |  |
+| **leftTitle** | any |  |
+| **rightTitle** | any |  |
+| **rowTotal** | any |  |
+| **summaryIndex** | any |  |
+| **summaryTitle** | any |  |
+| **total** | any |  |
+| **total** | any |  |

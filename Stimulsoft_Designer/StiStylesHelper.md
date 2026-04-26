@@ -87,11 +87,11 @@ title: "StiStylesHelper Class"
 
 #### createStylesCollectionFromBaseColor `static`
 
-**createStylesCollectionFromBaseColor**(**baseColor**: [Color](../Stimulsoft_System/Drawing/Color.md), **name**: string): StiStylesCollection
+**createStylesCollectionFromBaseColor**(**baseColor**: [Color](../Stimulsoft_System_Drawing/Color.md), **name**: string): StiStylesCollection
 
 **Parameters**
 
-- **baseColor** ([Color](../Stimulsoft_System/Drawing/Color.md))  
+- **baseColor** ([Color](../Stimulsoft_System_Drawing/Color.md))  
 - **name** (string)  
 
 **Returns** StiStylesCollection
@@ -271,3 +271,46 @@ title: "StiStylesHelper Class"
 - **report** ([StiReport](../Stimulsoft_Report/StiReport.md))  
 - **stylesCollection** (any[])  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **backColor** | any |  |
+| **chartStyle** | any |  |
+| **chartStyle** | any |  |
+| **chartStyle** | any |  |
+| **fail** | any |  |
+| **fail** | any |  |
+| **fileContent** | any |  |
+| **find** | any |  |
+| **foreColor** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **newStyle** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |
+| **style** | any |  |

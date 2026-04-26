@@ -18,3 +18,9 @@ title: "StiOptionsFontHelperAttribute Class"
 
 - **index** (number)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **index** | number |  |

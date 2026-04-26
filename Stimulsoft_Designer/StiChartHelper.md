@@ -229,11 +229,11 @@ title: "StiChartHelper Class"
 
 #### getChartSampleSvg `static`
 
-**getChartSampleSvg**(**svgData**: [StiSvgData](../Stimulsoft_Report/Export/StiSvgData.md), **zoom**: number): string
+**getChartSampleSvg**(**svgData**: [StiSvgData](../Stimulsoft_Report_Export/StiSvgData.md), **zoom**: number): string
 
 **Parameters**
 
-- **svgData** ([StiSvgData](../Stimulsoft_Report/Export/StiSvgData.md))  
+- **svgData** ([StiSvgData](../Stimulsoft_Report_Export/StiSvgData.md))  
 - **zoom** (number)  
 
 **Returns** string
@@ -979,3 +979,35 @@ title: "StiChartHelper Class"
 - **param** (any)  
 - **callbackResult** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **dataColumnValue** | any |  |
+| **dataColumnValue** | any |  |
+| **height** | any |  |
+| **height** | any |  |
+| **mainObject** | any |  |
+| **mainObject** | any |  |
+| **mainObject** | any |  |
+| **mainObject** | any |  |
+| **mainObject** | any |  |
+| **mainObject** | any |  |
+| **propNamesCommon** | any |  |
+| **propertyName** | any |  |
+| **propertyName** | any |  |
+| **propertyName** | any |  |
+| **series1Type** | any |  |
+| **series1Type** | any |  |
+| **series2Type** | any |  |
+| **series2Type** | any |  |
+| **seriesTypeStr** | any |  |
+| **trendLine** | any |  |
+| **trendLine** | any |  |
+| **trendLine** | any |  |
+| **trendLine** | any |  |
+| **valueDataColumn** | any |  |
+| **valueDataColumn** | any |  |
+| **width** | any |  |
+| **width** | any |  |

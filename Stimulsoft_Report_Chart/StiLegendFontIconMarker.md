@@ -8,7 +8,7 @@ title: "StiLegendFontIconMarker Class"
 
 ### Inheritance
 
-Implements: [IStiLegendMarker](../Stimulsoft_Report/Chart/IStiLegendMarker.md)  
+Implements: [IStiLegendMarker](IStiLegendMarker.md)  
 
 ### Methods
 
@@ -22,13 +22,13 @@ Implements: [IStiLegendMarker](../Stimulsoft_Report/Chart/IStiLegendMarker.md)
 
 #### draw
 
-**draw**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **series**: IStiSeries, **rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **colorIndex**: number, **colorCount**: number, **index**: number): void
+**draw**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **series**: IStiSeries, **rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **colorIndex**: number, **colorCount**: number, **index**: number): void
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **series** (IStiSeries)  
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **colorIndex** (number)  
 - **colorCount** (number)  
 - **index** (number)  

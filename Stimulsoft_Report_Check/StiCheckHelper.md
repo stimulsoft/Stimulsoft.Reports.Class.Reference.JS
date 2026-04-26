@@ -48,3 +48,9 @@ title: "StiCheckHelper Class"
 
 - **report** ([StiReport](../Stimulsoft_Report/StiReport.md))  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **report** | any |  |

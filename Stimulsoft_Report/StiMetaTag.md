@@ -8,7 +8,7 @@ title: "StiMetaTag Class"
 
 ### Inheritance
 
-Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonReportObject.md)  
+Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiJsonReportObject](../Stimulsoft_Base_JsonReportObject/IStiJsonReportObject.md)  
 
 ### Constructors
 
@@ -71,11 +71,11 @@ Creates a new object that is a copy of the current instance.
 
 #### loadFromXml
 
-**loadFromXml**(**xmlNode**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xmlNode**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xmlNode** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xmlNode** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
@@ -90,3 +90,10 @@ Creates a new object that is a copy of the current instance.
 
 **Returns** [StiJson](../Stimulsoft_Base/StiJson.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **name** | string |  |
+| **tag** | string |  |

@@ -36,3 +36,11 @@ title: "StiViewDataHelper Class"
 
 **Returns** [StiPromise](../Stimulsoft_System/StiPromise.md)<void>
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **dataColumn** | any |  |
+| **parent** | any |  |
+| **resultDataTable** | [DataTable](../Stimulsoft_System_Data/DataTable.md) |  |

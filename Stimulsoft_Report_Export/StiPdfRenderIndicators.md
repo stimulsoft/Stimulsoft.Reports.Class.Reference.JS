@@ -26,3 +26,31 @@ title: "StiPdfRenderIndicators Class"
 
 **Returns** [StiPdfData](StiPdfData.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **angle** | any |  |
+| **direction** | any |  |
+| **direction** | any |  |
+| **fillRect** | any |  |
+| **fillRect** | any |  |
+| **fillRect** | any |  |
+| **fillRect** | any |  |
+| **hasGradient** | any |  |
+| **iconRect** | any |  |
+| **iconRect** | any |  |
+| **iconRect** | any |  |
+| **iconRect** | any |  |
+| **iconRect** | any |  |
+| **iconRect** | any |  |
+| **iconRect** | any |  |
+| **iconRect** | any |  |
+| **iconRect** | any |  |
+| **rect** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **valuePart** | any |  |
+| **valuePart** | any |  |
+| **valuePart** | any |  |

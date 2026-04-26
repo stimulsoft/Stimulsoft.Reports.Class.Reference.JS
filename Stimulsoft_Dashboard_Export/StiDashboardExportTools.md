@@ -21,13 +21,13 @@ title: "StiDashboardExportTools Class"
 
 #### exportAsync `static`
 
-**exportAsync**(**onExport**: Function, **cell**: IStiAppCell, **settings**: (StiExportSettings | StiDashboardExportSettings) | StiExportFormat): void
+**exportAsync**(**onExport**: Function, **cell**: IStiAppCell, **settings**: (StiExportSettings \| StiDashboardExportSettings) \| StiExportFormat): void
 
 **Parameters**
 
 - **onExport** (Function)  
 - **cell** (IStiAppCell)  
-- **settings** ((StiExportSettings | StiDashboardExportSettings) | StiExportFormat)  
+- **settings** ((StiExportSettings \| StiDashboardExportSettings) \| StiExportFormat)  
 
 
 ---
@@ -62,3 +62,28 @@ title: "StiDashboardExportTools Class"
 
 **setTimeout**(): void
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **dashboardExportSettings** | any |  |
+| **dashboardExportSettings** | any |  |
+| **dashboardExportSettings** | any |  |
+| **page** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **rect** | any |  |
+| **report** | any |  |
+| **report** | any |  |
+| **scaleX** | any |  |
+| **scaleX** | any |  |
+| **scaleX** | any |  |
+| **scaleY** | any |  |
+| **scaleY** | any |  |
+| **stream** | any |  |
+| **stream** | any |  |
+| **stream** | any |  |
+| **stream** | any |  |
+| **tool** | any |  |

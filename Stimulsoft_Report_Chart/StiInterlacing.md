@@ -14,13 +14,13 @@ Implements: IStiInterlacing
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md) interlacedBrush) |  |
+| **constructor**([StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md) interlacedBrush) |  |
 
-**constructor**(**interlacedBrush**: [StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md))
+**constructor**(**interlacedBrush**: [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md))
 
 **Parameters**
 
-- **interlacedBrush** ([StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md))  
+- **interlacedBrush** ([StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md))  
 
 
 ### Properties
@@ -38,7 +38,7 @@ Implements: IStiInterlacing
 | **implements** | any[] |  |
 | **loadFromJsonObject** | void |  |
 | **loadFromXml** | void |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 
 ---
@@ -76,20 +76,20 @@ Implements: IStiInterlacing
 
 #### loadFromXml
 
-**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xn** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xn** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---
@@ -109,4 +109,10 @@ Implements: IStiInterlacing
 
 | Field | Type | Description |
 | --- | --- | --- |
-| **_hash** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **IStiJsonReportObject** | any |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **area** | IStiArea |  |
+| **core** | StiInterlacingCoreXF |  |
+| **interlacedBrush** | [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md) |  |
+| **needSetAreaJsonPropertyInternal** | any |  |
+| **visible** | any |  |

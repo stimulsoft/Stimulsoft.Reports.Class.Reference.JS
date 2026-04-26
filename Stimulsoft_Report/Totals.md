@@ -1898,3 +1898,53 @@ title: "Totals Class"
 
 **Returns** [TimeSpan](../Stimulsoft_System/TimeSpan.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **allLevels** | any |  |
+| **allLevels** | any |  |
+| **asmList** | any |  |
+| **childsOneLevel** | any |  |
+| **childsOneLevel** | any |  |
+| **data** | any |  |
+| **data** | any |  |
+| **data** | any |  |
+| **data** | any |  |
+| **dataBand** | any |  |
+| **endPageIndex** | any |  |
+| **endPageIndex** | any |  |
+| **groupFooterResult** | any |  |
+| **groupFooterResult** | any |  |
+| **groupFooterResults** | any |  |
+| **groupHeaderResult** | any |  |
+| **groupHeaderResult** | any |  |
+| **groupHeaderResults** | any |  |
+| **isCompilationMode** | any |  |
+| **isCompilationMode** | any |  |
+| **list** | any |  |
+| **name** | any |  |
+| **name2** | any |  |
+| **originalPosition** | any |  |
+| **parser** | any |  |
+| **position** | any |  |
+| **result** | any |  |
+| **result** | any |  |
+| **returnResult** | any |  |
+| **startPageIndex** | any |  |
+| **startPageIndex** | any |  |
+| **startPageIndex** | any |  |
+| **storeId** | any |  |
+| **storedBusinessObject** | any |  |
+| **storedBusinessObject** | any |  |
+| **storedRows** | any |  |
+| **storedRows** | any |  |
+| **tempData** | any |  |
+| **tempReport** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |

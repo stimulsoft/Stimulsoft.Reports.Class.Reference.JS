@@ -19,11 +19,11 @@ title: "StiEditableItemsContainer Class"
 
 #### loadFromXml
 
-**loadFromXml**(**xmlNode**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xmlNode**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xmlNode** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xmlNode** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
@@ -34,3 +34,13 @@ title: "StiEditableItemsContainer Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **componentName** | any |  |
+| **items** | [StiEditableItem](StiEditableItem.md)[] |  |
+| **pageIndex** | any |  |
+| **position** | any |  |
+| **textValue** | any |  |

@@ -8,7 +8,7 @@ title: "Sti3dOptions Class"
 
 ### Inheritance
 
-Implements: [ISti3dOptions](../Stimulsoft_Report/Chart/ISti3dOptions.md)  
+Implements: [ISti3dOptions](ISti3dOptions.md)  
 
 ### Properties
 
@@ -23,7 +23,7 @@ Implements: [ISti3dOptions](../Stimulsoft_Report/Chart/ISti3dOptions.md)
 | --- | --- | --- |
 | **loadFromJsonObject** | void |  |
 | **loadFromXml** | void |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 
 ---
@@ -43,20 +43,20 @@ Implements: [ISti3dOptions](../Stimulsoft_Report/Chart/ISti3dOptions.md)
 
 #### loadFromXml
 
-**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xn** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xn** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---

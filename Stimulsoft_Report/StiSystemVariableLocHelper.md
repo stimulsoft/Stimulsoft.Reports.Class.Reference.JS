@@ -52,3 +52,12 @@ title: "StiSystemVariableLocHelper Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **culture** | any |  |
+| **culture** | any |  |
+| **str** | any |  |
+| **str** | any |  |

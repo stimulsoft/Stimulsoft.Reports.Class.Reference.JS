@@ -27,3 +27,28 @@ title: "StiStyleConditionHelper Class"
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **level** | any |  |
+| **parent** | any |  |
+| **resultComponentName** | any |  |
+| **resultComponentName** | any |  |
+| **resultComponentName** | any |  |
+| **resultComponentName** | any |  |
+| **resultComponentName** | any |  |
+| **resultComponentName** | any |  |
+| **resultComponentType** | any |  |
+| **resultComponentType** | any |  |
+| **resultLocation** | any |  |
+| **resultLocation** | any |  |
+| **resultPlacement** | any |  |
+| **resultPlacement** | any |  |
+| **resultPlacement** | any |  |
+| **resultPlacement** | any |  |
+| **resultPlacement** | any |  |
+| **resultPlacement** | any |  |
+| **resultPlacement** | any |  |
+| **resultPlacement** | any |  |

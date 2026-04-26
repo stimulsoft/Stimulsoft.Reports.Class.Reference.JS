@@ -27,3 +27,16 @@ title: "StiCurveHelper Class"
 
 **Returns** PointD[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **nrRetPts** | any |  |
+| **nrRetPts** | any |  |
+| **p1** | any |  |
+| **p1** | any |  |
+| **p1** | any |  |
+| **p1** | any |  |
+| **p2** | any |  |
+| **p2** | any |  |

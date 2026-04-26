@@ -45,3 +45,11 @@ Returns array of functions with spefified name.
 
 **Returns** IStiAppFunction[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **list** | any |  |
+| **list** | any |  |
+| **list** | any |  |

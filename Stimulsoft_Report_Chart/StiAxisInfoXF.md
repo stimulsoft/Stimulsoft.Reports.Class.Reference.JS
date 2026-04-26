@@ -42,3 +42,16 @@ Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), IStiAxisInfoXF
 
 **Returns** any[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **dpi** | any |  |
+| **labelsCollection** | [StiStripPositionXF](StiStripPositionXF.md)[] |  |
+| **maximum** | any |  |
+| **minimum** | any |  |
+| **step** | any |  |
+| **stripLines** | StiStripLinesXF |  |
+| **stripPositions** | number[] |  |
+| **ticksCollection** | [StiStripPositionXF](StiStripPositionXF.md)[] |  |

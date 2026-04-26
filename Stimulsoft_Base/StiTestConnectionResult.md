@@ -60,3 +60,10 @@ title: "StiTestConnectionResult Class"
 
 **Returns** [StiTestConnectionResult](StiTestConnectionResult.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **notice** | string |  |
+| **success** | boolean |  |

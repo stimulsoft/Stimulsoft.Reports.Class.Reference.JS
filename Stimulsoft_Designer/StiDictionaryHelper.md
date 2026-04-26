@@ -67,12 +67,12 @@ title: "StiDictionaryHelper Class"
 
 #### applyUserFunctionProps `static`
 
-**applyUserFunctionProps**(**report**: [StiReport](../Stimulsoft_Report/StiReport.md), **userFunction**: [StiUserFunction](../Stimulsoft_Report/Dictionary/StiUserFunction.md), **userFuncProps**: any): void
+**applyUserFunctionProps**(**report**: [StiReport](../Stimulsoft_Report/StiReport.md), **userFunction**: [StiUserFunction](../Stimulsoft_Report_Dictionary/StiUserFunction.md), **userFuncProps**: any): void
 
 **Parameters**
 
 - **report** ([StiReport](../Stimulsoft_Report/StiReport.md))  
-- **userFunction** ([StiUserFunction](../Stimulsoft_Report/Dictionary/StiUserFunction.md))  
+- **userFunction** ([StiUserFunction](../Stimulsoft_Report_Dictionary/StiUserFunction.md))  
 - **userFuncProps** (any)  
 
 
@@ -719,3 +719,200 @@ title: "StiDictionaryHelper Class"
 - **param** (any)  
 - **callbackResult** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **adapterDataStore** | any |  |
+| **businessObject** | any |  |
+| **businessObject** | any |  |
+| **businessObject** | any |  |
+| **businessObjectsCollection** | any |  |
+| **canDelete** | any |  |
+| **canDelete** | any |  |
+| **canDelete** | any |  |
+| **canDelete** | any |  |
+| **categoryName** | any |  |
+| **column** | any |  |
+| **column** | any |  |
+| **column** | any |  |
+| **column** | any |  |
+| **column** | any |  |
+| **column** | any |  |
+| **column** | any |  |
+| **column** | any |  |
+| **column** | any |  |
+| **contentBase64Str** | any |  |
+| **dataSource** | any |  |
+| **dataSource** | any |  |
+| **dataSource** | any |  |
+| **dataSource** | any |  |
+| **dataSource** | any |  |
+| **dataSourceWithParam** | any |  |
+| **database** | any |  |
+| **database** | any |  |
+| **database** | any |  |
+| **databaseItem** | any |  |
+| **expression** | any |  |
+| **expressionFrom** | any |  |
+| **expressionTo** | any |  |
+| **funcs** | any |  |
+| **functions** | any |  |
+| **groupField** | any |  |
+| **groupField** | any |  |
+| **groupField** | any |  |
+| **headers** | any |  |
+| **jsonString** | any |  |
+| **keyObject** | any |  |
+| **keyObject** | any |  |
+| **keyObject** | any |  |
+| **keyObject** | any |  |
+| **keyObject** | any |  |
+| **keyObject** | any |  |
+| **keyObject** | any |  |
+| **keyObject** | any |  |
+| **keyObject** | any |  |
+| **keyObject** | any |  |
+| **keyObject** | any |  |
+| **list** | any |  |
+| **list** | any |  |
+| **name** | any |  |
+| **name** | any |  |
+| **nameInSource** | any |  |
+| **objects** | any |  |
+| **objects** | any |  |
+| **objects** | any |  |
+| **p** | any |  |
+| **p** | any |  |
+| **p** | any |  |
+| **p** | any |  |
+| **p** | any |  |
+| **p** | any |  |
+| **p** | any |  |
+| **p** | any |  |
+| **p** | any |  |
+| **parameter** | any |  |
+| **parameter** | any |  |
+| **parameter** | any |  |
+| **parentNode** | any |  |
+| **relation** | any |  |
+| **relation** | any |  |
+| **relationName** | any |  |
+| **resource** | any |  |
+| **resource** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **typeIcon** | any |  |
+| **typeIcon** | any |  |
+| **userFunction** | any |  |
+| **userFunction** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **valueString** | any |  |
+| **valueString** | any |  |
+| **valueString** | any |  |
+| **valueString** | any |  |
+| **variable** | any |  |
+| **variable** | any |  |
+| **variableGuid** | any |  |
+| **variableGuid** | any |  |

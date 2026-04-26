@@ -73,11 +73,11 @@ title: "StiResourcesHelper Class"
 
 #### getHtmlColor `static`
 
-**getHtmlColor**(**color**: [Color](../Stimulsoft_System/Drawing/Color.md)): string
+**getHtmlColor**(**color**: [Color](../Stimulsoft_System_Drawing/Color.md)): string
 
 **Parameters**
 
-- **color** ([Color](../Stimulsoft_System/Drawing/Color.md))  
+- **color** ([Color](../Stimulsoft_System_Drawing/Color.md))  
 
 **Returns** string
 
@@ -139,11 +139,11 @@ title: "StiResourcesHelper Class"
 
 #### getStringContentForJSFromResourceContentAsync `static`
 
-**getStringContentForJSFromResourceContentAsync**(**resourceType**: [StiResourceType](../Stimulsoft_Report/Dictionary/StiResourceType.md), **content**: number[]): Promise<string>
+**getStringContentForJSFromResourceContentAsync**(**resourceType**: [StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md), **content**: number[]): Promise<string>
 
 **Parameters**
 
-- **resourceType** ([StiResourceType](../Stimulsoft_Report/Dictionary/StiResourceType.md))  
+- **resourceType** ([StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md))  
 - **content** (number[])  
 
 **Returns** Promise<string>
@@ -153,11 +153,11 @@ title: "StiResourcesHelper Class"
 
 #### isFontResourceType `static`
 
-**isFontResourceType**(**resourceType**: [StiResourceType](../Stimulsoft_Report/Dictionary/StiResourceType.md)): boolean
+**isFontResourceType**(**resourceType**: [StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md)): boolean
 
 **Parameters**
 
-- **resourceType** ([StiResourceType](../Stimulsoft_Report/Dictionary/StiResourceType.md))  
+- **resourceType** ([StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md))  
 
 **Returns** boolean
 
@@ -200,3 +200,10 @@ title: "StiResourcesHelper Class"
 - **param** (any)  
 - **callbackResult** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **report** | any |  |
+| **resultContent** | any |  |

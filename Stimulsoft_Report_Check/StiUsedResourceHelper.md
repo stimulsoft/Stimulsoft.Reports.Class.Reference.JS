@@ -42,3 +42,12 @@ title: "StiUsedResourceHelper Class"
 
 **Returns** StiDatabase[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **fileDatabase** | any |  |
+| **fileDatabase** | any |  |
+| **fileDatabase** | any |  |
+| **fileDatabase** | any |  |

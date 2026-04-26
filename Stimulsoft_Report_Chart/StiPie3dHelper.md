@@ -10,7 +10,7 @@ title: "StiPie3dHelper Class"
 
 | Method | Returns | Description |
 | --- | --- | --- |
-| **createColorWithCorrectedLightness** `static` | [Color](../Stimulsoft_System/Drawing/Color.md) |  |
+| **createColorWithCorrectedLightness** `static` | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
 | **getActualAngle** `static` | number |  |
 | **transformAngle** `static` | number |  |
 
@@ -20,25 +20,25 @@ title: "StiPie3dHelper Class"
 
 #### createColorWithCorrectedLightness `static`
 
-**createColorWithCorrectedLightness**(**color**: [Color](../Stimulsoft_System/Drawing/Color.md), **correctionFactor**: number): [Color](../Stimulsoft_System/Drawing/Color.md)
+**createColorWithCorrectedLightness**(**color**: [Color](../Stimulsoft_System_Drawing/Color.md), **correctionFactor**: number): [Color](../Stimulsoft_System_Drawing/Color.md)
 
 **Parameters**
 
-- **color** ([Color](../Stimulsoft_System/Drawing/Color.md))  
+- **color** ([Color](../Stimulsoft_System_Drawing/Color.md))  
 - **correctionFactor** (number)  
 
-**Returns** [Color](../Stimulsoft_System/Drawing/Color.md)
+**Returns** [Color](../Stimulsoft_System_Drawing/Color.md)
 
 
 ---
 
 #### getActualAngle `static`
 
-**getActualAngle**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **transformedAngle**: number): number
+**getActualAngle**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **transformedAngle**: number): number
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **transformedAngle** (number)  
 
 **Returns** number
@@ -48,12 +48,21 @@ title: "StiPie3dHelper Class"
 
 #### transformAngle `static`
 
-**transformAngle**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **angle**: number): number
+**transformAngle**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **angle**: number): number
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **angle** (number)  
 
 **Returns** number
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **blue** | any |  |
+| **correctionFactor** | any |  |
+| **green** | any |  |
+| **red** | any |  |

@@ -10,15 +10,15 @@ title: "StiHeatmapLegendItemCoreXF Class"
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**(string text, IStiSeries series, [Color](../Stimulsoft_System/Drawing/Color.md) color) |  |
+| **constructor**(string text, IStiSeries series, [Color](../Stimulsoft_System_Drawing/Color.md) color) |  |
 
-**constructor**(**text**: string, **series**: IStiSeries, **color**: [Color](../Stimulsoft_System/Drawing/Color.md))
+**constructor**(**text**: string, **series**: IStiSeries, **color**: [Color](../Stimulsoft_System_Drawing/Color.md))
 
 **Parameters**
 
 - **text** (string)  
 - **series** (IStiSeries)  
-- **color** ([Color](../Stimulsoft_System/Drawing/Color.md))  
+- **color** ([Color](../Stimulsoft_System_Drawing/Color.md))  
 
 
 ### Methods
@@ -26,7 +26,7 @@ title: "StiHeatmapLegendItemCoreXF Class"
 | Method | Returns | Description |
 | --- | --- | --- |
 | **getText** | string |  |
-| **measureString** | [Size](../Stimulsoft_System/Drawing/Size.md) |  |
+| **measureString** | [Size](../Stimulsoft_System_Drawing/Size.md) |  |
 
 ---
 
@@ -34,11 +34,11 @@ title: "StiHeatmapLegendItemCoreXF Class"
 
 #### getText
 
-**getText**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **font**: StiFontGeom): string
+**getText**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **font**: StiFontGeom): string
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **font** (StiFontGeom)  
 
 **Returns** string
@@ -48,12 +48,20 @@ title: "StiHeatmapLegendItemCoreXF Class"
 
 #### measureString
 
-**measureString**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **font**: StiFontGeom): [Size](../Stimulsoft_System/Drawing/Size.md)
+**measureString**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **font**: StiFontGeom): [Size](../Stimulsoft_System_Drawing/Size.md)
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **font** (StiFontGeom)  
 
-**Returns** [Size](../Stimulsoft_System/Drawing/Size.md)
+**Returns** [Size](../Stimulsoft_System_Drawing/Size.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **color** | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
+| **series** | IStiSeries |  |
+| **text** | string |  |

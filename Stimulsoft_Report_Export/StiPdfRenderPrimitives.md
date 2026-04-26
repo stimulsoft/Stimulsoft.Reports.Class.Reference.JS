@@ -51,11 +51,11 @@ title: "StiPdfRenderPrimitives Class"
 
 #### getPenStyleDashString `static`
 
-**getPenStyleDashString**(**style**: [StiPenStyle](../Stimulsoft_Base/Drawing/StiPenStyle.md), **step**: number, **pp**: [StiPdfData](StiPdfData.md)): string
+**getPenStyleDashString**(**style**: [StiPenStyle](../Stimulsoft_Base_Drawing/StiPenStyle.md), **step**: number, **pp**: [StiPdfData](StiPdfData.md)): string
 
 **Parameters**
 
-- **style** ([StiPenStyle](../Stimulsoft_Base/Drawing/StiPenStyle.md))  
+- **style** ([StiPenStyle](../Stimulsoft_Base_Drawing/StiPenStyle.md))  
 - **step** (number)  
 - **pp** ([StiPdfData](StiPdfData.md))  
 
@@ -119,3 +119,41 @@ title: "StiPdfRenderPrimitives Class"
 - **pp** ([StiPdfData](StiPdfData.md))  
 - **imageResolution** (number)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **arh** | any |  |
+| **arrowWidth** | any |  |
+| **arrowWidth** | any |  |
+| **arw** | any |  |
+| **bevelx** | any |  |
+| **bevely** | any |  |
+| **border** | any |  |
+| **border** | any |  |
+| **border** | any |  |
+| **border** | any |  |
+| **brush** | any |  |
+| **checkBoxValue** | any |  |
+| **checkBoxValue** | any |  |
+| **lineHeight** | any |  |
+| **lineHeight** | any |  |
+| **needDraw** | any |  |
+| **offset** | any |  |
+| **offset** | any |  |
+| **offset** | any |  |
+| **offset** | any |  |
+| **offset** | any |  |
+| **roundOffset2** | any |  |
+| **shape** | any |  |
+| **shape** | any |  |
+| **shape** | any |  |
+| **shape** | any |  |
+| **shape** | any |  |
+| **shape** | any |  |
+| **shape** | any |  |
+| **shape** | any |  |
+| **shape** | any |  |
+| **space** | any |  |
+| **space** | any |  |

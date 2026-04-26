@@ -18,16 +18,22 @@ title: "StiResizeReportHelper Class"
 
 #### resizeReportAsync `static`
 
-**resizeReportAsync**(**report**: [StiReport](StiReport.md), **orientation**: [StiPageOrientation](Components/StiPageOrientation.md), **paperSize**: [PaperKind](../Stimulsoft_System/Drawing/Printing/PaperKind.md), **margins**: [StiMargins](Components/StiMargins.md), **pageWidth**: number, **pageHeight**: number, **options**: [StiResizeReportOptions](StiResizeReportOptions.md), **indexOfRenderedPage**: any): void
+**resizeReportAsync**(**report**: [StiReport](StiReport.md), **orientation**: [StiPageOrientation](../Stimulsoft_Report_Components/StiPageOrientation.md), **paperSize**: [PaperKind](../Stimulsoft_System_Drawing_Printing/PaperKind.md), **margins**: [StiMargins](../Stimulsoft_Report_Components/StiMargins.md), **pageWidth**: number, **pageHeight**: number, **options**: [StiResizeReportOptions](StiResizeReportOptions.md), **indexOfRenderedPage**: any): void
 
 **Parameters**
 
 - **report** ([StiReport](StiReport.md))  
-- **orientation** ([StiPageOrientation](Components/StiPageOrientation.md))  
-- **paperSize** ([PaperKind](../Stimulsoft_System/Drawing/Printing/PaperKind.md))  
-- **margins** ([StiMargins](Components/StiMargins.md))  
+- **orientation** ([StiPageOrientation](../Stimulsoft_Report_Components/StiPageOrientation.md))  
+- **paperSize** ([PaperKind](../Stimulsoft_System_Drawing_Printing/PaperKind.md))  
+- **margins** ([StiMargins](../Stimulsoft_Report_Components/StiMargins.md))  
 - **pageWidth** (number)  
 - **pageHeight** (number)  
 - **options** ([StiResizeReportOptions](StiResizeReportOptions.md))  
 - **indexOfRenderedPage** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **renderedPage** | any |  |

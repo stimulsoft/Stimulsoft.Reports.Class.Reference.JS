@@ -43,7 +43,7 @@ title: "StiQuickBooksConnector Class"
 | **fillAuthorizationCode** | void |  |
 | **fillDataTable** | void |  |
 | **fillTokens** | void |  |
-| **getDataTable** | [DataTable](../Stimulsoft_System/Data/DataTable.md) |  |
+| **getDataTable** | [DataTable](../Stimulsoft_System_Data/DataTable.md) |  |
 | **getSampleConnectionString** | string |  |
 | **refreshAccessToken** | void |  |
 | **retrieveSchema** | StiDataSchema |  |
@@ -74,11 +74,11 @@ title: "StiQuickBooksConnector Class"
 
 #### fillDataTable
 
-**fillDataTable**(**table**: [DataTable](../Stimulsoft_System/Data/DataTable.md), **query**: string): void
+**fillDataTable**(**table**: [DataTable](../Stimulsoft_System_Data/DataTable.md), **query**: string): void
 
 **Parameters**
 
-- **table** ([DataTable](../Stimulsoft_System/Data/DataTable.md))  
+- **table** ([DataTable](../Stimulsoft_System_Data/DataTable.md))  
 - **query** (string)  
 
 
@@ -93,14 +93,14 @@ title: "StiQuickBooksConnector Class"
 
 #### getDataTable
 
-**getDataTable**(**collectionName**: string, **query**: string): [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**getDataTable**(**collectionName**: string, **query**: string): [DataTable](../Stimulsoft_System_Data/DataTable.md)
 
 **Parameters**
 
 - **collectionName** (string)  
 - **query** (string)  
 
-**Returns** [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**Returns** [DataTable](../Stimulsoft_System_Data/DataTable.md)
 
 
 ---
@@ -131,3 +131,15 @@ title: "StiQuickBooksConnector Class"
 
 **Returns** StiDataSchema
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **connectionIdent** | any | Gets a type of the connection helper. |
+| **connectionOrder** | any | Gets an order of the connector. |
+| **connectionString** | string | Gets connection string to the database. |
+| **connectionTimeout** | any |  |
+| **isAvailable** | any |  |
+| **name** | any |  |
+| **query** | any |  |

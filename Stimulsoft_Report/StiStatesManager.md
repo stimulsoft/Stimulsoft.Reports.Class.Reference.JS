@@ -20,7 +20,7 @@ title: "StiStatesManager Class"
 | **popFloat** | number |  |
 | **popInt** | number |  |
 | **popInt64** | number |  |
-| **popRange** | [Range](../Stimulsoft_Base/Drawing/Range.md) |  |
+| **popRange** | [Range](../Stimulsoft_Base_Drawing/Range.md) |  |
 | **push** | void |  |
 | **pushBool** | void |  |
 | **pushDecimal** | void |  |
@@ -173,7 +173,7 @@ title: "StiStatesManager Class"
 
 #### popRange
 
-**popRange**(**stateName**: string, **obj**: any, **property**: string): [Range](../Stimulsoft_Base/Drawing/Range.md)
+**popRange**(**stateName**: string, **obj**: any, **property**: string): [Range](../Stimulsoft_Base_Drawing/Range.md)
 
 **Parameters**
 
@@ -181,7 +181,7 @@ title: "StiStatesManager Class"
 - **obj** (any)  
 - **property** (string)  
 
-**Returns** [Range](../Stimulsoft_Base/Drawing/Range.md)
+**Returns** [Range](../Stimulsoft_Base_Drawing/Range.md)
 
 
 ---
@@ -286,12 +286,19 @@ title: "StiStatesManager Class"
 
 #### pushRange
 
-**pushRange**(**stateName**: string, **obj**: any, **property**: string, **value**: [Range](../Stimulsoft_Base/Drawing/Range.md)): void
+**pushRange**(**stateName**: string, **obj**: any, **property**: string, **value**: [Range](../Stimulsoft_Base_Drawing/Range.md)): void
 
 **Parameters**
 
 - **stateName** (string)  
 - **obj** (any)  
 - **property** (string)  
-- **value** ([Range](../Stimulsoft_Base/Drawing/Range.md))  
+- **value** ([Range](../Stimulsoft_Base_Drawing/Range.md))  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **objs** | any |  |
+| **properies** | any |  |

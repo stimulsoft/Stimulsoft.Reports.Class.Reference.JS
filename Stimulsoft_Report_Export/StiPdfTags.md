@@ -70,3 +70,16 @@ title: "StiPdfTags Class"
 - **pageIndex** (number)  
 - **isBefore** (boolean)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **currentIndex** | any |  |
+| **documentLanguage** | string |  |
+| **first** | any |  |
+| **pValue** | any |  |
+| **pValue** | any |  |
+| **structElement** | any |  |
+| **structElementList** | [StiPdfStructElemObject](StiPdfStructElemObject.md)[] |  |
+| **tagObject** | any |  |

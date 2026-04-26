@@ -55,11 +55,11 @@ title: "Char Class"
 
 #### isDigit `static`
 
-**isDigit**(**char**: string | number, **index**: any): boolean
+**isDigit**(**char**: string \| number, **index**: any): boolean
 
 **Parameters**
 
-- **char** (string | number)  
+- **char** (string \| number)  
 - **index** (any)  
 
 **Returns** boolean
@@ -161,3 +161,14 @@ title: "Char Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **cat** | any |  |
+| **cat** | any |  |
+| **uc** | any |  |
+| **uc** | any |  |
+| **uc** | any |  |
+| **uc** | any |  |

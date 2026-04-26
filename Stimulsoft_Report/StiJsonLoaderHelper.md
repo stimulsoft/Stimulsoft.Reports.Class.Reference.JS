@@ -32,3 +32,17 @@ title: "StiJsonLoaderHelper Class"
 
 - **report** ([StiReport](StiReport.md))  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **barcodeTypes** | Stimulsoft.Report.BarCodes.StiBarCodeTypeService[] |  |
+| **clones** | StiClone[] |  |
+| **dialogInfo** | [StiDialogInfo](../Stimulsoft_Report_Dictionary/StiDialogInfo.md)[] |  |
+| **gaugeStyles** | IStiGaugeStyle[] |  |
+| **masterComponents** | IStiMasterComponent[] |  |
+| **refNames** | string[] |  |
+| **reportComps** | any |  |
+| **reportComps** | any |  |
+| **textFormatTypes** | string[] |  |

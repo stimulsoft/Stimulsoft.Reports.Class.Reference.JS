@@ -38,3 +38,10 @@ Represents the position of a token in the script text.
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **column** | number |  |
+| **line** | number |  |

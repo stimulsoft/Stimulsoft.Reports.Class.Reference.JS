@@ -10,7 +10,7 @@ title: "StiShowEmptyCellsAsHelper Class"
 
 | Method | Returns | Description |
 | --- | --- | --- |
-| **convert** `static` | [StiShowEmptyCellsAs](../Stimulsoft_Report/Chart/StiShowEmptyCellsAs.md) |  |
+| **convert** `static` | [StiShowEmptyCellsAs](StiShowEmptyCellsAs.md) |  |
 | **seriesIsEmtyCellsAs** `static` | boolean |  |
 
 ---
@@ -19,13 +19,13 @@ title: "StiShowEmptyCellsAsHelper Class"
 
 #### convert `static`
 
-**convert**(**emptyCellsAs**: [StiEmptyCellsAs](../Stimulsoft_Report/Dashboard/StiEmptyCellsAs.md)): [StiShowEmptyCellsAs](../Stimulsoft_Report/Chart/StiShowEmptyCellsAs.md)
+**convert**(**emptyCellsAs**: [StiEmptyCellsAs](../Stimulsoft_Report_Dashboard/StiEmptyCellsAs.md)): [StiShowEmptyCellsAs](StiShowEmptyCellsAs.md)
 
 **Parameters**
 
-- **emptyCellsAs** ([StiEmptyCellsAs](../Stimulsoft_Report/Dashboard/StiEmptyCellsAs.md))  
+- **emptyCellsAs** ([StiEmptyCellsAs](../Stimulsoft_Report_Dashboard/StiEmptyCellsAs.md))  
 
-**Returns** [StiShowEmptyCellsAs](../Stimulsoft_Report/Chart/StiShowEmptyCellsAs.md)
+**Returns** [StiShowEmptyCellsAs](StiShowEmptyCellsAs.md)
 
 
 ---

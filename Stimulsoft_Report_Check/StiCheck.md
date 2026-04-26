@@ -50,3 +50,13 @@ title: "StiCheck Class"
 
 **Returns** any
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **actions** | [StiAction](StiAction.md)[] |  |
+| **defaultStateEnabled** | any |  |
+| **element** | any |  |
+| **objectType** | [StiCheckObjectType](StiCheckObjectType.md) |  |
+| **status** | [StiCheckStatus](StiCheckStatus.md) |  |

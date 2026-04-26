@@ -26,3 +26,15 @@ title: "StiUrl Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **curPart** | any |  |
+| **curPart** | any |  |
+| **uri** | any |  |
+| **uri** | any |  |
+| **uri** | any |  |
+| **uri** | any |  |
+| **uri** | any |  |

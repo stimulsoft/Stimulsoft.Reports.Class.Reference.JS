@@ -96,3 +96,10 @@ title: "StiCID Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **cid** | any |  |
+| **networks** | any |  |

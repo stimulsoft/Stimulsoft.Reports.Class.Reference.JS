@@ -23,44 +23,44 @@ title: "StiNullableDrawing Class"
 
 #### drawCurve `static`
 
-**drawCurve**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **penGeom**: StiPenGeom, **points**: PointD[], **tension**: number, **animation**: [StiAnimation](../Stimulsoft_Report/Stimulsoft/Base/Context/Animation/StiAnimation.md)): void
+**drawCurve**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **penGeom**: StiPenGeom, **points**: PointD[], **tension**: number, **animation**: [StiAnimation](../Stimulsoft_Base_Context_Animation/StiAnimation.md)): void
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **penGeom** (StiPenGeom)  
 - **points** (PointD[])  
 - **tension** (number)  
-- **animation** ([StiAnimation](../Stimulsoft_Report/Stimulsoft/Base/Context/Animation/StiAnimation.md))  
+- **animation** ([StiAnimation](../Stimulsoft_Base_Context_Animation/StiAnimation.md))  
 
 
 ---
 
 #### drawLines `static`
 
-**drawLines**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **penGeom**: StiPenGeom, **points**: PointD[], **animation**: [StiAnimation](../Stimulsoft_Report/Stimulsoft/Base/Context/Animation/StiAnimation.md)): void
+**drawLines**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **penGeom**: StiPenGeom, **points**: PointD[], **animation**: [StiAnimation](../Stimulsoft_Base_Context_Animation/StiAnimation.md)): void
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **penGeom** (StiPenGeom)  
 - **points** (PointD[])  
-- **animation** ([StiAnimation](../Stimulsoft_Report/Stimulsoft/Base/Context/Animation/StiAnimation.md))  
+- **animation** ([StiAnimation](../Stimulsoft_Base_Context_Animation/StiAnimation.md))  
 
 
 ---
 
 #### drawLines2 `static`
 
-**drawLines2**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **penGeom**: StiPenGeom, **pointsStart**: PointD[], **points**: PointD[], **animation**: [StiAnimation](../Stimulsoft_Report/Stimulsoft/Base/Context/Animation/StiAnimation.md)): void
+**drawLines2**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **penGeom**: StiPenGeom, **pointsStart**: PointD[], **points**: PointD[], **animation**: [StiAnimation](../Stimulsoft_Base_Context_Animation/StiAnimation.md)): void
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **penGeom** (StiPenGeom)  
 - **pointsStart** (PointD[])  
 - **points** (PointD[])  
-- **animation** ([StiAnimation](../Stimulsoft_Report/Stimulsoft/Base/Context/Animation/StiAnimation.md))  
+- **animation** ([StiAnimation](../Stimulsoft_Base_Context_Animation/StiAnimation.md))  
 
 
 ---
@@ -102,3 +102,14 @@ title: "StiNullableDrawing Class"
 - **REFlist1** (any)  
 - **REFlist2** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **newPoints** | any |  |
+| **newPoints** | any |  |
+| **newPoints** | any |  |
+| **newPoints** | any |  |
+| **newPoints1** | any |  |
+| **newPoints2** | any |  |

@@ -10,7 +10,7 @@ title: "StiCultureInfo Class"
 
 | Method | Returns | Description |
 | --- | --- | --- |
-| **getByName** `static` | [CultureInfo](../Stimulsoft_System/Globalization/CultureInfo.md) |  |
+| **getByName** `static` | [CultureInfo](../Stimulsoft_System_Globalization/CultureInfo.md) |  |
 
 ---
 
@@ -18,11 +18,11 @@ title: "StiCultureInfo Class"
 
 #### getByName `static`
 
-**getByName**(**culture**: string): [CultureInfo](../Stimulsoft_System/Globalization/CultureInfo.md)
+**getByName**(**culture**: string): [CultureInfo](../Stimulsoft_System_Globalization/CultureInfo.md)
 
 **Parameters**
 
 - **culture** (string)  
 
-**Returns** [CultureInfo](../Stimulsoft_System/Globalization/CultureInfo.md)
+**Returns** [CultureInfo](../Stimulsoft_System_Globalization/CultureInfo.md)
 

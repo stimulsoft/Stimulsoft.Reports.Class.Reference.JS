@@ -4,7 +4,7 @@ title: "Dayjs Class"
 
 ## Dayjs Class
 
-**Namespace:** ``
+**Namespace:** `Stimulsoft.System`
 
 ### Constructors
 
@@ -141,12 +141,12 @@ title: "Dayjs Class"
 
 #### diff
 
-**diff**(**date**: ConfigType, **unit**: QUnitType | OpUnitType, **float**: boolean): number
+**diff**(**date**: ConfigType, **unit**: QUnitType \| OpUnitType, **float**: boolean): number
 
 **Parameters**
 
 - **date** (ConfigType)  
-- **unit** (QUnitType | OpUnitType)  
+- **unit** (QUnitType \| OpUnitType)  
 - **float** (boolean)  
 
 **Returns** number
@@ -301,11 +301,11 @@ title: "Dayjs Class"
 
 ---
 
-**locale**(**preset**: string | ILocale, **object**: Partial<ILocale>): [Dayjs](Dayjs.md)
+**locale**(**preset**: string \| ILocale, **object**: Partial<ILocale>): [Dayjs](Dayjs.md)
 
 **Parameters**
 
-- **preset** (string | ILocale)  
+- **preset** (string \| ILocale)  
 - **object** (Partial<ILocale>)  
 
 **Returns** [Dayjs](Dayjs.md)

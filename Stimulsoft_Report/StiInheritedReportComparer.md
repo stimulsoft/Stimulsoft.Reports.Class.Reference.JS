@@ -25,3 +25,11 @@ title: "StiInheritedReportComparer Class"
 - **report** ([StiReport](StiReport.md))  
 - **masterReport** ([StiReport](StiReport.md))  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **comps** | any |  |
+| **index** | any |  |
+| **parent** | any |  |

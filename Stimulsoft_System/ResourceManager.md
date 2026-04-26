@@ -18,12 +18,12 @@ title: "ResourceManager Class"
 
 #### getString
 
-**getString**(**name**: string, **culture**: [CultureInfo](Globalization/CultureInfo.md)): string
+**getString**(**name**: string, **culture**: [CultureInfo](../Stimulsoft_System_Globalization/CultureInfo.md)): string
 
 **Parameters**
 
 - **name** (string)  
-- **culture** ([CultureInfo](Globalization/CultureInfo.md))  
+- **culture** ([CultureInfo](../Stimulsoft_System_Globalization/CultureInfo.md))  
 
 **Returns** string
 

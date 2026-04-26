@@ -20,9 +20,9 @@ Performs the lexical analysis.
 | --- | --- | --- |
 | **getPosition** | [StiPosition](StiPosition.md) | Gets position of token in text. |
 | **savePosToken** | void | Saves position of token in text. |
-| **scanIdent** | [StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md) | Scans the identifier. |
-| **scanNumber** | [StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md) | Scans the number. |
-| **scanString** | [StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md) | Scans the string. |
+| **scanIdent** | [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md) | Scans the identifier. |
+| **scanNumber** | [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md) | Scans the number. |
+| **scanString** | [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md) | Scans the string. |
 | **waitAssign2** | boolean | Wait the assign. |
 | **waitComma2** | boolean | Wait the right bracket. |
 | **waitLbrace2** | boolean | Wait the left brace. |
@@ -61,33 +61,33 @@ Saves position of token in text.
 
 #### scanIdent
 
-**scanIdent**(): [StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md)
+**scanIdent**(): [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md)
 
 Scans the identifier.
 
-**Returns** [StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md) — Token containing identifier.
+**Returns** [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md) — Token containing identifier.
 
 
 ---
 
 #### scanNumber
 
-**scanNumber**(): [StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md)
+**scanNumber**(): [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md)
 
 Scans the number.
 
-**Returns** [StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md) — Token containing number.
+**Returns** [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md) — Token containing number.
 
 
 ---
 
 #### scanString
 
-**scanString**(): [StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md)
+**scanString**(): [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md)
 
 Scans the string.
 
-**Returns** [StiToken](../Stimulsoft_Report/Engine/StiParser/StiToken.md) — Token containing string.
+**Returns** [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md) — Token containing string.
 
 
 ---
@@ -166,3 +166,17 @@ Wait the semicolon.
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **baseText** | string | Gets or sets text for analys. |
+| **isDecimal** | any |  |
+| **isDouble** | any |  |
+| **isDouble** | any |  |
+| **isFloat** | any |  |
+| **isFrac** | any |  |
+| **isLong** | any |  |
+| **isScript** | any |  |
+| **positionInText** | number | Gets or sets current position in text. |

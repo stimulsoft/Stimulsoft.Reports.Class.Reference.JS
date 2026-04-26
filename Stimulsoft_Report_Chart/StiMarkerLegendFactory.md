@@ -10,7 +10,7 @@ title: "StiMarkerLegendFactory Class"
 
 | Method | Returns | Description |
 | --- | --- | --- |
-| **createMarker** `static` | [IStiLegendMarker](../Stimulsoft_Report/Chart/IStiLegendMarker.md) |  |
+| **createMarker** `static` | [IStiLegendMarker](IStiLegendMarker.md) |  |
 
 ---
 
@@ -18,11 +18,11 @@ title: "StiMarkerLegendFactory Class"
 
 #### createMarker `static`
 
-**createMarker**(**series**: IStiSeries): [IStiLegendMarker](../Stimulsoft_Report/Chart/IStiLegendMarker.md)
+**createMarker**(**series**: IStiSeries): [IStiLegendMarker](IStiLegendMarker.md)
 
 **Parameters**
 
 - **series** (IStiSeries)  
 
-**Returns** [IStiLegendMarker](../Stimulsoft_Report/Chart/IStiLegendMarker.md)
+**Returns** [IStiLegendMarker](IStiLegendMarker.md)
 

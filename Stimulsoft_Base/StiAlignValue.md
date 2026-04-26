@@ -60,3 +60,11 @@ title: "StiAlignValue Class"
 
 **Returns** number
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |

@@ -4,21 +4,21 @@ title: "DataFill Class"
 
 ## DataFill Class
 
-**Namespace:** ``
+**Namespace:** `Stimulsoft.Report.Export`
 
 ### Constructors
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**(string Type, [Color](../Stimulsoft_System/Drawing/Color.md) FgColor, [Color](../Stimulsoft_System/Drawing/Color.md) BgColor) |  |
+| **constructor**(string Type, [Color](../Stimulsoft_System_Drawing/Color.md) FgColor, [Color](../Stimulsoft_System_Drawing/Color.md) BgColor) |  |
 
-**constructor**(**Type**: string, **FgColor**: [Color](../Stimulsoft_System/Drawing/Color.md), **BgColor**: [Color](../Stimulsoft_System/Drawing/Color.md))
+**constructor**(**Type**: string, **FgColor**: [Color](../Stimulsoft_System_Drawing/Color.md), **BgColor**: [Color](../Stimulsoft_System_Drawing/Color.md))
 
 **Parameters**
 
 - **Type** (string)  
-- **FgColor** ([Color](../Stimulsoft_System/Drawing/Color.md))  
-- **BgColor** ([Color](../Stimulsoft_System/Drawing/Color.md))  
+- **FgColor** ([Color](../Stimulsoft_System_Drawing/Color.md))  
+- **BgColor** ([Color](../Stimulsoft_System_Drawing/Color.md))  
 
 
 ### Methods
@@ -41,3 +41,11 @@ title: "DataFill Class"
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **BgColor** | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
+| **FgColor** | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
+| **Type** | string |  |

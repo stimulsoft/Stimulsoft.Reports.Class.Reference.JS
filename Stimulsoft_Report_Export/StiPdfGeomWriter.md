@@ -8,19 +8,19 @@ title: "StiPdfGeomWriter Class"
 
 ### Inheritance
 
-Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWriter.md)  
+Implements: [IStiExportGeomWriter](IStiExportGeomWriter.md)  
 
 ### Constructors
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([MemoryStream](../Stimulsoft_System/IO/MemoryStream.md) stream, StiPdfExportService service, any assembleData, any allowThinLines, any cornerScaling) |  |
+| **constructor**([MemoryStream](../Stimulsoft_System_IO/MemoryStream.md) stream, StiPdfExportService service, any assembleData, any allowThinLines, any cornerScaling) |  |
 
-**constructor**(**stream**: [MemoryStream](../Stimulsoft_System/IO/MemoryStream.md), **service**: StiPdfExportService, **assembleData**: any, **allowThinLines**: any, **cornerScaling**: any)
+**constructor**(**stream**: [MemoryStream](../Stimulsoft_System_IO/MemoryStream.md), **service**: StiPdfExportService, **assembleData**: any, **allowThinLines**: any, **cornerScaling**: any)
 
 **Parameters**
 
-- **stream** ([MemoryStream](../Stimulsoft_System/IO/MemoryStream.md))  
+- **stream** ([MemoryStream](../Stimulsoft_System_IO/MemoryStream.md))  
 - **service** (StiPdfExportService)  
 - **assembleData** (any)  
 - **allowThinLines** (any)  
@@ -33,7 +33,7 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 | --- | --- | --- |
 | **beginPath** | void |  |
 | **closeFigure** | void |  |
-| **convertSplineToCubicBezier** | [Point](../Stimulsoft_System/Drawing/Point.md)[] |  |
+| **convertSplineToCubicBezier** | [Point](../Stimulsoft_System_Drawing/Point.md)[] |  |
 | **drawArc** | void |  |
 | **drawArc2** | void |  |
 | **drawBezier** | void |  |
@@ -99,25 +99,25 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### convertSplineToCubicBezier
 
-**convertSplineToCubicBezier**(**points**: [Point](../Stimulsoft_System/Drawing/Point.md)[], **tension**: number): [Point](../Stimulsoft_System/Drawing/Point.md)[]
+**convertSplineToCubicBezier**(**points**: [Point](../Stimulsoft_System_Drawing/Point.md)[], **tension**: number): [Point](../Stimulsoft_System_Drawing/Point.md)[]
 
 **Parameters**
 
-- **points** ([Point](../Stimulsoft_System/Drawing/Point.md)[])  
+- **points** ([Point](../Stimulsoft_System_Drawing/Point.md)[])  
 - **tension** (number)  
 
-**Returns** [Point](../Stimulsoft_System/Drawing/Point.md)[]
+**Returns** [Point](../Stimulsoft_System_Drawing/Point.md)[]
 
 
 ---
 
 #### drawArc
 
-**drawArc**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **startAngle**: number, **sweepAngle**: number): void
+**drawArc**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **startAngle**: number, **sweepAngle**: number): void
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **startAngle** (number)  
 - **sweepAngle** (number)  
 
@@ -126,28 +126,28 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawArc2
 
-**drawArc2**(**rect**: RectangleD, **p1**: PointD, **p2**: PointD, **pen**: [Pen](../Stimulsoft_System/Drawing/Pen.md)): void
+**drawArc2**(**rect**: RectangleD, **p1**: PointD, **p2**: PointD, **pen**: [Pen](../Stimulsoft_System_Drawing/Pen.md)): void
 
 **Parameters**
 
 - **rect** (RectangleD)  
 - **p1** (PointD)  
 - **p2** (PointD)  
-- **pen** ([Pen](../Stimulsoft_System/Drawing/Pen.md))  
+- **pen** ([Pen](../Stimulsoft_System_Drawing/Pen.md))  
 
 
 ---
 
 #### drawBezier
 
-**drawBezier**(**p1**: [Point](../Stimulsoft_System/Drawing/Point.md), **p2**: [Point](../Stimulsoft_System/Drawing/Point.md), **p3**: [Point](../Stimulsoft_System/Drawing/Point.md), **p4**: [Point](../Stimulsoft_System/Drawing/Point.md), **pen**: any): void
+**drawBezier**(**p1**: [Point](../Stimulsoft_System_Drawing/Point.md), **p2**: [Point](../Stimulsoft_System_Drawing/Point.md), **p3**: [Point](../Stimulsoft_System_Drawing/Point.md), **p4**: [Point](../Stimulsoft_System_Drawing/Point.md), **pen**: any): void
 
 **Parameters**
 
-- **p1** ([Point](../Stimulsoft_System/Drawing/Point.md))  
-- **p2** ([Point](../Stimulsoft_System/Drawing/Point.md))  
-- **p3** ([Point](../Stimulsoft_System/Drawing/Point.md))  
-- **p4** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **p1** ([Point](../Stimulsoft_System_Drawing/Point.md))  
+- **p2** ([Point](../Stimulsoft_System_Drawing/Point.md))  
+- **p3** ([Point](../Stimulsoft_System_Drawing/Point.md))  
+- **p4** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 - **pen** (any)  
 
 
@@ -155,13 +155,13 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawBezierTo
 
-**drawBezierTo**(**p2**: [Point](../Stimulsoft_System/Drawing/Point.md), **p3**: [Point](../Stimulsoft_System/Drawing/Point.md), **p4**: [Point](../Stimulsoft_System/Drawing/Point.md), **pen**: any): void
+**drawBezierTo**(**p2**: [Point](../Stimulsoft_System_Drawing/Point.md), **p3**: [Point](../Stimulsoft_System_Drawing/Point.md), **p4**: [Point](../Stimulsoft_System_Drawing/Point.md), **pen**: any): void
 
 **Parameters**
 
-- **p2** ([Point](../Stimulsoft_System/Drawing/Point.md))  
-- **p3** ([Point](../Stimulsoft_System/Drawing/Point.md))  
-- **p4** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **p2** ([Point](../Stimulsoft_System_Drawing/Point.md))  
+- **p3** ([Point](../Stimulsoft_System_Drawing/Point.md))  
+- **p4** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 - **pen** (any)  
 
 
@@ -169,11 +169,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawEllipse
 
-**drawEllipse**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **pen**: any): void
+**drawEllipse**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **pen**: any): void
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **pen** (any)  
 
 
@@ -181,11 +181,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawImage
 
-**drawImage**(**img**: [Image](../Stimulsoft_System/Drawing/Image.md), **rect**: RectangleD): void
+**drawImage**(**img**: [Image](../Stimulsoft_System_Drawing/Image.md), **rect**: RectangleD): void
 
 **Parameters**
 
-- **img** ([Image](../Stimulsoft_System/Drawing/Image.md))  
+- **img** ([Image](../Stimulsoft_System_Drawing/Image.md))  
 - **rect** (RectangleD)  
 
 
@@ -193,12 +193,12 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawLine
 
-**drawLine**(**pointFrom**: [Point](../Stimulsoft_System/Drawing/Point.md), **pointTo**: [Point](../Stimulsoft_System/Drawing/Point.md), **pen**: any): void
+**drawLine**(**pointFrom**: [Point](../Stimulsoft_System_Drawing/Point.md), **pointTo**: [Point](../Stimulsoft_System_Drawing/Point.md), **pen**: any): void
 
 **Parameters**
 
-- **pointFrom** ([Point](../Stimulsoft_System/Drawing/Point.md))  
-- **pointTo** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **pointFrom** ([Point](../Stimulsoft_System_Drawing/Point.md))  
+- **pointTo** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 - **pen** (any)  
 
 
@@ -206,11 +206,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawLineTo
 
-**drawLineTo**(**pointTo**: [Point](../Stimulsoft_System/Drawing/Point.md), **pen**: any): void
+**drawLineTo**(**pointTo**: [Point](../Stimulsoft_System_Drawing/Point.md), **pen**: any): void
 
 **Parameters**
 
-- **pointTo** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **pointTo** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 - **pen** (any)  
 
 
@@ -218,11 +218,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawPie
 
-**drawPie**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **startAngle**: number, **sweepAngle**: number): void
+**drawPie**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **startAngle**: number, **sweepAngle**: number): void
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **startAngle** (number)  
 - **sweepAngle** (number)  
 
@@ -231,11 +231,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawPolygon
 
-**drawPolygon**(**points**: [Point](../Stimulsoft_System/Drawing/Point.md)[], **pen**: any): void
+**drawPolygon**(**points**: [Point](../Stimulsoft_System_Drawing/Point.md)[], **pen**: any): void
 
 **Parameters**
 
-- **points** ([Point](../Stimulsoft_System/Drawing/Point.md)[])  
+- **points** ([Point](../Stimulsoft_System_Drawing/Point.md)[])  
 - **pen** (any)  
 
 
@@ -243,11 +243,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawPolyline
 
-**drawPolyline**(**points**: [Point](../Stimulsoft_System/Drawing/Point.md)[], **pen**: any, **close**: any, **drawTo**: any): void
+**drawPolyline**(**points**: [Point](../Stimulsoft_System_Drawing/Point.md)[], **pen**: any, **close**: any, **drawTo**: any): void
 
 **Parameters**
 
-- **points** ([Point](../Stimulsoft_System/Drawing/Point.md)[])  
+- **points** ([Point](../Stimulsoft_System_Drawing/Point.md)[])  
 - **pen** (any)  
 - **close** (any)  
 - **drawTo** (any)  
@@ -257,11 +257,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawPolylineTo
 
-**drawPolylineTo**(**points**: [Point](../Stimulsoft_System/Drawing/Point.md)[], **pen**: any): void
+**drawPolylineTo**(**points**: [Point](../Stimulsoft_System_Drawing/Point.md)[], **pen**: any): void
 
 **Parameters**
 
-- **points** ([Point](../Stimulsoft_System/Drawing/Point.md)[])  
+- **points** ([Point](../Stimulsoft_System_Drawing/Point.md)[])  
 - **pen** (any)  
 
 
@@ -269,11 +269,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawRectangle
 
-**drawRectangle**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **pen**: any, **corners**: StiCornerRadius): void
+**drawRectangle**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **pen**: any, **corners**: StiCornerRadius): void
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **pen** (any)  
 - **corners** (StiCornerRadius)  
 
@@ -282,11 +282,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawSpline
 
-**drawSpline**(**points**: [Point](../Stimulsoft_System/Drawing/Point.md)[], **tension**: number, **pen**: any): void
+**drawSpline**(**points**: [Point](../Stimulsoft_System_Drawing/Point.md)[], **tension**: number, **pen**: any): void
 
 **Parameters**
 
-- **points** ([Point](../Stimulsoft_System/Drawing/Point.md)[])  
+- **points** ([Point](../Stimulsoft_System_Drawing/Point.md)[])  
 - **tension** (number)  
 - **pen** (any)  
 
@@ -295,32 +295,32 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### drawString
 
-**drawString**(**st**: string, **font**: [Font](../Stimulsoft_Base/Dashboard/Font.md), **brush**: [StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md), **rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **sf**: [StringFormat](../Stimulsoft_System/Drawing/StringFormat.md)): void
+**drawString**(**st**: string, **font**: [Font](../Stimulsoft_Base_Dashboard/Font.md), **brush**: [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md), **rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **sf**: [StringFormat](../Stimulsoft_System_Drawing/StringFormat.md)): void
 
 **Parameters**
 
 - **st** (string)  
-- **font** ([Font](../Stimulsoft_Base/Dashboard/Font.md))  
-- **brush** ([StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md))  
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
-- **sf** ([StringFormat](../Stimulsoft_System/Drawing/StringFormat.md))  
+- **font** ([Font](../Stimulsoft_Base_Dashboard/Font.md))  
+- **brush** ([StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
+- **sf** ([StringFormat](../Stimulsoft_System_Drawing/StringFormat.md))  
 
 
 ---
 
 #### drawText
 
-**drawText**(**basePoint**: PointD, **text**: string, **charsOffset**: number[], **font**: [Font](../Stimulsoft_Base/Dashboard/Font.md), **textColor**: [Color](../Stimulsoft_System/Drawing/Color.md), **angle**: number, **textAlign**: [EmfTextAlignmentMode](../Stimulsoft_Report/Export/EmfTextAlignmentMode.md)): void
+**drawText**(**basePoint**: PointD, **text**: string, **charsOffset**: number[], **font**: [Font](../Stimulsoft_Base_Dashboard/Font.md), **textColor**: [Color](../Stimulsoft_System_Drawing/Color.md), **angle**: number, **textAlign**: [EmfTextAlignmentMode](EmfTextAlignmentMode.md)): void
 
 **Parameters**
 
 - **basePoint** (PointD)  
 - **text** (string)  
 - **charsOffset** (number[])  
-- **font** ([Font](../Stimulsoft_Base/Dashboard/Font.md))  
-- **textColor** ([Color](../Stimulsoft_System/Drawing/Color.md))  
+- **font** ([Font](../Stimulsoft_Base_Dashboard/Font.md))  
+- **textColor** ([Color](../Stimulsoft_System_Drawing/Color.md))  
 - **angle** (number)  
-- **textAlign** ([EmfTextAlignmentMode](../Stimulsoft_Report/Export/EmfTextAlignmentMode.md))  
+- **textAlign** ([EmfTextAlignmentMode](EmfTextAlignmentMode.md))  
 
 
 ---
@@ -334,11 +334,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### fillEllipse
 
-**fillEllipse**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **brush**: any): void
+**fillEllipse**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **brush**: any): void
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **brush** (any)  
 
 
@@ -357,11 +357,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### fillPolygon
 
-**fillPolygon**(**points**: [Point](../Stimulsoft_System/Drawing/Point.md)[], **brush**: any): void
+**fillPolygon**(**points**: [Point](../Stimulsoft_System_Drawing/Point.md)[], **brush**: any): void
 
 **Parameters**
 
-- **points** ([Point](../Stimulsoft_System/Drawing/Point.md)[])  
+- **points** ([Point](../Stimulsoft_System_Drawing/Point.md)[])  
 - **brush** (any)  
 
 
@@ -381,11 +381,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### fillRectangle
 
-**fillRectangle**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **brush**: any, **corners**: StiCornerRadius): void
+**fillRectangle**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **brush**: any, **corners**: StiCornerRadius): void
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **brush** (any)  
 - **corners** (StiCornerRadius)  
 
@@ -394,13 +394,13 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### getBezierString
 
-**getBezierString**(**p1**: [Point](../Stimulsoft_System/Drawing/Point.md), **p2**: [Point](../Stimulsoft_System/Drawing/Point.md), **p3**: [Point](../Stimulsoft_System/Drawing/Point.md)): string
+**getBezierString**(**p1**: [Point](../Stimulsoft_System_Drawing/Point.md), **p2**: [Point](../Stimulsoft_System_Drawing/Point.md), **p3**: [Point](../Stimulsoft_System_Drawing/Point.md)): string
 
 **Parameters**
 
-- **p1** ([Point](../Stimulsoft_System/Drawing/Point.md))  
-- **p2** ([Point](../Stimulsoft_System/Drawing/Point.md))  
-- **p3** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **p1** ([Point](../Stimulsoft_System_Drawing/Point.md))  
+- **p2** ([Point](../Stimulsoft_System_Drawing/Point.md))  
+- **p3** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 
 **Returns** string
 
@@ -427,11 +427,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### getEllipseString
 
-**getEllipseString**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md)): string
+**getEllipseString**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md)): string
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 
 **Returns** string
 
@@ -456,11 +456,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### getLineToString
 
-**getLineToString**(**pointTo**: [Point](../Stimulsoft_System/Drawing/Point.md)): string
+**getLineToString**(**pointTo**: [Point](../Stimulsoft_System_Drawing/Point.md)): string
 
 **Parameters**
 
-- **pointTo** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **pointTo** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 
 **Returns** string
 
@@ -469,11 +469,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### getPointString
 
-**getPointString**(**point**: [Point](../Stimulsoft_System/Drawing/Point.md)): string
+**getPointString**(**point**: [Point](../Stimulsoft_System_Drawing/Point.md)): string
 
 **Parameters**
 
-- **point** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **point** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 
 **Returns** string
 
@@ -482,11 +482,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### getPolylineString
 
-**getPolylineString**(**points**: [Point](../Stimulsoft_System/Drawing/Point.md)[], **close**: boolean, **drawTo**: boolean): string
+**getPolylineString**(**points**: [Point](../Stimulsoft_System_Drawing/Point.md)[], **close**: boolean, **drawTo**: boolean): string
 
 **Parameters**
 
-- **points** ([Point](../Stimulsoft_System/Drawing/Point.md)[])  
+- **points** ([Point](../Stimulsoft_System_Drawing/Point.md)[])  
 - **close** (boolean)  
 - **drawTo** (boolean)  
 
@@ -497,11 +497,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### getRectString
 
-**getRectString**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md)): string
+**getRectString**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md)): string
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 
 **Returns** string
 
@@ -526,11 +526,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### getRectWithCornersString
 
-**getRectWithCornersString**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **corners**: StiCornerRadius): string
+**getRectWithCornersString**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **corners**: StiCornerRadius): string
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **corners** (StiCornerRadius)  
 
 **Returns** string
@@ -540,12 +540,12 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### measureString
 
-**measureString**(**st**: string, **font**: [Font](../Stimulsoft_Base/Dashboard/Font.md)): SizeD
+**measureString**(**st**: string, **font**: [Font](../Stimulsoft_Base_Dashboard/Font.md)): SizeD
 
 **Parameters**
 
 - **st** (string)  
-- **font** ([Font](../Stimulsoft_Base/Dashboard/Font.md))  
+- **font** ([Font](../Stimulsoft_Base_Dashboard/Font.md))  
 
 **Returns** SizeD
 
@@ -554,11 +554,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### moveTo
 
-**moveTo**(**point**: [Point](../Stimulsoft_System/Drawing/Point.md)): void
+**moveTo**(**point**: [Point](../Stimulsoft_System_Drawing/Point.md)): void
 
 **Parameters**
 
-- **point** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **point** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 
 
 ---
@@ -603,12 +603,12 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### setBrush
 
-**setBrush**(**brush**: Color | StiBrush, **rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md), **saveState**: any, **REFisTransparent**: any): boolean
+**setBrush**(**brush**: Color \| StiBrush, **rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md), **saveState**: any, **REFisTransparent**: any): boolean
 
 **Parameters**
 
-- **brush** (Color | StiBrush)  
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **brush** (Color \| StiBrush)  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 - **saveState** (any)  
 - **REFisTransparent** (any)  
 
@@ -619,11 +619,11 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### setClip
 
-**setClip**(**rect**: [Rectangle](../Stimulsoft_System/Drawing/Rectangle.md)): void
+**setClip**(**rect**: [Rectangle](../Stimulsoft_System_Drawing/Rectangle.md)): void
 
 **Parameters**
 
-- **rect** ([Rectangle](../Stimulsoft_System/Drawing/Rectangle.md))  
+- **rect** ([Rectangle](../Stimulsoft_System_Drawing/Rectangle.md))  
 
 
 ---
@@ -645,12 +645,12 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 
 #### setPixel
 
-**setPixel**(**point**: PointD, **color**: [Color](../Stimulsoft_System/Drawing/Color.md)): void
+**setPixel**(**point**: PointD, **color**: [Color](../Stimulsoft_System_Drawing/Color.md)): void
 
 **Parameters**
 
 - **point** (PointD)  
-- **color** ([Color](../Stimulsoft_System/Drawing/Color.md))  
+- **color** ([Color](../Stimulsoft_System_Drawing/Color.md))  
 
 
 ---
@@ -675,3 +675,34 @@ Implements: [IStiExportGeomWriter](../Stimulsoft_Report/Export/IStiExportGeomWri
 - **x** (number)  
 - **y** (number)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **assembleData** | any |  |
+| **cf** | any |  |
+| **cf** | any |  |
+| **cf** | any |  |
+| **color** | any |  |
+| **color** | any |  |
+| **componentAngle** | any |  |
+| **cs** | any |  |
+| **forceNewPoint** | any |  |
+| **matrixCache** | [Matrix](../Stimulsoft_System_Drawing_Drawing2D/Matrix.md)[] |  |
+| **needSaveState** | any |  |
+| **needSaveState** | any |  |
+| **needSaveState** | any |  |
+| **needSaveState** | any |  |
+| **pageNumber** | any |  |
+| **pageStream** | [MemoryStream](../Stimulsoft_System_IO/MemoryStream.md) |  |
+| **path** | [StringBuilder](../Stimulsoft_System_Text/StringBuilder.md) |  |
+| **penWidth** | any |  |
+| **penWidth** | any |  |
+| **penWidthForDash** | any |  |
+| **penWidthForDash** | any |  |
+| **sn** | any |  |
+| **tempColor** | any |  |
+| **tempColor** | any |  |
+| **tempColor** | any |  |
+| **tension** | any |  |

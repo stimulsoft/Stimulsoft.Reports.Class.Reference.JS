@@ -53,3 +53,9 @@ Implements: [IStiGlobalizationManager](IStiGlobalizationManager.md)
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **culture** | [CultureInfo](../Stimulsoft_System_Globalization/CultureInfo.md) |  |

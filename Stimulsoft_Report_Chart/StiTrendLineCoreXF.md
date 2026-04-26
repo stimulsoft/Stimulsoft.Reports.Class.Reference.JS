@@ -8,7 +8,7 @@ title: "StiTrendLineCoreXF Class"
 
 ### Inheritance
 
-Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiTrendLineCoreXF](../Stimulsoft_Report/Chart/IStiTrendLineCoreXF.md)  
+Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiTrendLineCoreXF](IStiTrendLineCoreXF.md)  
 
 ### Constructors
 
@@ -141,3 +141,9 @@ Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiTrendLineCore
 
 **Returns** number
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **trendLine** | IStiTrendLine |  |

@@ -8,7 +8,7 @@ title: "StiMarkerCoreXF Class"
 
 ### Inheritance
 
-Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiMarkerCoreXF](../Stimulsoft_Report/Chart/IStiMarkerCoreXF.md)  
+Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiMarkerCoreXF](IStiMarkerCoreXF.md)  
 
 ### Constructors
 
@@ -49,19 +49,19 @@ Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiMarkerCoreXF]
 
 #### drawLine
 
-**drawLine**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **x1**: number, **y1**: number, **x2**: number, **y2**: number, **scale**: number, **brushMarker**: [StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md), **penMarker**: StiPenGeom, **markerType**: [StiMarkerType](../Stimulsoft_Report/Chart/StiMarkerType.md), **markerStep**: number, **markerSize**: number, **angle**: number): void
+**drawLine**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **x1**: number, **y1**: number, **x2**: number, **y2**: number, **scale**: number, **brushMarker**: [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md), **penMarker**: StiPenGeom, **markerType**: [StiMarkerType](StiMarkerType.md), **markerStep**: number, **markerSize**: number, **angle**: number): void
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **x1** (number)  
 - **y1** (number)  
 - **x2** (number)  
 - **y2** (number)  
 - **scale** (number)  
-- **brushMarker** ([StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md))  
+- **brushMarker** ([StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md))  
 - **penMarker** (StiPenGeom)  
-- **markerType** ([StiMarkerType](../Stimulsoft_Report/Chart/StiMarkerType.md))  
+- **markerType** ([StiMarkerType](StiMarkerType.md))  
 - **markerStep** (number)  
 - **markerSize** (number)  
 - **angle** (number)  
@@ -71,16 +71,16 @@ Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiMarkerCoreXF]
 
 #### drawLines
 
-**drawLines**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **points**: PointD[], **scale**: number, **brushMarker**: any, **penMarker**: StiPenGeom, **markerType**: [StiMarkerType](../Stimulsoft_Report/Chart/StiMarkerType.md), **markerStep**: number, **markerSize**: number, **angle**: number): void
+**drawLines**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **points**: PointD[], **scale**: number, **brushMarker**: any, **penMarker**: StiPenGeom, **markerType**: [StiMarkerType](StiMarkerType.md), **markerStep**: number, **markerSize**: number, **angle**: number): void
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **points** (PointD[])  
 - **scale** (number)  
 - **brushMarker** (any)  
 - **penMarker** (StiPenGeom)  
-- **markerType** ([StiMarkerType](../Stimulsoft_Report/Chart/StiMarkerType.md))  
+- **markerType** ([StiMarkerType](StiMarkerType.md))  
 - **markerStep** (number)  
 - **markerSize** (number)  
 - **angle** (number)  
@@ -90,11 +90,11 @@ Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiMarkerCoreXF]
 
 #### drawMarkers
 
-**drawMarkers**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **points**: PointD[], **showShadow**: boolean): void
+**drawMarkers**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **points**: PointD[], **showShadow**: boolean): void
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **points** (PointD[])  
 - **showShadow** (boolean)  
 
@@ -122,3 +122,12 @@ Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiMarkerCoreXF]
 
 **Returns** any[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **brush** | any |  |
+| **isAnimation** | any |  |
+| **marker** | IStiMarker |  |
+| **startAngle** | any |  |

@@ -70,3 +70,14 @@ title: "StiVariableExpressionHelper Class"
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **exp** | any |  |
+| **exp** | any |  |
+| **exp** | any |  |
+| **expression** | any |  |
+| **name** | any |  |
+| **name** | any |  |

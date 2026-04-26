@@ -8,6 +8,8 @@ title: "Stimulsoft.Report.Maps Namespace"
 
 | Name | Description |
 | --- | --- |
+| [StiMapData](StiMapData.md) |  |
+| [StiMapHelper](StiMapHelper.md) |  |
 | [StiMapLangsArgentinaFD_ES](StiMapLangsArgentinaFD_ES.md) |  |
 | [StiMapLangsArgentina_ES](StiMapLangsArgentina_ES.md) |  |
 | [StiMapLangsAsia_HE](StiMapLangsAsia_HE.md) |  |
@@ -58,6 +60,7 @@ title: "Stimulsoft.Report.Maps Namespace"
 | [StiMapLangsWorld_SE](StiMapLangsWorld_SE.md) |  |
 | [StiMapLangsWorld_UK](StiMapLangsWorld_UK.md) |  |
 | [StiMapLangsWorld_ZH](StiMapLangsWorld_ZH.md) |  |
+| [StiMapLoader](StiMapLoader.md) |  |
 | [StiMapResourcesAfghanistan](StiMapResourcesAfghanistan.md) |  |
 | [StiMapResourcesAfrica](StiMapResourcesAfrica.md) |  |
 | [StiMapResourcesAlbania](StiMapResourcesAlbania.md) |  |
@@ -216,3 +219,17 @@ title: "Stimulsoft.Report.Maps Namespace"
 | [StiMapResourcesWorld](StiMapResourcesWorld.md) |  |
 | [StiMapResourcesZambia](StiMapResourcesZambia.md) |  |
 | [StiMapResourcesZimbabwe](StiMapResourcesZimbabwe.md) |  |
+| [StiMapSvg](StiMapSvg.md) |  |
+| [StiMapSvgContainer](StiMapSvgContainer.md) |  |
+
+### Enumerations
+
+| Name | Description |
+| --- | --- |
+| [StiDisplayNameType](StiDisplayNameType.md) |  |
+| [StiGeomIdent](StiGeomIdent.md) |  |
+| [StiMapID](StiMapID.md) |  |
+| [StiMapMode](StiMapMode.md) |  |
+| [StiMapSource](StiMapSource.md) |  |
+| [StiMapStyleIdent](StiMapStyleIdent.md) |  |
+| [StiMapType](StiMapType.md) |  |

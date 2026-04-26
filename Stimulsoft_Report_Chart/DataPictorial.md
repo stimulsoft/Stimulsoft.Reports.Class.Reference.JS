@@ -20,3 +20,11 @@ title: "DataPictorial Class"
 - **series** (StiPictorialSeries)  
 - **index** (number)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **index** | number |  |
+| **series** | StiPictorialSeries |  |
+| **value** | number |  |

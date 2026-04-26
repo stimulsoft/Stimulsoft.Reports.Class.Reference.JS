@@ -36,3 +36,10 @@ title: "StiDataLoaderHelperData Class"
 
 **Returns** [StiDataLoaderHelperData](StiDataLoaderHelperData.md)[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **array** | any |  |
+| **name** | string |  |

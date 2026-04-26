@@ -69,3 +69,16 @@ title: "StiTableHelper Class"
 
 **Returns** any[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **firstIndexX** | any |  |
+| **firstIndexY** | any |  |
+| **index** | any |  |
+| **lastIndexX** | any |  |
+| **lastIndexX** | any |  |
+| **lastIndexY** | any |  |
+| **lastIndexY** | any |  |
+| **row** | any |  |

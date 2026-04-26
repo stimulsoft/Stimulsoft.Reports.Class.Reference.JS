@@ -14,13 +14,13 @@ Implements: IStiAxisTitle
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([Font](../Stimulsoft_Base/Dashboard/Font.md) font, any 12) |  |
+| **constructor**([Font](../Stimulsoft_Base_Dashboard/Font.md) font, any 12) |  |
 
-**constructor**(**font**: [Font](../Stimulsoft_Base/Dashboard/Font.md), **12**: any)
+**constructor**(**font**: [Font](../Stimulsoft_Base_Dashboard/Font.md), **12**: any)
 
 **Parameters**
 
-- **font** ([Font](../Stimulsoft_Base/Dashboard/Font.md))  
+- **font** ([Font](../Stimulsoft_Base_Dashboard/Font.md))  
 - **12** (any)  
 
 
@@ -32,7 +32,7 @@ Implements: IStiAxisTitle
 | **implements** | any[] |  |
 | **loadFromJsonObject** | void |  |
 | **loadFromXml** | void |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 
 ---
@@ -70,20 +70,20 @@ Implements: IStiAxisTitle
 
 #### loadFromXml
 
-**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xn** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xn** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---
@@ -103,4 +103,14 @@ Implements: IStiAxisTitle
 
 | Field | Type | Description |
 | --- | --- | --- |
-| **_hash** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **IStiJsonReportObject** | any |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **alignment** | any |  |
+| **allowApplyStyle** | any |  |
+| **antialiasing** | any |  |
+| **color** | any |  |
+| **core** | StiAxisTitleCoreXF |  |
+| **direction** | any |  |
+| **font** | any |  |
+| **position** | any |  |
+| **text** | any |  |

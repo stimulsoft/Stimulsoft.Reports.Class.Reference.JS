@@ -10,8 +10,8 @@ title: "StiGaugeDrawingHelper Class"
 
 | Method | Returns | Description |
 | --- | --- | --- |
-| **convertArcToCubicBezier** `static` | [Point](../Stimulsoft_System/Drawing/Point.md)[] |  |
-| **convertArcToCubicBezier2** `static` | [Point](../Stimulsoft_System/Drawing/Point.md)[] |  |
+| **convertArcToCubicBezier** `static` | [Point](../Stimulsoft_System_Drawing/Point.md)[] |  |
+| **convertArcToCubicBezier2** `static` | [Point](../Stimulsoft_System_Drawing/Point.md)[] |  |
 
 ---
 
@@ -19,31 +19,38 @@ title: "StiGaugeDrawingHelper Class"
 
 #### convertArcToCubicBezier `static`
 
-**convertArcToCubicBezier**(**centerPoint**: [Point](../Stimulsoft_System/Drawing/Point.md), **radius**: number, **startAngle**: number, **sweepAngle**: number): [Point](../Stimulsoft_System/Drawing/Point.md)[]
+**convertArcToCubicBezier**(**centerPoint**: [Point](../Stimulsoft_System_Drawing/Point.md), **radius**: number, **startAngle**: number, **sweepAngle**: number): [Point](../Stimulsoft_System_Drawing/Point.md)[]
 
 **Parameters**
 
-- **centerPoint** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **centerPoint** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 - **radius** (number)  
 - **startAngle** (number)  
 - **sweepAngle** (number)  
 
-**Returns** [Point](../Stimulsoft_System/Drawing/Point.md)[]
+**Returns** [Point](../Stimulsoft_System_Drawing/Point.md)[]
 
 
 ---
 
 #### convertArcToCubicBezier2 `static`
 
-**convertArcToCubicBezier2**(**centerPoint**: [Point](../Stimulsoft_System/Drawing/Point.md), **radius1**: number, **radius2**: number, **startAngle**: number, **sweepAngle**: number): [Point](../Stimulsoft_System/Drawing/Point.md)[]
+**convertArcToCubicBezier2**(**centerPoint**: [Point](../Stimulsoft_System_Drawing/Point.md), **radius1**: number, **radius2**: number, **startAngle**: number, **sweepAngle**: number): [Point](../Stimulsoft_System_Drawing/Point.md)[]
 
 **Parameters**
 
-- **centerPoint** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **centerPoint** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 - **radius1** (number)  
 - **radius2** (number)  
 - **startAngle** (number)  
 - **sweepAngle** (number)  
 
-**Returns** [Point](../Stimulsoft_System/Drawing/Point.md)[]
+**Returns** [Point](../Stimulsoft_System_Drawing/Point.md)[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **aL** | any |  |
+| **aL** | any |  |

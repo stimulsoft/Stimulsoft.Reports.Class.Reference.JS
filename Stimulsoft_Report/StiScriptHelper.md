@@ -78,13 +78,13 @@ title: "StiScriptHelper Class"
 
 #### invokeEventScript `static`
 
-**invokeEventScript**(**report**: [StiReport](StiReport.md), **sender**: any, **ev**: [StiEvent](Events/StiEvent.md), **args**: [EventArgs](../Stimulsoft_System/EventArgs.md)): any
+**invokeEventScript**(**report**: [StiReport](StiReport.md), **sender**: any, **ev**: [StiEvent](../Stimulsoft_Report_Events/StiEvent.md), **args**: [EventArgs](../Stimulsoft_System/EventArgs.md)): any
 
 **Parameters**
 
 - **report** ([StiReport](StiReport.md))  
 - **sender** (any)  
-- **ev** ([StiEvent](Events/StiEvent.md))  
+- **ev** ([StiEvent](../Stimulsoft_Report_Events/StiEvent.md))  
 - **args** ([EventArgs](../Stimulsoft_System/EventArgs.md))  
 
 **Returns** any
@@ -94,14 +94,14 @@ title: "StiScriptHelper Class"
 
 #### invokeScript `static`
 
-**invokeScript**(**report**: [StiReport](StiReport.md), **script**: string, **args**: Dictionary<string, any>, **options**: [StiCSharpScriptParserOptions](../Stimulsoft_Base/Parser/StiCSharpScriptParserOptions.md)): any
+**invokeScript**(**report**: [StiReport](StiReport.md), **script**: string, **args**: Dictionary<string, any>, **options**: [StiCSharpScriptParserOptions](../Stimulsoft_Base_Parser/StiCSharpScriptParserOptions.md)): any
 
 **Parameters**
 
 - **report** ([StiReport](StiReport.md))  
 - **script** (string)  
 - **args** (Dictionary<string, any>)  
-- **options** ([StiCSharpScriptParserOptions](../Stimulsoft_Base/Parser/StiCSharpScriptParserOptions.md))  
+- **options** ([StiCSharpScriptParserOptions](../Stimulsoft_Base_Parser/StiCSharpScriptParserOptions.md))  
 
 **Returns** any
 
@@ -124,12 +124,12 @@ title: "StiScriptHelper Class"
 
 #### isEventScript `static`
 
-**isEventScript**(**report**: [StiReport](StiReport.md), **ev**: [StiEvent](Events/StiEvent.md)): boolean
+**isEventScript**(**report**: [StiReport](StiReport.md), **ev**: [StiEvent](../Stimulsoft_Report_Events/StiEvent.md)): boolean
 
 **Parameters**
 
 - **report** ([StiReport](StiReport.md))  
-- **ev** ([StiEvent](Events/StiEvent.md))  
+- **ev** ([StiEvent](../Stimulsoft_Report_Events/StiEvent.md))  
 
 **Returns** boolean
 
@@ -138,12 +138,12 @@ title: "StiScriptHelper Class"
 
 #### isScriptInExpression `static`
 
-**isScriptInExpression**(**expression**: string, **component**: StiComponent | StiReport, **checkBraces**: any): boolean
+**isScriptInExpression**(**expression**: string, **component**: StiComponent \| StiReport, **checkBraces**: any): boolean
 
 **Parameters**
 
 - **expression** (string)  
-- **component** (StiComponent | StiReport)  
+- **component** (StiComponent \| StiReport)  
 - **checkBraces** (any)  
 
 **Returns** boolean
@@ -176,13 +176,13 @@ title: "StiScriptHelper Class"
 
 ---
 
-**parseTextValue**(**expression**: string, **component**: StiComponent, **parameters**: [StiParserParameters](Engine/StiParserParameters.md)): any
+**parseTextValue**(**expression**: string, **component**: StiComponent, **parameters**: [StiParserParameters](../Stimulsoft_Report_Engine/StiParserParameters.md)): any
 
 **Parameters**
 
 - **expression** (string)  
 - **component** (StiComponent)  
-- **parameters** ([StiParserParameters](Engine/StiParserParameters.md))  
+- **parameters** ([StiParserParameters](../Stimulsoft_Report_Engine/StiParserParameters.md))  
 
 **Returns** any
 
@@ -215,3 +215,11 @@ title: "StiScriptHelper Class"
 
 **Returns** any
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **args** | any |  |
+| **hash** | any |  |
+| **scriptLanguage** | any |  |

@@ -39,26 +39,34 @@ title: "StiGZipHelper Class"
 
 #### pack `static`
 
-**pack**(**data**: string | number[] | Uint8Array, **name**: string): string | number[]
+**pack**(**data**: string \| number[] \| Uint8Array, **name**: string): string \| number[]
 
 **Parameters**
 
-- **data** (string | number[] | Uint8Array)  
+- **data** (string \| number[] \| Uint8Array)  
 - **name** (string)  
 
-**Returns** string | number[]
+**Returns** string \| number[]
 
 
 ---
 
 #### unpack `static`
 
-**unpack**(**data**: string | number[] | Uint8Array, **returnString**: boolean): string | number[] | Uint8Array
+**unpack**(**data**: string \| number[] \| Uint8Array, **returnString**: boolean): string \| number[] \| Uint8Array
 
 **Parameters**
 
-- **data** (string | number[] | Uint8Array)  
+- **data** (string \| number[] \| Uint8Array)  
 - **returnString** (boolean)  
 
-**Returns** string | number[] | Uint8Array
+**Returns** string \| number[] \| Uint8Array
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **crc** | any |  |
+| **value** | any |  |
+| **value** | any |  |

@@ -21,7 +21,7 @@ title: "RangeConverter Class"
 | **convertFrom** | any |  |
 | **convertTo** | any |  |
 | **rangeToString** `static` | string |  |
-| **stringToRange** `static` | [Range](../Stimulsoft_Base/Drawing/Range.md) |  |
+| **stringToRange** `static` | [Range](../Stimulsoft_Base_Drawing/Range.md) |  |
 
 ---
 
@@ -57,12 +57,12 @@ title: "RangeConverter Class"
 
 #### convertFrom
 
-**convertFrom**(**context**: any, **culture**: [CultureInfo](../Stimulsoft_System/Globalization/CultureInfo.md), **value**: any): any
+**convertFrom**(**context**: any, **culture**: [CultureInfo](../Stimulsoft_System_Globalization/CultureInfo.md), **value**: any): any
 
 **Parameters**
 
 - **context** (any)  
-- **culture** ([CultureInfo](../Stimulsoft_System/Globalization/CultureInfo.md))  
+- **culture** ([CultureInfo](../Stimulsoft_System_Globalization/CultureInfo.md))  
 - **value** (any)  
 
 **Returns** any
@@ -72,12 +72,12 @@ title: "RangeConverter Class"
 
 #### convertTo
 
-**convertTo**(**context**: any, **culture**: [CultureInfo](../Stimulsoft_System/Globalization/CultureInfo.md), **value**: any, **destinationType**: [Stimulsoft.System.Type](../Stimulsoft_System/Type.md)): any
+**convertTo**(**context**: any, **culture**: [CultureInfo](../Stimulsoft_System_Globalization/CultureInfo.md), **value**: any, **destinationType**: [Stimulsoft.System.Type](../Stimulsoft_System/Type.md)): any
 
 **Parameters**
 
 - **context** (any)  
-- **culture** ([CultureInfo](../Stimulsoft_System/Globalization/CultureInfo.md))  
+- **culture** ([CultureInfo](../Stimulsoft_System_Globalization/CultureInfo.md))  
 - **value** (any)  
 - **destinationType** ([Stimulsoft.System.Type](../Stimulsoft_System/Type.md))  
 
@@ -88,11 +88,11 @@ title: "RangeConverter Class"
 
 #### rangeToString `static`
 
-**rangeToString**(**range**: [Range](../Stimulsoft_Base/Drawing/Range.md)): string
+**rangeToString**(**range**: [Range](../Stimulsoft_Base_Drawing/Range.md)): string
 
 **Parameters**
 
-- **range** ([Range](../Stimulsoft_Base/Drawing/Range.md))  
+- **range** ([Range](../Stimulsoft_Base_Drawing/Range.md))  
 
 **Returns** string
 
@@ -101,11 +101,34 @@ title: "RangeConverter Class"
 
 #### stringToRange `static`
 
-**stringToRange**(**str**: string): [Range](../Stimulsoft_Base/Drawing/Range.md)
+**stringToRange**(**str**: string): [Range](../Stimulsoft_Base_Drawing/Range.md)
 
 **Parameters**
 
 - **str** (string)  
 
-**Returns** [Range](../Stimulsoft_Base/Drawing/Range.md)
+**Returns** [Range](../Stimulsoft_Base_Drawing/Range.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **date1** | any |  |
+| **date1** | any |  |
+| **date1** | any |  |
+| **date2** | any |  |
+| **date2** | any |  |
+| **date2** | any |  |
+| **guid1** | any |  |
+| **guid1** | any |  |
+| **guid2** | any |  |
+| **guid2** | any |  |
+| **str1** | any |  |
+| **str1** | any |  |
+| **str2** | any |  |
+| **str2** | any |  |
+| **time1** | any |  |
+| **time1** | any |  |
+| **time2** | any |  |
+| **time2** | any |  |

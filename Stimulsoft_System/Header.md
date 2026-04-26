@@ -27,3 +27,10 @@ title: "Header Class"
 
 **Returns** [Header](Header.md)[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **key** | string |  |
+| **value** | string |  |

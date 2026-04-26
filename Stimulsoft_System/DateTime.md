@@ -12,11 +12,11 @@ title: "DateTime Class"
 | --- | --- |
 | **constructor**(Date \| number param1, number month, number day, number hour, number minute, number second, number millisecond) |  |
 
-**constructor**(**param1**: Date | number, **month**: number, **day**: number, **hour**: number, **minute**: number, **second**: number, **millisecond**: number)
+**constructor**(**param1**: Date \| number, **month**: number, **day**: number, **hour**: number, **minute**: number, **second**: number, **millisecond**: number)
 
 **Parameters**
 
-- **param1** (Date | number)  
+- **param1** (Date \| number)  
 - **month** (number)  
 - **day** (number)  
 - **hour** (number)  
@@ -610,13 +610,13 @@ The month number ranging from 1 to 12. JS calculate month from 0. This will even
 
 ---
 
-**subtract**(**value**: DateTime | TimeSpan): TimeSpan | DateTime
+**subtract**(**value**: DateTime \| TimeSpan): TimeSpan \| DateTime
 
 **Parameters**
 
-- **value** (DateTime | TimeSpan)  
+- **value** (DateTime \| TimeSpan)  
 
-**Returns** TimeSpan | DateTime
+**Returns** TimeSpan \| DateTime
 
 
 ---
@@ -749,3 +749,54 @@ By default date and time is converted into American format.
 - **d** (any)  
 - **format** (string[])  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **d** | any |  |
+| **d** | any |  |
+| **date** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsDate** | any |  |
+| **dayjsFormat** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **milliseconds** | any |  |
+| **oad** | any |  |

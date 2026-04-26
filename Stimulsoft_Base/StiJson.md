@@ -142,12 +142,12 @@ title: "StiJson Class"
 
 #### addPropertyPoint
 
-**addPropertyPoint**(**propertyName**: string, **point**: [Point](../Stimulsoft_System/Drawing/Point.md)): void
+**addPropertyPoint**(**propertyName**: string, **point**: [Point](../Stimulsoft_System_Drawing/Point.md)): void
 
 **Parameters**
 
 - **propertyName** (string)  
-- **point** ([Point](../Stimulsoft_System/Drawing/Point.md))  
+- **point** ([Point](../Stimulsoft_System_Drawing/Point.md))  
 
 
 ---
@@ -256,3 +256,14 @@ title: "StiJson Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **count** | any |  |
+| **name** | string |  |
+| **start** | any |  |
+| **text** | any |  |
+| **value** | any |  |
+| **valueString** | any |  |

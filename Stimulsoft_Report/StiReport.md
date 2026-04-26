@@ -8,7 +8,7 @@ title: "StiReport Class"
 
 ### Inheritance
 
-Implements: [IStiUnitConvert](Components/IStiUnitConvert.md), IStiReport, IStiApp, IStiAppCell, [IStiGetFonts](../Stimulsoft_Base/IStiGetFonts.md)  
+Implements: [IStiUnitConvert](../Stimulsoft_Report_Components/IStiUnitConvert.md), IStiReport, IStiApp, IStiAppCell, [IStiGetFonts](../Stimulsoft_Base/IStiGetFonts.md)  
 
 ### Constructors
 
@@ -23,10 +23,10 @@ Implements: [IStiUnitConvert](Components/IStiUnitConvert.md), IStiReport, IStiAp
 
 | Property | Type | Description |
 | --- | --- | --- |
-| **aggregateFunctions** | [StiAggregateFunctionService](Dictionary/StiAggregateFunctionService.md)[] |  |
+| **aggregateFunctions** | [StiAggregateFunctionService](../Stimulsoft_Report_Dictionary/StiAggregateFunctionService.md)[] |  |
 | **allowEvalScript** | boolean |  |
-| **bookmark** | [StiBookmark](Components/StiBookmark.md) |  |
-| **businessObjectsStore** | [StiBusinessObjectData](Dictionary/StiBusinessObjectData.md)[] |  |
+| **bookmark** | [StiBookmark](../Stimulsoft_Report_Components/StiBookmark.md) |  |
+| **businessObjectsStore** | [StiBusinessObjectData](../Stimulsoft_Report_Dictionary/StiBusinessObjectData.md)[] |  |
 | **calculationMode** | [StiCalculationMode](StiCalculationMode.md) |  |
 | **cells** | [StiCells](StiCells.md) |  |
 | **collate** | number |  |
@@ -38,7 +38,7 @@ Implements: [IStiUnitConvert](Components/IStiUnitConvert.md), IStiReport, IStiAp
 | **dataStore** | StiDataCollection |  |
 | **date** | [DateTime](../Stimulsoft_System/DateTime.md) |  |
 | **dictionary** | Stimulsoft.Report.Dictionary.StiDictionary |  |
-| **info** | [Stimulsoft.Report.Design.StiDesignerInfo](Design/StiDesignerInfo.md) |  |
+| **info** | [Stimulsoft.Report.Design.StiDesignerInfo](../Stimulsoft_Report_Design/StiDesignerInfo.md) |  |
 | **isDesigning** | boolean |  |
 | **isFirstPage** | boolean |  |
 | **isFirstPageThrough** | boolean |  |
@@ -52,7 +52,7 @@ Implements: [IStiUnitConvert](Components/IStiUnitConvert.md), IStiReport, IStiAp
 | **lineABC** | string |  |
 | **lineRoman** | string |  |
 | **listOfUsedData** | string[] |  |
-| **manualBookmark** | [StiBookmark](Components/StiBookmark.md) |  |
+| **manualBookmark** | [StiBookmark](../Stimulsoft_Report_Components/StiBookmark.md) |  |
 | **masterReport** | string |  |
 | **numberOfPass** | [StiNumberOfPass](StiNumberOfPass.md) | Gets or sets the number of passes which the report generator makes while report rendering. |
 | **pageLine** | string |  |
@@ -61,7 +61,7 @@ Implements: [IStiUnitConvert](Components/IStiUnitConvert.md), IStiReport, IStiAp
 | **pageNumber** | number |  |
 | **pageNumberThrough** | number |  |
 | **parameterWidth** | number |  |
-| **pointer** | [StiBookmark](Components/StiBookmark.md) |  |
+| **pointer** | [StiBookmark](../Stimulsoft_Report_Components/StiBookmark.md) |  |
 | **refreshTime** | number |  |
 | **renderedPages** | StiPagesCollection |  |
 | **reportName** | string |  |
@@ -76,8 +76,8 @@ Implements: [IStiUnitConvert](Components/IStiUnitConvert.md), IStiReport, IStiAp
 | **today** | [DateTime](../Stimulsoft_System/DateTime.md) |  |
 | **totalPageCount** | number |  |
 | **totalPageCountThrough** | number |  |
-| **totals** | [Hashtable](../Stimulsoft_System/Collections/Hashtable.md) |  |
-| **unit** | [StiUnit](Units/StiUnit.md) |  |
+| **totals** | [Hashtable](../Stimulsoft_System_Collections/Hashtable.md) |  |
+| **unit** | [StiUnit](../Stimulsoft_Report_Units/StiUnit.md) |  |
 
 ### Methods
 
@@ -107,7 +107,7 @@ Implements: [IStiUnitConvert](Components/IStiUnitConvert.md), IStiReport, IStiAp
 | **getComponentsCount** | number |  |
 | **getCurrentPage** | StiPage |  |
 | **getDictionary** | [IStiAppDictionary](../Stimulsoft_Base/IStiAppDictionary.md) | Returns reference to the data dictionary of the report. |
-| **getFonts** | [Font](../Stimulsoft_Base/Dashboard/Font.md)[] |  |
+| **getFonts** | [Font](../Stimulsoft_Base_Dashboard/Font.md)[] |  |
 | **getKey** | string | Returns unique key to this application. |
 | **getLabel** | string |  |
 | **getParam** | any |  |
@@ -304,12 +304,12 @@ Implements: [IStiUnitConvert](Components/IStiUnitConvert.md), IStiReport, IStiAp
 
 #### convert
 
-**convert**(**oldUnit**: [StiUnit](Units/StiUnit.md), **newUnit**: [StiUnit](Units/StiUnit.md), **isReportSnapshot**: any): void
+**convert**(**oldUnit**: [StiUnit](../Stimulsoft_Report_Units/StiUnit.md), **newUnit**: [StiUnit](../Stimulsoft_Report_Units/StiUnit.md), **isReportSnapshot**: any): void
 
 **Parameters**
 
-- **oldUnit** ([StiUnit](Units/StiUnit.md))  
-- **newUnit** ([StiUnit](Units/StiUnit.md))  
+- **oldUnit** ([StiUnit](../Stimulsoft_Report_Units/StiUnit.md))  
+- **newUnit** ([StiUnit](../Stimulsoft_Report_Units/StiUnit.md))  
 - **isReportSnapshot** (any)  
 
 
@@ -342,28 +342,28 @@ Implements: [IStiUnitConvert](Components/IStiUnitConvert.md), IStiReport, IStiAp
 
 #### exportDocument
 
-**exportDocument**(**exportFormat**: [StiExportFormat](StiExportFormat.md), **exportService**: [StiExportService](Export/StiExportService.md), **settings**: [StiExportSettings](Export/StiExportSettings.md), **onExport**: (result: string | number[] | Buffer, **error**: any)): string | number[] | Buffer
+**exportDocument**(**exportFormat**: [StiExportFormat](StiExportFormat.md), **exportService**: [StiExportService](../Stimulsoft_Report_Export/StiExportService.md), **settings**: [StiExportSettings](../Stimulsoft_Report_Export/StiExportSettings.md), **onExport**: (result: string \| number[] \| Buffer, **error**: any)): string \| number[] \| Buffer
 
 **Parameters**
 
 - **exportFormat** ([StiExportFormat](StiExportFormat.md))  
-- **exportService** ([StiExportService](Export/StiExportService.md))  
-- **settings** ([StiExportSettings](Export/StiExportSettings.md))  
-- **onExport** ((result: string | number[] | Buffer)  
+- **exportService** ([StiExportService](../Stimulsoft_Report_Export/StiExportService.md))  
+- **settings** ([StiExportSettings](../Stimulsoft_Report_Export/StiExportSettings.md))  
+- **onExport** ((result: string \| number[] \| Buffer)  
 - **error** (any))  
 
-**Returns** string | number[] | Buffer
+**Returns** string \| number[] \| Buffer
 
 
 ---
 
 #### exportDocumentAsync
 
-**exportDocumentAsync**(**onExport**: (result: string | number[] | Buffer, **error**: any)): void
+**exportDocumentAsync**(**onExport**: (result: string \| number[] \| Buffer, **error**: any)): void
 
 **Parameters**
 
-- **onExport** ((result: string | number[] | Buffer)  
+- **onExport** ((result: string \| number[] \| Buffer)  
 - **error** (any))  
 
 
@@ -371,15 +371,15 @@ Implements: [IStiUnitConvert](Components/IStiUnitConvert.md), IStiReport, IStiAp
 
 #### exportDocumentAsync2
 
-**exportDocumentAsync2**(**exportFormat**: [StiExportFormat](StiExportFormat.md), **exportService**: [StiExportService](Export/StiExportService.md), **settings**: [StiExportSettings](Export/StiExportSettings.md)): Promise<string | number[] | Buffer>
+**exportDocumentAsync2**(**exportFormat**: [StiExportFormat](StiExportFormat.md), **exportService**: [StiExportService](../Stimulsoft_Report_Export/StiExportService.md), **settings**: [StiExportSettings](../Stimulsoft_Report_Export/StiExportSettings.md)): Promise<string \| number[] \| Buffer>
 
 **Parameters**
 
 - **exportFormat** ([StiExportFormat](StiExportFormat.md))  
-- **exportService** ([StiExportService](Export/StiExportService.md))  
-- **settings** ([StiExportSettings](Export/StiExportSettings.md))  
+- **exportService** ([StiExportService](../Stimulsoft_Report_Export/StiExportService.md))  
+- **settings** ([StiExportSettings](../Stimulsoft_Report_Export/StiExportSettings.md))  
 
-**Returns** Promise<string | number[] | Buffer>
+**Returns** Promise<string \| number[] \| Buffer>
 
 
 ---
@@ -489,9 +489,9 @@ Returns reference to the data dictionary of the report.
 
 #### getFonts
 
-**getFonts**(): [Font](../Stimulsoft_Base/Dashboard/Font.md)[]
+**getFonts**(): [Font](../Stimulsoft_Base_Dashboard/Font.md)[]
 
-**Returns** [Font](../Stimulsoft_Base/Dashboard/Font.md)[]
+**Returns** [Font](../Stimulsoft_Base_Dashboard/Font.md)[]
 
 
 ---
@@ -667,12 +667,12 @@ Returns unique key to this application.
 
 #### invokePrinted
 
-**invokePrinted**(**data**: string | number[], **callback**: (result: string | number[])): void
+**invokePrinted**(**data**: string \| number[], **callback**: (result: string \| number[])): void
 
 **Parameters**
 
-- **data** (string | number[])  
-- **callback** ((result: string | number[]))  
+- **data** (string \| number[])  
+- **callback** ((result: string \| number[]))  
 
 
 ---
@@ -728,11 +728,11 @@ Returns unique key to this application.
 
 #### isEncryptedFile `static`
 
-**isEncryptedFile**(**bytes**: number[] | Uint8Array): boolean
+**isEncryptedFile**(**bytes**: number[] \| Uint8Array): boolean
 
 **Parameters**
 
-- **bytes** (number[] | Uint8Array)  
+- **bytes** (number[] \| Uint8Array)  
 
 **Returns** boolean
 
@@ -741,11 +741,11 @@ Returns unique key to this application.
 
 #### isPackedFile `static`
 
-**isPackedFile**(**content**: number[] | Uint8Array): boolean
+**isPackedFile**(**content**: number[] \| Uint8Array): boolean
 
 **Parameters**
 
-- **content** (number[] | Uint8Array)  
+- **content** (number[] \| Uint8Array)  
 
 **Returns** boolean
 
@@ -754,22 +754,22 @@ Returns unique key to this application.
 
 #### load
 
-**load**(**param**: string | number[] | XmlNode | any): void
+**load**(**param**: string \| number[] \| XmlNode \| any): void
 
 **Parameters**
 
-- **param** (string | number[] | XmlNode | any)  
+- **param** (string \| number[] \| XmlNode \| any)  
 
 
 ---
 
 #### loadDocument
 
-**loadDocument**(**param**: string | number[] | any): void
+**loadDocument**(**param**: string \| number[] \| any): void
 
 **Parameters**
 
-- **param** (string | number[] | any)  
+- **param** (string \| number[] \| any)  
 
 
 ---
@@ -787,11 +787,11 @@ Returns unique key to this application.
 
 #### loadEditableFields
 
-**loadEditableFields**(**param**: string | XmlNode): [StiReport](StiReport.md)
+**loadEditableFields**(**param**: string \| XmlNode): [StiReport](StiReport.md)
 
 **Parameters**
 
-- **param** (string | XmlNode)  
+- **param** (string \| XmlNode)  
 
 **Returns** [StiReport](StiReport.md)
 
@@ -813,11 +813,11 @@ Returns unique key to this application.
 
 #### loadEncryptedDocument
 
-**loadEncryptedDocument**(**param**: string | number[] | any, **key**: string): void
+**loadEncryptedDocument**(**param**: string \| number[] \| any, **key**: string): void
 
 **Parameters**
 
-- **param** (string | number[] | any)  
+- **param** (string \| number[] \| any)  
 - **key** (string)  
 
 
@@ -837,11 +837,11 @@ Returns unique key to this application.
 
 #### loadEncryptedReport
 
-**loadEncryptedReport**(**param**: string | number[] | any, **key**: string): void
+**loadEncryptedReport**(**param**: string \| number[] \| any, **key**: string): void
 
 **Parameters**
 
-- **param** (string | number[] | any)  
+- **param** (string \| number[] \| any)  
 - **key** (string)  
 
 
@@ -872,22 +872,22 @@ Returns unique key to this application.
 
 #### loadPacked
 
-**loadPacked**(**param**: string | number[] | any): void
+**loadPacked**(**param**: string \| number[] \| any): void
 
 **Parameters**
 
-- **param** (string | number[] | any)  
+- **param** (string \| number[] \| any)  
 
 
 ---
 
 #### loadPackedDocument
 
-**loadPackedDocument**(**param**: string | number[] | any): void
+**loadPackedDocument**(**param**: string \| number[] \| any): void
 
 **Parameters**
 
-- **param** (string | number[] | any)  
+- **param** (string \| number[] \| any)  
 
 
 ---
@@ -1028,11 +1028,11 @@ Returns unique key to this application.
 
 #### regBusinessObject
 
-**regBusinessObject**(**businessObjects**: [StiBusinessObjectData](Dictionary/StiBusinessObjectData.md)[]): void
+**regBusinessObject**(**businessObjects**: [StiBusinessObjectData](../Stimulsoft_Report_Dictionary/StiBusinessObjectData.md)[]): void
 
 **Parameters**
 
-- **businessObjects** ([StiBusinessObjectData](Dictionary/StiBusinessObjectData.md)[])  
+- **businessObjects** ([StiBusinessObjectData](../Stimulsoft_Report_Dictionary/StiBusinessObjectData.md)[])  
 
 
 ---
@@ -1053,14 +1053,14 @@ Returns unique key to this application.
 
 #### regCsvData
 
-**regCsvData**(**name**: string, **data**: number[] | string, **synchronize**: any): StiDatabase
+**regCsvData**(**name**: string, **data**: number[] \| string, **synchronize**: any): StiDatabase
 
 Registers a new connection to the CSV data file.
 
 **Parameters**
 
 - **name** (string)  
-- **data** (number[] | string)  
+- **data** (number[] \| string)  
 - **synchronize** (any)  
 
 **Returns** StiDatabase — The created connection in the dictionary.
@@ -1087,13 +1087,13 @@ Registers a new connection to the CSV data file.
 
 #### regData
 
-**regData**(**name**: string, **alias**: string, **data**: DataTable | DataSet | StiDataCollection | string | any, **synchronize**: any): void
+**regData**(**name**: string, **alias**: string, **data**: DataTable \| DataSet \| StiDataCollection \| string \| any, **synchronize**: any): void
 
 **Parameters**
 
 - **name** (string)  
 - **alias** (string)  
-- **data** (DataTable | DataSet | StiDataCollection | string | any)  
+- **data** (DataTable \| DataSet \| StiDataCollection \| string \| any)  
 - **synchronize** (any)  
 
 
@@ -1101,14 +1101,14 @@ Registers a new connection to the CSV data file.
 
 #### regDbfData
 
-**regDbfData**(**name**: string, **data**: number[] | string, **synchronize**: any): StiDatabase
+**regDbfData**(**name**: string, **data**: number[] \| string, **synchronize**: any): StiDatabase
 
 Registers a new connection to the DBF data file.
 
 **Parameters**
 
 - **name** (string)  
-- **data** (number[] | string)  
+- **data** (number[] \| string)  
 - **synchronize** (any)  
 
 **Returns** StiDatabase — The created connection in the dictionary.
@@ -1135,14 +1135,14 @@ Registers a new connection to the DBF data file.
 
 #### regExcelData
 
-**regExcelData**(**name**: string, **data**: number[] | string, **synchronize**: any): StiDatabase
+**regExcelData**(**name**: string, **data**: number[] \| string, **synchronize**: any): StiDatabase
 
 Registers a new connection to the EXCEL data file.
 
 **Parameters**
 
 - **name** (string)  
-- **data** (number[] | string)  
+- **data** (number[] \| string)  
 - **synchronize** (any)  
 
 **Returns** StiDatabase — The created connection in the dictionary.
@@ -1184,14 +1184,14 @@ Registers a new connection to the EXCEL data file.
 
 #### regJsonData
 
-**regJsonData**(**name**: string, **data**: number[] | string, **synchronize**: any): StiDatabase
+**regJsonData**(**name**: string, **data**: number[] \| string, **synchronize**: any): StiDatabase
 
 Registers a new connection to the JSON data file.
 
 **Parameters**
 
 - **name** (string)  
-- **data** (number[] | string)  
+- **data** (number[] \| string)  
 - **synchronize** (any)  
 
 **Returns** StiDatabase — The created connection in the dictionary.
@@ -1233,15 +1233,15 @@ Registers a new connection to the JSON data file.
 
 #### regObjectData
 
-**regObjectData**(**name**: string, **fileType**: [StiResourceType](Dictionary/StiResourceType.md), **data**: number[] | string, **synchronize**: any): StiDatabase
+**regObjectData**(**name**: string, **fileType**: [StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md), **data**: number[] \| string, **synchronize**: any): StiDatabase
 
 Registers a new connection to the specified data.
 
 **Parameters**
 
 - **name** (string)  
-- **fileType** ([StiResourceType](Dictionary/StiResourceType.md))  
-- **data** (number[] | string)  
+- **fileType** ([StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md))  
+- **data** (number[] \| string)  
 - **synchronize** (any)  
 
 **Returns** StiDatabase — The created connection in the dictionary.
@@ -1296,15 +1296,15 @@ Registers a new connection to the specified data.
 
 #### regXmlData
 
-**regXmlData**(**name**: string, **schema**: number[] | string, **data**: number[] | string, **synchronize**: any): StiDatabase
+**regXmlData**(**name**: string, **schema**: number[] \| string, **data**: number[] \| string, **synchronize**: any): StiDatabase
 
 Registers a new connection to the XML data file.
 
 **Parameters**
 
 - **name** (string)  
-- **schema** (number[] | string)  
-- **data** (number[] | string)  
+- **schema** (number[] \| string)  
+- **data** (number[] \| string)  
 - **synchronize** (any)  
 
 **Returns** StiDatabase — The created connection in the dictionary.
@@ -1719,3 +1719,223 @@ Saves a report template with embedded data
 
 - **str** (string)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **_totalPageCountValue** | any |  |
+| **allowScriptsInExpressions** | any | Specifies whether scripts can be used in expressions. You can write a script with 'return' statement in any expression if true. |
+| **allowScriptsToRun** | any | Specifies whether scripts can be run in Interpretation mode. In Compilation mode, scripts are compiled and run unconditionally. |
+| **autoLocalizeReportOnRun** | any |  |
+| **beginRenderEvent** | [StiEvent](../Stimulsoft_Report_Events/StiEvent.md) |  |
+| **bookmarkValue** | [StiBookmark](../Stimulsoft_Report_Components/StiBookmark.md) |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **cacheAllData** | any |  |
+| **cacheTotals** | any |  |
+| **cachedTotals** | [Hashtable](../Stimulsoft_System_Collections/Hashtable.md) |  |
+| **cachedTotalsLocked** | any |  |
+| **callback** | () |  |
+| **collectionName** | any |  |
+| **column** | any |  |
+| **compiledReport** | [StiReport](StiReport.md) |  |
+| **containsTables** | any |  |
+| **convertNulls** | any | Gets or sets value which shows whether it is necessary to convert null or DBNull. |
+| **cultureInfo** | any |  |
+| **currentPage** | any |  |
+| **currentPrintPage** | any |  |
+| **dashboard** | any |  |
+| **dashboardViewerSettings** | [StiDashboardViewerSettings](StiDashboardViewerSettings.md) |  |
+| **designer** | [IStiDesignerBase](../Stimulsoft_Report_Design/IStiDesignerBase.md) | Gets a report designer. |
+| **dest** | any |  |
+| **dest** | any |  |
+| **dest** | any |  |
+| **dest** | any |  |
+| **endRenderEvent** | [StiEvent](../Stimulsoft_Report_Events/StiEvent.md) |  |
+| **engine** | [StiEngine](../Stimulsoft_Report_Engine/StiEngine.md) |  |
+| **exception** | any |  |
+| **exportedEvent** | [StiEvent](../Stimulsoft_Report_Events/StiEvent.md) |  |
+| **exportingEvent** | [StiEvent](../Stimulsoft_Report_Events/StiEvent.md) |  |
+| **fieldsString** | any |  |
+| **getSubReport** | [StiEvent](../Stimulsoft_Report_Events/StiEvent.md) |  |
+| **globalizationManager** | [IStiGlobalizationManager](IStiGlobalizationManager.md) |  |
+| **globalizationStrings** | StiGlobalizationContainerCollection |  |
+| **groupLine** | any |  |
+| **hasPages** | any |  |
+| **hasPages** | any |  |
+| **hasPages** | any |  |
+| **htmlPreviewMode** | any | Specifies the HTML mode which is used for viewing report in the webviewer. |
+| **httpHeadersContainer** | [Header](../Stimulsoft_System/Header.md)[] |  |
+| **imageCache** | [Hashtable](../Stimulsoft_System_Collections/Hashtable.md) |  |
+| **indexName** | any | Internal use only. |
+| **interactionCollapsingStates** | any |  |
+| **isCatch** | any |  |
+| **isDocument** | any |  |
+| **isEvenStyleDataBand** | any |  |
+| **isExporting** | any |  |
+| **isInteractionRendering** | any |  |
+| **isLocalized** | any |  |
+| **isLocalized** | any |  |
+| **isLocalized** | any |  |
+| **isOddStyleDataBand** | any |  |
+| **isPageDesigner** | any |  |
+| **isRendered** | any |  |
+| **isRendering** | any |  |
+| **isReportRenderingAfterSubmit** | boolean | Internal use only. |
+| **isSerializing** | any |  |
+| **isStopped** | any |  |
+| **jsonLoaderHelper** | [StiJsonLoaderHelper](StiJsonLoaderHelper.md) |  |
+| **key** | string | Gets or sets the report key. |
+| **licenseKey** | string |  |
+| **line** | any |  |
+| **lineThrough** | any |  |
+| **masterReport** | any |  |
+| **metaTags** | StiMetaTagCollection |  |
+| **modifiedVariables** | [Hashtable](../Stimulsoft_System_Collections/Hashtable.md) |  |
+| **onBeginRender** | () |  |
+| **onEndRender** | () |  |
+| **onExportCalled** | any |  |
+| **onExportCalled** | any |  |
+| **onPrinting** | () |  |
+| **onRefreshing** | () |  |
+| **onRendering** | () |  |
+| **pageCopyNumber** | any |  |
+| **pageNofMLocalizationString** | string |  |
+| **pageRange** | any |  |
+| **pagesXmlNode** | any |  |
+| **param** | any |  |
+| **param** | any |  |
+| **param** | any |  |
+| **param** | any |  |
+| **param** | any |  |
+| **parameterAlignment** | any |  |
+| **parametersDisplayMode** | any |  |
+| **parametersOrientation** | any |  |
+| **parentReport** | [StiReport](StiReport.md) |  |
+| **password** | string |  |
+| **preparedExportImages** | [Hashtable](../Stimulsoft_System_Collections/Hashtable.md)<StiComponent, [Image](../Stimulsoft_System_Drawing/Image.md)> |  |
+| **previewSettings** | number |  |
+| **previewToolBarOptions** | [StiPreviewToolBarOptions](StiPreviewToolBarOptions.md) |  |
+| **printFrame** | any |  |
+| **printFrame** | any |  |
+| **printedEvent** | [StiEvent](../Stimulsoft_Report_Events/StiEvent.md) |  |
+| **printingEvent** | [StiEvent](../Stimulsoft_Report_Events/StiEvent.md) |  |
+| **refreshingEvent** | [StiEvent](../Stimulsoft_Report_Events/StiEvent.md) |  |
+| **renderedWith** | any | Gets or sets a technology a report was rendered with. |
+| **renderingEvent** | [StiEvent](../Stimulsoft_Report_Events/StiEvent.md) |  |
+| **reportAlias** | any |  |
+| **reportAuthor** | any |  |
+| **reportCacheMode** | any |  |
+| **reportCachePath** | any | Gets path to the report cache path. Path can't be changed. |
+| **reportCacheProcessingEvent** | [StiEvent](../Stimulsoft_Report_Events/StiEvent.md) |  |
+| **reportChanged** | [DateTime](../Stimulsoft_System/DateTime.md) |  |
+| **reportComps** | any |  |
+| **reportComps** | any |  |
+| **reportCreated** | [DateTime](../Stimulsoft_System/DateTime.md) |  |
+| **reportDescription** | any |  |
+| **reportFile** | any |  |
+| **reportFilePath** | any |  |
+| **reportGuid** | string |  |
+| **reportIcon** | string | Gets or sets a report icon. |
+| **reportImage** | string | Gets or sets a report image. |
+| **reportPass** | [StiReportPass](StiReportPass.md) |  |
+| **reportVersion** | any |  |
+| **requestParameters** | any |  |
+| **retrieveOnlyUsedData** | any |  |
+| **returnType** | any |  |
+| **returnType** | any |  |
+| **settings** | any |  |
+| **settings** | any |  |
+| **startPageNumber** | any |  |
+| **startPageNumber** | any |  |
+| **storeCrossPrimitivesConditions** | any |  |
+| **storeCrossPrimitivesConditions** | any |  |
+| **storeImagesInResources** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **streamResult** | any |  |
+| **subReports** | StiReportsCollection |  |
+| **subReportsMasterReport** | [StiReport](StiReport.md) | The master report for subreports. Do not use this field. |
+| **subReportsPrintOnPreviousPage** | any |  |
+| **subReportsResetPageNumber** | any |  |
+| **subReportsUrls** | [Hashtable](../Stimulsoft_System_Collections/Hashtable.md) |  |
+| **tag** | any |  |
+| **unPack** | any |  |
+| **unPack** | any |  |
+| **usePlatformDependentScript** | any | Specifies whether to use a dependent script or not. If true, then script is executed in C# script on .NET Framework and in JS script on JS platforms. |
+| **value** | any |  |
+| **value** | any |  |
+| **variable** | any |  |
+| **variable** | any |  |
+| **variables** | [Hashtable](../Stimulsoft_System_Collections/Hashtable.md)<string, any> |  |

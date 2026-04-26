@@ -197,3 +197,17 @@ Implements: Function
 
 - **type** ([Type](Type.md))  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **arguments** | any |  |
+| **caller** | Function |  |
+| **length** | number |  |
+| **name** | string |  |
+| **prototype** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |
+| **type** | any |  |

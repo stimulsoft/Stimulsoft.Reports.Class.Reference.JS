@@ -10,8 +10,8 @@ title: "StiHeatmapHelper Class"
 
 | Method | Returns | Description |
 | --- | --- | --- |
-| **getColorAtOffset** `static` | [Color](../Stimulsoft_System/Drawing/Color.md) |  |
-| **getColorFromRange** `static` | [Color](../Stimulsoft_System/Drawing/Color.md) |  |
+| **getColorAtOffset** `static` | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
+| **getColorFromRange** `static` | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
 | **getLinearGradientPoints** `static` | number[] |  |
 | **interpolate** `static` | number |  |
 
@@ -21,31 +21,31 @@ title: "StiHeatmapHelper Class"
 
 #### getColorAtOffset `static`
 
-**getColorAtOffset**(**colors**: [Color](../Stimulsoft_System/Drawing/Color.md)[], **offsets**: number[], **targetOffset**: number): [Color](../Stimulsoft_System/Drawing/Color.md)
+**getColorAtOffset**(**colors**: [Color](../Stimulsoft_System_Drawing/Color.md)[], **offsets**: number[], **targetOffset**: number): [Color](../Stimulsoft_System_Drawing/Color.md)
 
 **Parameters**
 
-- **colors** ([Color](../Stimulsoft_System/Drawing/Color.md)[])  
+- **colors** ([Color](../Stimulsoft_System_Drawing/Color.md)[])  
 - **offsets** (number[])  
 - **targetOffset** (number)  
 
-**Returns** [Color](../Stimulsoft_System/Drawing/Color.md)
+**Returns** [Color](../Stimulsoft_System_Drawing/Color.md)
 
 
 ---
 
 #### getColorFromRange `static`
 
-**getColorFromRange**(**colors**: [Color](../Stimulsoft_System/Drawing/Color.md)[], **min**: number, **max**: number, **value**: number): [Color](../Stimulsoft_System/Drawing/Color.md)
+**getColorFromRange**(**colors**: [Color](../Stimulsoft_System_Drawing/Color.md)[], **min**: number, **max**: number, **value**: number): [Color](../Stimulsoft_System_Drawing/Color.md)
 
 **Parameters**
 
-- **colors** ([Color](../Stimulsoft_System/Drawing/Color.md)[])  
+- **colors** ([Color](../Stimulsoft_System_Drawing/Color.md)[])  
 - **min** (number)  
 - **max** (number)  
 - **value** (number)  
 
-**Returns** [Color](../Stimulsoft_System/Drawing/Color.md)
+**Returns** [Color](../Stimulsoft_System_Drawing/Color.md)
 
 
 ---
@@ -75,3 +75,12 @@ title: "StiHeatmapHelper Class"
 
 **Returns** number
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **endColor** | any |  |
+| **endOffset** | any |  |
+| **startColor** | any |  |
+| **startOffset** | any |  |

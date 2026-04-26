@@ -12,15 +12,15 @@ Class describes Token.
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([StiTokenType](../Stimulsoft_Report/Engine/StiTokenType.md) type, any index, any length, any obj) | Creates an object of the type StiToken that contains an object. |
+| **constructor**([StiTokenType](../Stimulsoft_Report_Engine/StiTokenType.md) type, any index, any length, any obj) | Creates an object of the type StiToken that contains an object. |
 
-**constructor**(**type**: [StiTokenType](../Stimulsoft_Report/Engine/StiTokenType.md), **index**: any, **length**: any, **obj**: any)
+**constructor**(**type**: [StiTokenType](../Stimulsoft_Report_Engine/StiTokenType.md), **index**: any, **length**: any, **obj**: any)
 
 Creates an object of the type StiToken that contains an object.
 
 **Parameters**
 
-- **type** ([StiTokenType](../Stimulsoft_Report/Engine/StiTokenType.md)) — Type Token  
+- **type** ([StiTokenType](../Stimulsoft_Report_Engine/StiTokenType.md)) — Type Token  
 - **index** (any) — The Beginning Token in text.  
 - **length** (any) — The Length Token.  
 - **obj** (any) — Object for initializing.  
@@ -166,3 +166,12 @@ Creates an object of the type StiToken that contains an object.
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **data** | string | Gets or sets Value of the identifier. |
+| **index** | number | Gets or sets value indicates the beginning of token in text. |
+| **length** | number | Gets or sets value indicates the length of token. |
+| **type** | [StiTokenType](../Stimulsoft_Report_Engine/StiTokenType.md) | Gets or sets value indicates the type of token. |

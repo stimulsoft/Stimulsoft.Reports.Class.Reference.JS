@@ -138,3 +138,10 @@ title: "StiKeyHelper Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **key1** | any |  |
+| **key2** | any |  |

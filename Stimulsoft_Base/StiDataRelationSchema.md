@@ -22,3 +22,13 @@ title: "StiDataRelationSchema Class"
 - **parentColumns** (string[])  
 - **childColumns** (string[])  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **childColumns** | string[] |  |
+| **childSourceName** | string |  |
+| **name** | string |  |
+| **parentColumns** | string[] |  |
+| **parentSourceName** | string |  |

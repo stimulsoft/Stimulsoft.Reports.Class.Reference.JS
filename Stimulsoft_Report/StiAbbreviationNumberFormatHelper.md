@@ -89,3 +89,25 @@ title: "StiAbbreviationNumberFormatHelper Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **currentCulture** | any |  |
+| **decimalDigits** | any |  |
+| **decimalDigits** | any |  |
+| **delta** | any |  |
+| **negative** | any |  |
+| **postfix** | any |  |
+| **postfixes** | any |  |
+| **postfixes** | any |  |
+| **postfixes** | any |  |
+| **postfixes** | any |  |
+| **postfixes** | any |  |
+| **result** | any |  |
+| **result** | any |  |
+| **result** | any |  |
+| **result** | any |  |
+| **result** | any |  |
+| **value** | any |  |

@@ -40,3 +40,9 @@ title: "StiTableOfContentsHelper Class"
 - **param** (any)  
 - **callbackResult** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **strs** | any |  |

@@ -54,3 +54,14 @@ title: "StiRuntimeVariables Class"
 
 - **report** ([StiReport](StiReport.md))  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **column** | number |  |
+| **dataSourcesPosition** | [Hashtable](../Stimulsoft_System_Collections/Hashtable.md) |  |
+| **line** | number |  |
+| **lineThrough** | number |  |
+| **page** | StiPage |  |
+| **textBox** | StiSimpleText |  |

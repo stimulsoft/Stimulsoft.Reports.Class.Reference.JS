@@ -15,13 +15,13 @@ title: "IStiBIDataCache Interface"
 | **cleanAll** | void |  |
 | **exists** | boolean |  |
 | **exists2** | boolean |  |
-| **getData** | [DataTable](../Stimulsoft_System/Data/DataTable.md) |  |
+| **getData** | [DataTable](../Stimulsoft_System_Data/DataTable.md) |  |
 | **getRowCount** | number |  |
-| **getSchema** | [DataTable](../Stimulsoft_System/Data/DataTable.md) |  |
+| **getSchema** | [DataTable](../Stimulsoft_System_Data/DataTable.md) |  |
 | **getTableCount** | number |  |
 | **getTableName** | string |  |
 | **remove** | void |  |
-| **runQuery** | [DataTable](../Stimulsoft_System/Data/DataTable.md) |  |
+| **runQuery** | [DataTable](../Stimulsoft_System_Data/DataTable.md) |  |
 
 ---
 
@@ -29,13 +29,13 @@ title: "IStiBIDataCache Interface"
 
 #### add
 
-**add**(**appKey**: string, **tableKey**: string, **dataTable**: [DataTable](../Stimulsoft_System/Data/DataTable.md)): void
+**add**(**appKey**: string, **tableKey**: string, **dataTable**: [DataTable](../Stimulsoft_System_Data/DataTable.md)): void
 
 **Parameters**
 
 - **appKey** (string)  
 - **tableKey** (string)  
-- **dataTable** ([DataTable](../Stimulsoft_System/Data/DataTable.md))  
+- **dataTable** ([DataTable](../Stimulsoft_System_Data/DataTable.md))  
 
 
 ---
@@ -86,13 +86,13 @@ title: "IStiBIDataCache Interface"
 
 #### getData
 
-**getData**(**tableKey**: string): [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**getData**(**tableKey**: string): [DataTable](../Stimulsoft_System_Data/DataTable.md)
 
 **Parameters**
 
 - **tableKey** (string)  
 
-**Returns** [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**Returns** [DataTable](../Stimulsoft_System_Data/DataTable.md)
 
 
 ---
@@ -112,13 +112,13 @@ title: "IStiBIDataCache Interface"
 
 #### getSchema
 
-**getSchema**(**tableKey**: string): [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**getSchema**(**tableKey**: string): [DataTable](../Stimulsoft_System_Data/DataTable.md)
 
 **Parameters**
 
 - **tableKey** (string)  
 
-**Returns** [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**Returns** [DataTable](../Stimulsoft_System_Data/DataTable.md)
 
 
 ---
@@ -159,11 +159,11 @@ title: "IStiBIDataCache Interface"
 
 #### runQuery
 
-**runQuery**(**query**: string): [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**runQuery**(**query**: string): [DataTable](../Stimulsoft_System_Data/DataTable.md)
 
 **Parameters**
 
 - **query** (string)  
 
-**Returns** [DataTable](../Stimulsoft_System/Data/DataTable.md)
+**Returns** [DataTable](../Stimulsoft_System_Data/DataTable.md)
 

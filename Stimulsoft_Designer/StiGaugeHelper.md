@@ -99,3 +99,10 @@ title: "StiGaugeHelper Class"
 - **param** (any)  
 - **callbackResult** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **gaugeCloned** | any |  |
+| **gaugeCloned** | any |  |

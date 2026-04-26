@@ -43,3 +43,9 @@ title: "StiLicense Class"
 
 - **licenseKey** (string)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **newLicenseKey** | any |  |

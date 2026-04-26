@@ -4,23 +4,23 @@ title: "DFA7 Class"
 
 ## DFA7 Class
 
-**Namespace:** ``
+**Namespace:** `Stimulsoft.Data`
 
 ### Inheritance
 
-Inherits from: [DFA](Expressions/Antlr/Runtime/DFA.md)  
+Inherits from: [DFA](../Stimulsoft_Data_Expressions_Antlr_Runtime/DFA.md)  
 
 ### Constructors
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([BaseRecognizer](Expressions/Antlr/Runtime/BaseRecognizer.md) recognizer) |  |
+| **constructor**([BaseRecognizer](../Stimulsoft_Data_Expressions_Antlr_Runtime/BaseRecognizer.md) recognizer) |  |
 
-**constructor**(**recognizer**: [BaseRecognizer](Expressions/Antlr/Runtime/BaseRecognizer.md))
+**constructor**(**recognizer**: [BaseRecognizer](../Stimulsoft_Data_Expressions_Antlr_Runtime/BaseRecognizer.md))
 
 **Parameters**
 
-- **recognizer** ([BaseRecognizer](Expressions/Antlr/Runtime/BaseRecognizer.md))  
+- **recognizer** ([BaseRecognizer](../Stimulsoft_Data_Expressions_Antlr_Runtime/BaseRecognizer.md))  
 
 
 ### Methods
@@ -49,3 +49,9 @@ Inherits from: [DFA](Expressions/Antlr/Runtime/DFA.md)
 
 **initialize**(): void
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **description** | any |  |

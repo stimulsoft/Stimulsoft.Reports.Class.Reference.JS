@@ -33,11 +33,11 @@ title: "StiConditionsHelper Class"
 
 #### setConditions `static`
 
-**setConditions**(**comps**: StiComponentsCollection, **conditions**: StiConditionsCollection, **globalConditions**: [Hashtable](../Stimulsoft_System/Collections/Hashtable.md)): void
+**setConditions**(**comps**: StiComponentsCollection, **conditions**: StiConditionsCollection, **globalConditions**: [Hashtable](../Stimulsoft_System_Collections/Hashtable.md)): void
 
 **Parameters**
 
 - **comps** (StiComponentsCollection)  
 - **conditions** (StiConditionsCollection)  
-- **globalConditions** ([Hashtable](../Stimulsoft_System/Collections/Hashtable.md))  
+- **globalConditions** ([Hashtable](../Stimulsoft_System_Collections/Hashtable.md))  
 

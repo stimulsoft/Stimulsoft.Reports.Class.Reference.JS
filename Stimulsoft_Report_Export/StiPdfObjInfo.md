@@ -36,3 +36,10 @@ title: "StiPdfObjInfo Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **info** | [StiPdfStructure](StiPdfStructure.md) |  |
+| **ref** | any |  |

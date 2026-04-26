@@ -48,11 +48,11 @@ title: "TimeSpan Class"
 
 #### add
 
-**add**(**value**: number | TimeSpan): [TimeSpan](TimeSpan.md)
+**add**(**value**: number \| TimeSpan): [TimeSpan](TimeSpan.md)
 
 **Parameters**
 
-- **value** (number | TimeSpan)  
+- **value** (number \| TimeSpan)  
 
 **Returns** [TimeSpan](TimeSpan.md)
 
@@ -210,3 +210,23 @@ title: "TimeSpan Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **days** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **format** | any |  |
+| **milliseconds** | any |  |
+| **seconds** | any |  |
+| **seconds** | any |  |
+| **ticks** | number |  |
+| **timePart** | any |  |

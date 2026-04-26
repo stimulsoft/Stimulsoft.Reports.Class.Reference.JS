@@ -98,7 +98,7 @@ Implements: [IAsIs](IAsIs.md)
 | **toBoolean** | boolean |  |
 | **toBytesArray** | number[] |  |
 | **toDictionary** | Stimulsoft.System.Collections.Dictionary<K, V> |  |
-| **toList** | [Stimulsoft.System.Collections.Generic.List](Collections/Generic/List.md)<T> |  |
+| **toList** | [Stimulsoft.System.Collections.Generic.List](../Stimulsoft_System_Collections_Generic/List.md)<T> |  |
 | **toLower** | string |  |
 | **toLowerFirst** | string |  |
 | **toNumber** *(+2 overloads)* | number |  |
@@ -536,11 +536,11 @@ Returns distinct elements from a sequence by using the default equality comparer
 
 #### getMethods
 
-**getMethods**(**bindingAttr**: [BindingFlags](Reflection/BindingFlags.md)): string[]
+**getMethods**(**bindingAttr**: [BindingFlags](../Stimulsoft_System_Reflection/BindingFlags.md)): string[]
 
 **Parameters**
 
-- **bindingAttr** ([BindingFlags](Reflection/BindingFlags.md))  
+- **bindingAttr** ([BindingFlags](../Stimulsoft_System_Reflection/BindingFlags.md))  
 
 **Returns** string[]
 
@@ -1012,11 +1012,11 @@ Sorts the elements of a sequence in ascending order according to a key or by usi
 
 #### sort2
 
-**sort2**(**comparer**: [Stimulsoft.System.Collections.IComparer](Collections/IComparer.md)<any>): any[]
+**sort2**(**comparer**: [Stimulsoft.System.Collections.IComparer](../Stimulsoft_System_Collections/IComparer.md)<any>): any[]
 
 **Parameters**
 
-- **comparer** ([Stimulsoft.System.Collections.IComparer](Collections/IComparer.md)<any>)  
+- **comparer** ([Stimulsoft.System.Collections.IComparer](../Stimulsoft_System_Collections/IComparer.md)<any>)  
 
 **Returns** any[]
 
@@ -1131,9 +1131,9 @@ invoking a transform function on each element of the input sequence.
 
 #### toList
 
-**toList**(): [Stimulsoft.System.Collections.Generic.List](Collections/Generic/List.md)<T>
+**toList**(): [Stimulsoft.System.Collections.Generic.List](../Stimulsoft_System_Collections_Generic/List.md)<T>
 
-**Returns** [Stimulsoft.System.Collections.Generic.List](Collections/Generic/List.md)<T>
+**Returns** [Stimulsoft.System.Collections.Generic.List](../Stimulsoft_System_Collections_Generic/List.md)<T>
 
 
 ---
@@ -1238,3 +1238,46 @@ invoking a transform function on each element of the input sequence.
 
 **Returns** T[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **0xffffffff** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **acc** | any |  |
+| **c** | any |  |
+| **c2** | any |  |
+| **c2** | any |  |
+| **c3** | any |  |
+| **current** | any |  |
+| **event_types** | any |  |
+| **hashCode** | any |  |
+| **lane** | any |  |
+| **lastIndexOf** | any |  |
+| **max** | any |  |
+| **methods** | any |  |
+| **methods** | any |  |
+| **min** | any |  |
+| **regex** | any |  |
+| **result** | any |  |
+| **result** | any |  |
+| **result** | any |  |
+| **startpos** | any |  |
+| **startpos** | any |  |
+| **value** | any |  |
+| **value** | (view |  |
+| **value** | any |  |
+| **value** | any |  |

@@ -52,3 +52,12 @@ title: "StiInsertionComponents Class"
 - **currentPage** (StiPage)  
 - **group** (StiGroup)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **minX** | any |  |
+| **minX** | any |  |
+| **minY** | any |  |
+| **minY** | any |  |

@@ -67,3 +67,10 @@ title: "ByteArray Class"
 
 - **string** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **bin** | any |  |
+| **chr** | any |  |

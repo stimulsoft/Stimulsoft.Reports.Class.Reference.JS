@@ -160,3 +160,12 @@ Implements: [IExternalObjectsProvider](../Stimulsoft_Base/IExternalObjectsProvid
 - **name** (string)  
 - **value** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **parentName** | any |  |
+| **parentName** | any |  |
+| **parentName** | any |  |
+| **parentName** | any |  |

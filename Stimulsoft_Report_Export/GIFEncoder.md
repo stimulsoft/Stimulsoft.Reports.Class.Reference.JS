@@ -283,3 +283,42 @@ title: "GIFEncoder Class"
 
 **writePixels**(): void
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **closeStream** | any |  |
+| **colorDepth** | any |  |
+| **colorTab** | any |  |
+| **comment** | any |  |
+| **delay** | any |  |
+| **disp** | any |  |
+| **disp** | any |  |
+| **dispose** | any |  |
+| **dmin** | any |  |
+| **exports** | any |  |
+| **filename** | any |  |
+| **firstFrame** | any |  |
+| **height** | any |  |
+| **image** | any |  |
+| **indexedPixels** | any |  |
+| **minpos** | any |  |
+| **ok** | any |  |
+| **ok** | any |  |
+| **ok** | any |  |
+| **ok** | any |  |
+| **ok** | any |  |
+| **out** | any |  |
+| **palSize** | any |  |
+| **pixels** | any |  |
+| **repeat** | any |  |
+| **sample** | any |  |
+| **sizeSet** | any |  |
+| **started** | any |  |
+| **transIndex** | any |  |
+| **transp** | any |  |
+| **transp** | any |  |
+| **transparent** | any |  |
+| **usedEntry** | any |  |
+| **width** | any |  |

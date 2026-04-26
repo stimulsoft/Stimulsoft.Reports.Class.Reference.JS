@@ -8,7 +8,7 @@ title: "StiStripPositionXF Class"
 
 ### Inheritance
 
-Implements: [IStiStripPositionXF](../Stimulsoft_Report/Chart/IStiStripPositionXF.md)  
+Implements: [IStiStripPositionXF](IStiStripPositionXF.md)  
 
 ### Methods
 
@@ -26,3 +26,10 @@ Implements: [IStiStripPositionXF](../Stimulsoft_Report/Chart/IStiStripPositionXF
 
 **Returns** any[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **position** | number |  |
+| **stripLine** | [StiStripLineXF](StiStripLineXF.md) |  |

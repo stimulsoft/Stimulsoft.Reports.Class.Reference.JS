@@ -8,7 +8,7 @@ title: "StiChartFilter Class"
 
 ### Inheritance
 
-Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonReportObject.md)  
+Implements: [IStiJsonReportObject](../Stimulsoft_Base_JsonReportObject/IStiJsonReportObject.md)  
 
 ### Properties
 
@@ -25,7 +25,7 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 | **implements** | any[] |  |
 | **loadFromJsonObject** | void |  |
 | **loadFromXml** | void |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 | **toString** | string |  |
 
@@ -64,20 +64,20 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 #### loadFromXml
 
-**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xn** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xn** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---
@@ -106,4 +106,18 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 | Field | Type | Description |
 | --- | --- | --- |
-| **_hash** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **ICloneable** | any |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **condition** | [StiFilterCondition](../Stimulsoft_Dashboard/StiFilterCondition.md) |  |
+| **condition** | [StiFilterCondition](../Stimulsoft_Dashboard/StiFilterCondition.md) |  |
+| **dataType** | [StiFilterDataType](../Stimulsoft_Dashboard/StiFilterDataType.md) |  |
+| **filters** | StiChartFiltersCollection |  |
+| **item** | [StiFilterItem](../Stimulsoft_Dashboard/StiFilterItem.md) |  |
+| **item** | any |  |
+| **item** | any |  |
+| **sign** | any |  |
+| **sign** | any |  |
+| **sign** | any |  |
+| **sign** | any |  |
+| **sign** | any |  |
+| **sign** | any |  |

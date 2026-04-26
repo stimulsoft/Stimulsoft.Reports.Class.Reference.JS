@@ -4,7 +4,7 @@ title: "DataXF Class"
 
 ## DataXF Class
 
-**Namespace:** ``
+**Namespace:** `Stimulsoft.Report.Export`
 
 ### Methods
 
@@ -26,3 +26,20 @@ title: "DataXF Class"
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **BorderIndex** | number |  |
+| **Editable** | boolean |  |
+| **Editable** | boolean) |  |
+| **FillIndex** | number |  |
+| **FontIndex** | number |  |
+| **FormatIndex** | number |  |
+| **HorAlign** | [StiTextHorAlignment](../Stimulsoft_Base_Drawing/StiTextHorAlignment.md) |  |
+| **RightToLeft** | boolean |  |
+| **TextRotationAngle** | number |  |
+| **TextWrapped** | boolean |  |
+| **VertAlign** | [StiVertAlignment](../Stimulsoft_Base_Drawing/StiVertAlignment.md) |  |
+| **XFId** | number |  |

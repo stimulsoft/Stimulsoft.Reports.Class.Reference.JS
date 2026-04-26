@@ -92,12 +92,12 @@ title: "Enum Class"
 
 #### isDefined `static`
 
-**isDefined**(**enumType**: any, **value**: string | number): boolean
+**isDefined**(**enumType**: any, **value**: string \| number): boolean
 
 **Parameters**
 
 - **enumType** (any)  
-- **value** (string | number)  
+- **value** (string \| number)  
 
 **Returns** boolean
 
@@ -119,12 +119,12 @@ title: "Enum Class"
 
 #### parse `static`
 
-**parse**(**enumType**: any, **value**: string | number, **upperFirstChar**: any): number
+**parse**(**enumType**: any, **value**: string \| number, **upperFirstChar**: any): number
 
 **Parameters**
 
 - **enumType** (any)  
-- **value** (string | number)  
+- **value** (string \| number)  
 - **upperFirstChar** (any)  
 
 **Returns** number
@@ -138,3 +138,11 @@ title: "Enum Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **name** | string |  |
+| **str** | any |  |
+| **value** | number |  |

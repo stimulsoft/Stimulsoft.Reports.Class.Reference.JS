@@ -32,11 +32,11 @@ title: "StiFontResourceHelper Class"
 
 #### getBase64DataForCssFromResourceContent `static`
 
-**getBase64DataForCssFromResourceContent**(**resourceType**: [StiResourceType](../Stimulsoft_Report/Dictionary/StiResourceType.md), **content**: number[]): string
+**getBase64DataForCssFromResourceContent**(**resourceType**: [StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md), **content**: number[]): string
 
 **Parameters**
 
-- **resourceType** ([StiResourceType](../Stimulsoft_Report/Dictionary/StiResourceType.md))  
+- **resourceType** ([StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md))  
 - **content** (number[])  
 
 **Returns** string

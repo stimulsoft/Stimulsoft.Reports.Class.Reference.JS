@@ -19,13 +19,13 @@ title: "StiTextContentHelper Class"
 
 #### getMeasureText `static`
 
-**getMeasureText**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **text**: string, **font**: [Font](../Stimulsoft_Base/Dashboard/Font.md), **maxWidth**: number): string
+**getMeasureText**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **text**: string, **font**: [Font](../Stimulsoft_Base_Dashboard/Font.md), **maxWidth**: number): string
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **text** (string)  
-- **font** ([Font](../Stimulsoft_Base/Dashboard/Font.md))  
+- **font** ([Font](../Stimulsoft_Base_Dashboard/Font.md))  
 - **maxWidth** (number)  
 
 **Returns** string
@@ -35,11 +35,11 @@ title: "StiTextContentHelper Class"
 
 #### getMeasureText2 `static`
 
-**getMeasureText2**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **text**: string, **font**: StiFontGeom, **maxWidth**: number): string
+**getMeasureText2**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **text**: string, **font**: StiFontGeom, **maxWidth**: number): string
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **text** (string)  
 - **font** (StiFontGeom)  
 - **maxWidth** (number)  

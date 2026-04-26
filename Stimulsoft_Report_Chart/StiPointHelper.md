@@ -91,3 +91,14 @@ title: "StiPointHelper Class"
 
 **Returns** PointD[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **lastY** | any |  |
+| **maxy** | any |  |
+| **maxy** | any |  |
+| **minx** | any |  |
+| **miny** | any |  |
+| **miny** | any |  |

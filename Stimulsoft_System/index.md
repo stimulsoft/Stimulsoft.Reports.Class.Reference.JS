@@ -17,6 +17,7 @@ title: "Stimulsoft.System Namespace"
 | [Convert](Convert.md) |  |
 | [DateOnly](DateOnly.md) |  |
 | [DateTime](DateTime.md) |  |
+| [Dayjs](Dayjs.md) |  |
 | [Decimal](Decimal.md) |  |
 | [Enum](Enum.md) |  |
 | [Environment](Environment.md) |  |
@@ -57,12 +58,15 @@ title: "Stimulsoft.System Namespace"
 
 | Name | Description |
 | --- | --- |
+| [ConfigTypeMap](ConfigTypeMap.md) |  |
+| [FormatObject](FormatObject.md) |  |
 | [IAsIs](IAsIs.md) |  |
 | [ICloneable](ICloneable.md) |  |
 | [IComparable](IComparable.md) |  |
 | [IDisposable](IDisposable.md) |  |
 | [IFormatProvider](IFormatProvider.md) |  |
 | [IRefOut](IRefOut.md) |  |
+| [ObjectConstructor](ObjectConstructor.md) |  |
 
 ### Enumerations
 

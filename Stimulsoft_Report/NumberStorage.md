@@ -18,3 +18,9 @@ title: "NumberStorage Class"
 
 - **value** (number)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **value** | number |  |

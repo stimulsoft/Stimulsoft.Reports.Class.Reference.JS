@@ -20,7 +20,7 @@ title: "StiFontCollection Class"
 | **callback** | void |  |
 | **getBinFont** `static` | void |  |
 | **getBinFonts** `static` | string[] |  |
-| **getFontFamilies** `static` | [FontFamily](../Stimulsoft_System/Drawing/FontFamily.md)[] |  |
+| **getFontFamilies** `static` | [FontFamily](../Stimulsoft_System_Drawing/FontFamily.md)[] |  |
 | **isCustomFont** `static` | boolean |  |
 | **registerFontConfig** `static` | void |  |
 | **registerFontConfigAsync** `static` | void |  |
@@ -35,7 +35,7 @@ title: "StiFontCollection Class"
 
 #### addFont `static`
 
-**addFont**(**font**: any, **fontName**: string, **binFont**: any, **filePath**: string, **fontStyle**: [FontStyle](../Stimulsoft_System/Drawing/FontStyle.md), **store**: any): void
+**addFont**(**font**: any, **fontName**: string, **binFont**: any, **filePath**: string, **fontStyle**: [FontStyle](../Stimulsoft_System_Drawing/FontStyle.md), **store**: any): void
 
 **Parameters**
 
@@ -43,7 +43,7 @@ title: "StiFontCollection Class"
 - **fontName** (string)  
 - **binFont** (any)  
 - **filePath** (string)  
-- **fontStyle** ([FontStyle](../Stimulsoft_System/Drawing/FontStyle.md))  
+- **fontStyle** ([FontStyle](../Stimulsoft_System_Drawing/FontStyle.md))  
 - **store** (any)  
 
 
@@ -51,13 +51,13 @@ title: "StiFontCollection Class"
 
 #### addFontBytes `static`
 
-**addFontBytes**(**data**: any, **fontName**: string, **fontStyle**: [FontStyle](../Stimulsoft_System/Drawing/FontStyle.md), **store**: any): string
+**addFontBytes**(**data**: any, **fontName**: string, **fontStyle**: [FontStyle](../Stimulsoft_System_Drawing/FontStyle.md), **store**: any): string
 
 **Parameters**
 
 - **data** (any)  
 - **fontName** (string)  
-- **fontStyle** ([FontStyle](../Stimulsoft_System/Drawing/FontStyle.md))  
+- **fontStyle** ([FontStyle](../Stimulsoft_System_Drawing/FontStyle.md))  
 - **store** (any)  
 
 **Returns** string
@@ -67,13 +67,13 @@ title: "StiFontCollection Class"
 
 #### addFontFile `static`
 
-**addFontFile**(**filePath**: string, **fontName**: string, **fontStyle**: [FontStyle](../Stimulsoft_System/Drawing/FontStyle.md), **store**: any): void
+**addFontFile**(**filePath**: string, **fontName**: string, **fontStyle**: [FontStyle](../Stimulsoft_System_Drawing/FontStyle.md), **store**: any): void
 
 **Parameters**
 
 - **filePath** (string)  
 - **fontName** (string)  
-- **fontStyle** ([FontStyle](../Stimulsoft_System/Drawing/FontStyle.md))  
+- **fontStyle** ([FontStyle](../Stimulsoft_System_Drawing/FontStyle.md))  
 - **store** (any)  
 
 
@@ -92,7 +92,7 @@ title: "StiFontCollection Class"
 
 #### addOpentypeFont `static`
 
-**addOpentypeFont**(**font**: any, **fontName**: string, **binFont**: any, **filePath**: string, **fontStyle**: [FontStyle](../Stimulsoft_System/Drawing/FontStyle.md), **store**: any): void
+**addOpentypeFont**(**font**: any, **fontName**: string, **binFont**: any, **filePath**: string, **fontStyle**: [FontStyle](../Stimulsoft_System_Drawing/FontStyle.md), **store**: any): void
 
 **Parameters**
 
@@ -100,7 +100,7 @@ title: "StiFontCollection Class"
 - **fontName** (string)  
 - **binFont** (any)  
 - **filePath** (string)  
-- **fontStyle** ([FontStyle](../Stimulsoft_System/Drawing/FontStyle.md))  
+- **fontStyle** ([FontStyle](../Stimulsoft_System_Drawing/FontStyle.md))  
 - **store** (any)  
 
 
@@ -108,13 +108,13 @@ title: "StiFontCollection Class"
 
 #### addOpentypeFontFile `static`
 
-**addOpentypeFontFile**(**filePath**: string, **fontName**: string, **fontStyle**: [FontStyle](../Stimulsoft_System/Drawing/FontStyle.md), **store**: any): void
+**addOpentypeFontFile**(**filePath**: string, **fontName**: string, **fontStyle**: [FontStyle](../Stimulsoft_System_Drawing/FontStyle.md), **store**: any): void
 
 **Parameters**
 
 - **filePath** (string)  
 - **fontName** (string)  
-- **fontStyle** ([FontStyle](../Stimulsoft_System/Drawing/FontStyle.md))  
+- **fontStyle** ([FontStyle](../Stimulsoft_System_Drawing/FontStyle.md))  
 - **store** (any)  
 
 
@@ -140,12 +140,12 @@ title: "StiFontCollection Class"
 
 #### getBinFont `static`
 
-**getBinFont**(**fontName**: string, **fontStyle**: [FontStyle](../Stimulsoft_System/Drawing/FontStyle.md)): void
+**getBinFont**(**fontName**: string, **fontStyle**: [FontStyle](../Stimulsoft_System_Drawing/FontStyle.md)): void
 
 **Parameters**
 
 - **fontName** (string)  
-- **fontStyle** ([FontStyle](../Stimulsoft_System/Drawing/FontStyle.md))  
+- **fontStyle** ([FontStyle](../Stimulsoft_System_Drawing/FontStyle.md))  
 
 
 ---
@@ -161,9 +161,9 @@ title: "StiFontCollection Class"
 
 #### getFontFamilies `static`
 
-**getFontFamilies**(): [FontFamily](../Stimulsoft_System/Drawing/FontFamily.md)[]
+**getFontFamilies**(): [FontFamily](../Stimulsoft_System_Drawing/FontFamily.md)[]
 
-**Returns** [FontFamily](../Stimulsoft_System/Drawing/FontFamily.md)[]
+**Returns** [FontFamily](../Stimulsoft_System_Drawing/FontFamily.md)[]
 
 
 ---
@@ -244,3 +244,10 @@ title: "StiFontCollection Class"
 
 - **folderPatch** (string)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **fontData** | any |  |
+| **fontData** | any |  |

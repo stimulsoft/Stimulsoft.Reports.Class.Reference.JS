@@ -1,0 +1,70 @@
+---
+title: "IStiSignatureText Interface"
+---
+
+## IStiSignatureText Interface
+
+**Namespace:** `Stimulsoft.Report.Components`
+
+### Methods
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| **clone** | any |  |
+| **isDefault** | boolean |  |
+| **loadFromJsonObject** | void |  |
+| **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
+
+---
+
+### Method Details
+
+#### clone
+
+**clone**(): any
+
+**Returns** any
+
+
+---
+
+#### isDefault
+
+**isDefault**(): boolean
+
+**Returns** boolean
+
+
+---
+
+#### loadFromJsonObject
+
+**loadFromJsonObject**(**j**: [StiJson](../Stimulsoft_Base/StiJson.md)): void
+
+**Parameters**
+
+- **j** ([StiJson](../Stimulsoft_Base/StiJson.md))  
+
+
+---
+
+#### saveToJsonObject
+
+**saveToJsonObject**(**mode**: [StiJsonSaveMode](../Stimulsoft_Base/StiJsonSaveMode.md)): [StiJson](../Stimulsoft_Base/StiJson.md)
+
+**Parameters**
+
+- **mode** ([StiJsonSaveMode](../Stimulsoft_Base/StiJsonSaveMode.md))  
+
+**Returns** [StiJson](../Stimulsoft_Base/StiJson.md)
+
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **color** | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
+| **font** | [Font](../Stimulsoft_Base_Dashboard/Font.md) |  |
+| **horAlignment** | [StiTextHorAlignment](../Stimulsoft_Base_Drawing/StiTextHorAlignment.md) |  |
+| **text** | string |  |
+| **vertAlignment** | [StiVertAlignment](../Stimulsoft_Base_Drawing/StiVertAlignment.md) |  |

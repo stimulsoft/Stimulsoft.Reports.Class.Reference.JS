@@ -98,3 +98,15 @@ title: "StiReportCheckHelper Class"
 
 - **checks** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **checks** | any |  |
+| **isAsync** | any |  |
+| **isAsync** | any |  |
+| **needUpdateReport** | any |  |
+| **pixelElement** | any |  |
+| **pixelHighlightedElement** | any |  |
+| **report** | any |  |

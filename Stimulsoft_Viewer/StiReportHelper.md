@@ -26,7 +26,7 @@ title: "StiReportHelper Class"
 | **getNestedPages** `static` | StiPage[] |  |
 | **getPagesCount** `static` | number |  |
 | **getReportCultureParams** `static` | any |  |
-| **getReportDisplayModeFromReport** `static` | [StiHtmlExportMode](../Stimulsoft_Report/Export/StiHtmlExportMode.md) |  |
+| **getReportDisplayModeFromReport** `static` | [StiHtmlExportMode](../Stimulsoft_Report_Export/StiHtmlExportMode.md) |  |
 | **getReportPreviewSettings** `static` | KeyObjectType |  |
 | **getSingleElementContent** `static` | Promise<KeyObjectType> |  |
 | **getTableOfContentsPointers** `static` | any[] |  |
@@ -98,11 +98,11 @@ title: "StiReportHelper Class"
 
 #### brushToStr `static`
 
-**brushToStr**(**brush**: [StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md)): string
+**brushToStr**(**brush**: [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md)): string
 
 **Parameters**
 
-- **brush** ([StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md))  
+- **brush** ([StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md))  
 
 **Returns** string
 
@@ -219,7 +219,7 @@ title: "StiReportHelper Class"
 
 #### getElementAttributesAsync `static`
 
-**getElementAttributesAsync**(**page**: StiPage, **element**: IStiElement, **renderSingleElement**: boolean, **requestParams**: any, **elementOldHeights**: any, **bands**: [StiRangeBand](Helpers/Dashboards/StiRangeBand.md)[], **totalFixedHeight**: any): Promise<KeyObjectType>
+**getElementAttributesAsync**(**page**: StiPage, **element**: IStiElement, **renderSingleElement**: boolean, **requestParams**: any, **elementOldHeights**: any, **bands**: [StiRangeBand](../Stimulsoft_Viewer_Helpers_Dashboards/StiRangeBand.md)[], **totalFixedHeight**: any): Promise<KeyObjectType>
 
 **Parameters**
 
@@ -228,7 +228,7 @@ title: "StiReportHelper Class"
 - **renderSingleElement** (boolean)  
 - **requestParams** (any)  
 - **elementOldHeights** (any)  
-- **bands** ([StiRangeBand](Helpers/Dashboards/StiRangeBand.md)[])  
+- **bands** ([StiRangeBand](../Stimulsoft_Viewer_Helpers_Dashboards/StiRangeBand.md)[])  
 - **totalFixedHeight** (any)  
 
 **Returns** Promise<KeyObjectType>
@@ -238,13 +238,13 @@ title: "StiReportHelper Class"
 
 #### getHtmlColor `static`
 
-**getHtmlColor**(**color**: [Color](../Stimulsoft_System/Drawing/Color.md)): string
+**getHtmlColor**(**color**: [Color](../Stimulsoft_System_Drawing/Color.md)): string
 
 Get the color in HEX format.
 
 **Parameters**
 
-- **color** ([Color](../Stimulsoft_System/Drawing/Color.md))  
+- **color** ([Color](../Stimulsoft_System_Drawing/Color.md))  
 
 **Returns** string
 
@@ -294,13 +294,13 @@ Get the color in HEX format.
 
 #### getReportDisplayModeFromReport `static`
 
-**getReportDisplayModeFromReport**(**report**: [StiReport](../Stimulsoft_Report/StiReport.md)): [StiHtmlExportMode](../Stimulsoft_Report/Export/StiHtmlExportMode.md)
+**getReportDisplayModeFromReport**(**report**: [StiReport](../Stimulsoft_Report/StiReport.md)): [StiHtmlExportMode](../Stimulsoft_Report_Export/StiHtmlExportMode.md)
 
 **Parameters**
 
 - **report** ([StiReport](../Stimulsoft_Report/StiReport.md))  
 
-**Returns** [StiHtmlExportMode](../Stimulsoft_Report/Export/StiHtmlExportMode.md)
+**Returns** [StiHtmlExportMode](../Stimulsoft_Report_Export/StiHtmlExportMode.md)
 
 
 ---
@@ -380,3 +380,43 @@ Get the color in HEX format.
 
 - **elementAttributes** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **brushStr** | any |  |
+| **brushStr** | any |  |
+| **brushStr** | any |  |
+| **brushStr** | any |  |
+| **brushStr** | any |  |
+| **brushStr** | any |  |
+| **contentAlignment** | any |  |
+| **contentAlignment** | any |  |
+| **contentAlignment** | any |  |
+| **contentAlignment** | any |  |
+| **contentAlignment** | any |  |
+| **contentAlignment** | any |  |
+| **cultureName** | any |  |
+| **dashboardsPresent** | any |  |
+| **drillDownPage** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **mimeType** | any |  |
+| **newReport** | any |  |
+| **pValue** | any |  |
+| **pageIndex** | any |  |
+| **pageIndex** | any |  |
+| **pointers** | any |  |
+| **pointers** | any |  |
+| **reportsPresent** | any |  |
+| **scaleX** | any |  |
+| **scaleY** | any |  |
+| **scaleY** | any |  |
+| **scaleY** | any |  |
+| **scaleY** | any |  |
+| **values** | any |  |
+| **yy** | any |  |

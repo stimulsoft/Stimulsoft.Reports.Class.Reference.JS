@@ -18,3 +18,10 @@ title: "Interface<T> Class"
 
 - **typeName** (string)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **type** | T |  |
+| **typeName** | string |  |

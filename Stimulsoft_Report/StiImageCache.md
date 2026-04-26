@@ -37,11 +37,11 @@ title: "StiImageCache Class"
 
 #### addImageInt
 
-**addImageInt**(**image**: [Image](../Stimulsoft_System/Drawing/Image.md), **imageFormat**: [ImageFormat](ImageFormat.md)): number
+**addImageInt**(**image**: [Image](../Stimulsoft_System_Drawing/Image.md), **imageFormat**: [ImageFormat](ImageFormat.md)): number
 
 **Parameters**
 
-- **image** ([Image](../Stimulsoft_System/Drawing/Image.md))  
+- **image** ([Image](../Stimulsoft_System_Drawing/Image.md))  
 - **imageFormat** ([ImageFormat](ImageFormat.md))  
 
 **Returns** number
@@ -51,12 +51,12 @@ title: "StiImageCache Class"
 
 #### addImageIntRaw
 
-**addImageIntRaw**(**image**: [Image](../Stimulsoft_System/Drawing/Image.md), **imageFormat**: [Stimulsoft.System.Drawing.Imaging.ImageFormat](../Stimulsoft_System/Drawing/Imaging/ImageFormat.md)): number
+**addImageIntRaw**(**image**: [Image](../Stimulsoft_System_Drawing/Image.md), **imageFormat**: [Stimulsoft.System.Drawing.Imaging.ImageFormat](../Stimulsoft_System_Drawing_Imaging/ImageFormat.md)): number
 
 **Parameters**
 
-- **image** ([Image](../Stimulsoft_System/Drawing/Image.md))  
-- **imageFormat** ([Stimulsoft.System.Drawing.Imaging.ImageFormat](../Stimulsoft_System/Drawing/Imaging/ImageFormat.md))  
+- **image** ([Image](../Stimulsoft_System_Drawing/Image.md))  
+- **imageFormat** ([Stimulsoft.System.Drawing.Imaging.ImageFormat](../Stimulsoft_System_Drawing_Imaging/ImageFormat.md))  
 
 **Returns** number
 
@@ -67,3 +67,32 @@ title: "StiImageCache Class"
 
 **clear**(): void
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **_format** | any |  |
+| **_format** | any |  |
+| **_format** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **bytes** | any |  |
+| **checkSum** | any |  |
+| **checkSum** | any |  |
+| **checkSum** | any |  |
+| **count** | any |  |
+| **image** | any |  |
+| **imageForMask** | any |  |
+| **imageFormatStore** | [ImageFormat](ImageFormat.md)[] |  |
+| **imageIndex** | number[] |  |
+| **imageIndex** | any |  |
+| **imageIndex** | any |  |
+| **imageMaskStore** | number[][] |  |
+| **imagePackedStore** | number[][] |  |
+| **imageSizeStore** | [Size](../Stimulsoft_System_Drawing/Size.md)[] |  |
+| **imageStore** | [Image](../Stimulsoft_System_Drawing/Image.md)[] |  |
+| **mask** | any |  |
+| **mask** | any |  |
+| **offset** | any |  |

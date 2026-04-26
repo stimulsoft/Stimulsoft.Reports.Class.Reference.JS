@@ -39,11 +39,11 @@ Inherits from: Error
 
 #### getMessage `static`
 
-**getMessage**(**exception**: Exception | string): string
+**getMessage**(**exception**: Exception \| string): string
 
 **Parameters**
 
-- **exception** (Exception | string)  
+- **exception** (Exception \| string)  
 
 **Returns** string
 
@@ -52,11 +52,11 @@ Inherits from: Error
 
 #### log `static`
 
-**log**(**exception**: Exception | string, **obj**: any, **message**: string): [LogStatus](LogStatus.md)
+**log**(**exception**: Exception \| string, **obj**: any, **message**: string): [LogStatus](LogStatus.md)
 
 **Parameters**
 
-- **exception** (Exception | string)  
+- **exception** (Exception \| string)  
 - **obj** (any)  
 - **message** (string)  
 
@@ -67,11 +67,11 @@ Inherits from: Error
 
 #### logEvent `static`
 
-**logEvent**(**exception**: Exception | string, **compObject**: any, **eventName**: string): [LogStatus](LogStatus.md)
+**logEvent**(**exception**: Exception \| string, **compObject**: any, **eventName**: string): [LogStatus](LogStatus.md)
 
 **Parameters**
 
-- **exception** (Exception | string)  
+- **exception** (Exception \| string)  
 - **compObject** (any)  
 - **eventName** (string)  
 
@@ -82,11 +82,11 @@ Inherits from: Error
 
 #### logExpression `static`
 
-**logExpression**(**exception**: Exception | string, **compObject**: any, **propertyName**: string): [LogStatus](LogStatus.md)
+**logExpression**(**exception**: Exception \| string, **compObject**: any, **propertyName**: string): [LogStatus](LogStatus.md)
 
 **Parameters**
 
-- **exception** (Exception | string)  
+- **exception** (Exception \| string)  
 - **compObject** (any)  
 - **propertyName** (string)  
 
@@ -97,11 +97,11 @@ Inherits from: Error
 
 #### logSeriesExpression `static`
 
-**logSeriesExpression**(**exception**: Exception | string, **compObject**: any, **series**: string, **propertyName**: string): [LogStatus](LogStatus.md)
+**logSeriesExpression**(**exception**: Exception \| string, **compObject**: any, **series**: string, **propertyName**: string): [LogStatus](LogStatus.md)
 
 **Parameters**
 
-- **exception** (Exception | string)  
+- **exception** (Exception \| string)  
 - **compObject** (any)  
 - **series** (string)  
 - **propertyName** (string)  

@@ -35,3 +35,9 @@ title: "TextValue Class"
 
 **Returns** string
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **value** | string |  |

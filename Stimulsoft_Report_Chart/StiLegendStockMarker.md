@@ -8,7 +8,7 @@ title: "StiLegendStockMarker Class"
 
 ### Inheritance
 
-Implements: [IStiLegendMarker](../Stimulsoft_Report/Chart/IStiLegendMarker.md)  
+Implements: [IStiLegendMarker](IStiLegendMarker.md)  
 
 ### Methods
 
@@ -23,11 +23,11 @@ Implements: [IStiLegendMarker](../Stimulsoft_Report/Chart/IStiLegendMarker.md)
 
 #### draw
 
-**draw**(**context**: [StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md), **serie**: IStiSeries, **rect**: RectangleD, **colorIndex**: number, **colorCount**: number, **index**: number): void
+**draw**(**context**: [StiContext](../Stimulsoft_Base_Context/StiContext.md), **serie**: IStiSeries, **rect**: RectangleD, **colorIndex**: number, **colorCount**: number, **index**: number): void
 
 **Parameters**
 
-- **context** ([StiContext](../Stimulsoft_Report/Stimulsoft/Base/Context/StiContext.md))  
+- **context** ([StiContext](../Stimulsoft_Base_Context/StiContext.md))  
 - **serie** (IStiSeries)  
 - **rect** (RectangleD)  
 - **colorIndex** (number)  

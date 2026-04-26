@@ -8,7 +8,7 @@ title: "StiStripLineXF Class"
 
 ### Inheritance
 
-Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiStripLineXF](../Stimulsoft_Report/Chart/IStiStripLineXF.md)  
+Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiStripLineXF](IStiStripLineXF.md)  
 
 ### Constructors
 
@@ -56,3 +56,9 @@ Implements: [ICloneable](../Stimulsoft_System/ICloneable.md), [IStiStripLineXF](
 
 **Returns** any[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **valueObject** | any |  |

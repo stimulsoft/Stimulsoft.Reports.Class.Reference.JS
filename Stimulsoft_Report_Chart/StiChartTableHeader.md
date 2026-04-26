@@ -8,20 +8,20 @@ title: "StiChartTableHeader Class"
 
 ### Inheritance
 
-Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonReportObject.md)  
+Implements: [IStiJsonReportObject](../Stimulsoft_Base_JsonReportObject/IStiJsonReportObject.md)  
 
 ### Constructors
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**(any textAfter, [StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md) brush) |  |
+| **constructor**(any textAfter, [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md) brush) |  |
 
-**constructor**(**textAfter**: any, **brush**: [StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md))
+**constructor**(**textAfter**: any, **brush**: [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md))
 
 **Parameters**
 
 - **textAfter** (any)  
-- **brush** ([StiBrush](../Stimulsoft_Base/Drawing/StiBrush.md))  
+- **brush** ([StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md))  
 
 
 ### Methods
@@ -32,7 +32,7 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 | **implements** | any[] |  |
 | **loadFromJsonObject** | void |  |
 | **loadFromXml** | void |  |
-| **meta** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
 | **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
 
 ---
@@ -70,20 +70,20 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 #### loadFromXml
 
-**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXml**(**xn**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xn** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xn** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
 
 #### meta
 
-**meta**(): [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
-**Returns** [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[]
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
 
 
 ---
@@ -103,4 +103,11 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 | Field | Type | Description |
 | --- | --- | --- |
-| **_hash** | [StiMeta](../Stimulsoft_Base/Meta/StiMeta.md)[] |  |
+| **ICloneable** | any |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **brush** | [StiBrush](../Stimulsoft_Base_Drawing/StiBrush.md) |  |
+| **font** | [Font](../Stimulsoft_Base_Dashboard/Font.md) |  |
+| **format** | string |  |
+| **textAfter** | any |  |
+| **textColor** | [Color](../Stimulsoft_System_Drawing/Color.md) |  |
+| **wordWrap** | any |  |

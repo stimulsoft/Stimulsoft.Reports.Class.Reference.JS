@@ -10,12 +10,19 @@ title: "TokenCache Class"
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([StiToken](Engine/StiParser/StiToken.md)[] tokens, [StiTokenPosition](../Stimulsoft_Base/StiTokenPosition.md)[] positions) |  |
+| **constructor**([StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md)[] tokens, [StiTokenPosition](../Stimulsoft_Base/StiTokenPosition.md)[] positions) |  |
 
-**constructor**(**tokens**: [StiToken](Engine/StiParser/StiToken.md)[], **positions**: [StiTokenPosition](../Stimulsoft_Base/StiTokenPosition.md)[])
+**constructor**(**tokens**: [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md)[], **positions**: [StiTokenPosition](../Stimulsoft_Base/StiTokenPosition.md)[])
 
 **Parameters**
 
-- **tokens** ([StiToken](Engine/StiParser/StiToken.md)[])  
+- **tokens** ([StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md)[])  
 - **positions** ([StiTokenPosition](../Stimulsoft_Base/StiTokenPosition.md)[])  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **tokenPositions** | [StiTokenPosition](../Stimulsoft_Base/StiTokenPosition.md)[] |  |
+| **tokens** | [StiToken](../Stimulsoft_Report_Engine_StiParser/StiToken.md)[] |  |

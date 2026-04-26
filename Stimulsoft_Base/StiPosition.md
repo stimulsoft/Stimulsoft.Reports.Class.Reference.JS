@@ -23,3 +23,10 @@ Creates position in text.
 - **line** (number) — Line in text.  
 - **column** (number) — Column in text.  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **column** | number | Gets or sets column in text. |
+| **line** | number | Gets or sets line in text. |

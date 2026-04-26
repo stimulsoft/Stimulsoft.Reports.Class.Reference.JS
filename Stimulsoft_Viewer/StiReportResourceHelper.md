@@ -22,11 +22,11 @@ title: "StiReportResourceHelper Class"
 
 #### getBase64DataFromFontResourceContent `static`
 
-**getBase64DataFromFontResourceContent**(**resourceType**: [StiResourceType](../Stimulsoft_Report/Dictionary/StiResourceType.md), **content**: number[]): string
+**getBase64DataFromFontResourceContent**(**resourceType**: [StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md), **content**: number[]): string
 
 **Parameters**
 
-- **resourceType** ([StiResourceType](../Stimulsoft_Report/Dictionary/StiResourceType.md))  
+- **resourceType** ([StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md))  
 - **content** (number[])  
 
 **Returns** string
@@ -60,11 +60,11 @@ title: "StiReportResourceHelper Class"
 
 #### isFontResourceType `static`
 
-**isFontResourceType**(**resourceType**: [StiResourceType](../Stimulsoft_Report/Dictionary/StiResourceType.md)): boolean
+**isFontResourceType**(**resourceType**: [StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md)): boolean
 
 **Parameters**
 
-- **resourceType** ([StiResourceType](../Stimulsoft_Report/Dictionary/StiResourceType.md))  
+- **resourceType** ([StiResourceType](../Stimulsoft_Report_Dictionary/StiResourceType.md))  
 
 **Returns** boolean
 
@@ -80,3 +80,10 @@ title: "StiReportResourceHelper Class"
 - **report** ([StiReport](../Stimulsoft_Report/StiReport.md))  
 - **resources** (StiResourcesCollection)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **fontContent** | any |  |
+| **fontContent** | any |  |

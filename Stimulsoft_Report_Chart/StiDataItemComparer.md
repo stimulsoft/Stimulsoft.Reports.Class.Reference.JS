@@ -8,20 +8,20 @@ title: "StiDataItemComparer Class"
 
 ### Inheritance
 
-Implements: [IComparer](../Stimulsoft_System/Collections/IComparer.md)  
+Implements: [IComparer](../Stimulsoft_System_Collections/IComparer.md)  
 
 ### Constructors
 
 | Constructor | Description |
 | --- | --- |
-| **constructor**([StiSeriesSortType](../Stimulsoft_Report/Chart/StiSeriesSortType.md) sortType, [StiSeriesSortDirection](../Stimulsoft_Report/Chart/StiSeriesSortDirection.md) sortDirection) |  |
+| **constructor**([StiSeriesSortType](StiSeriesSortType.md) sortType, [StiSeriesSortDirection](StiSeriesSortDirection.md) sortDirection) |  |
 
-**constructor**(**sortType**: [StiSeriesSortType](../Stimulsoft_Report/Chart/StiSeriesSortType.md), **sortDirection**: [StiSeriesSortDirection](../Stimulsoft_Report/Chart/StiSeriesSortDirection.md))
+**constructor**(**sortType**: [StiSeriesSortType](StiSeriesSortType.md), **sortDirection**: [StiSeriesSortDirection](StiSeriesSortDirection.md))
 
 **Parameters**
 
-- **sortType** ([StiSeriesSortType](../Stimulsoft_Report/Chart/StiSeriesSortType.md))  
-- **sortDirection** ([StiSeriesSortDirection](../Stimulsoft_Report/Chart/StiSeriesSortDirection.md))  
+- **sortType** ([StiSeriesSortType](StiSeriesSortType.md))  
+- **sortDirection** ([StiSeriesSortDirection](StiSeriesSortDirection.md))  
 
 
 ### Methods
@@ -45,3 +45,13 @@ Implements: [IComparer](../Stimulsoft_System/Collections/IComparer.md)
 
 **Returns** number
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **value** | any |  |
+| **value1** | any |  |
+| **value1** | any |  |
+| **value2** | any |  |
+| **value2** | any |  |

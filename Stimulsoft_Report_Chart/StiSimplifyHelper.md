@@ -28,3 +28,21 @@ title: "StiSimplifyHelper Class"
 
 **Returns** PointD[]
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **dx** | any |  |
+| **dy** | any |  |
+| **dy** | any |  |
+| **first** | any |  |
+| **first** | any |  |
+| **index** | any |  |
+| **last** | any |  |
+| **last** | any |  |
+| **maxSqDist** | any |  |
+| **point** | any |  |
+| **prevPoint** | any |  |
+| **x** | any |  |
+| **y** | any |  |

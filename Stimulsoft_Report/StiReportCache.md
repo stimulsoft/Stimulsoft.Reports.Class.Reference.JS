@@ -76,3 +76,9 @@ title: "StiReportCache Class"
 - **path** (string)  
 - **pageJsonString** (string)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **temp** | any |  |

@@ -18,11 +18,11 @@ title: "StiError Class"
 
 #### showError `static`
 
-**showError**(**e**: Exception | string, **showForm**: any, **infoForm**: any): void
+**showError**(**e**: Exception \| string, **showForm**: any, **infoForm**: any): void
 
 **Parameters**
 
-- **e** (Exception | string)  
+- **e** (Exception \| string)  
 - **showForm** (any)  
 - **infoForm** (any)  
 

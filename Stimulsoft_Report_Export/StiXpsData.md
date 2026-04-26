@@ -14,3 +14,13 @@ Inner representation of the export objects.
 | --- | --- | --- |
 | **bottom** | number |  |
 | **right** | number |  |
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **component** | StiComponent |  |
+| **height** | number |  |
+| **width** | number |  |
+| **x** | number |  |
+| **y** | number |  |

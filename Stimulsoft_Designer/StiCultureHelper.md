@@ -134,3 +134,9 @@ title: "StiCultureHelper Class"
 - **param** (any)  
 - **callbackResult** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **haveItem** | any |  |

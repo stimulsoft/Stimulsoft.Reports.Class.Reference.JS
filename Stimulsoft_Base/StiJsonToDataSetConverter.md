@@ -10,8 +10,8 @@ title: "StiJsonToDataSetConverter Class"
 
 | Method | Returns | Description |
 | --- | --- | --- |
-| **getDataSet** `static` | [DataSet](../Stimulsoft_System/Data/DataSet.md) |  |
-| **getDataSetFromXml** `static` | [DataSet](../Stimulsoft_System/Data/DataSet.md) |  |
+| **getDataSet** `static` | [DataSet](../Stimulsoft_System_Data/DataSet.md) |  |
+| **getDataSetFromXml** `static` | [DataSet](../Stimulsoft_System_Data/DataSet.md) |  |
 
 ---
 
@@ -19,22 +19,22 @@ title: "StiJsonToDataSetConverter Class"
 
 #### getDataSet `static`
 
-**getDataSet**(**param**: string | number[] | any, **jsonRelationDirection**: any, **maxDataRows**: number): [DataSet](../Stimulsoft_System/Data/DataSet.md)
+**getDataSet**(**param**: string \| number[] \| any, **jsonRelationDirection**: any, **maxDataRows**: number): [DataSet](../Stimulsoft_System_Data/DataSet.md)
 
 **Parameters**
 
-- **param** (string | number[] | any)  
+- **param** (string \| number[] \| any)  
 - **jsonRelationDirection** (any)  
 - **maxDataRows** (number)  
 
-**Returns** [DataSet](../Stimulsoft_System/Data/DataSet.md)
+**Returns** [DataSet](../Stimulsoft_System_Data/DataSet.md)
 
 
 ---
 
 #### getDataSetFromXml `static`
 
-**getDataSetFromXml**(**param**: any, **relationDirection**: any, **maxDataRows**: number): [DataSet](../Stimulsoft_System/Data/DataSet.md)
+**getDataSetFromXml**(**param**: any, **relationDirection**: any, **maxDataRows**: number): [DataSet](../Stimulsoft_System_Data/DataSet.md)
 
 **Parameters**
 
@@ -42,5 +42,5 @@ title: "StiJsonToDataSetConverter Class"
 - **relationDirection** (any)  
 - **maxDataRows** (number)  
 
-**Returns** [DataSet](../Stimulsoft_System/Data/DataSet.md)
+**Returns** [DataSet](../Stimulsoft_System_Data/DataSet.md)
 

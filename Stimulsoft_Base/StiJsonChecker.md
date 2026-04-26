@@ -26,3 +26,9 @@ title: "StiJsonChecker Class"
 
 **Returns** boolean
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **strInput** | any |  |

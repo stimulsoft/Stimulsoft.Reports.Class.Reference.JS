@@ -41,3 +41,14 @@ title: "StiTypeFinder Class"
 
 **Returns** [Type](../Stimulsoft_System/Type.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **currentType** | any |  |
+| **exType** | any |  |
+| **ff** | any |  |
+| **typeName** | any |  |
+| **typeName** | any |  |
+| **typeName** | any |  |

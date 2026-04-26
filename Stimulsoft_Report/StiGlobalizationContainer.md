@@ -8,7 +8,7 @@ title: "StiGlobalizationContainer Class"
 
 ### Inheritance
 
-Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonReportObject.md)  
+Implements: [IStiJsonReportObject](../Stimulsoft_Base_JsonReportObject/IStiJsonReportObject.md)  
 
 ### Constructors
 
@@ -34,7 +34,7 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 | Method | Returns | Description |
 | --- | --- | --- |
 | **fillItemsFromReport** | void |  |
-| **getAllStringsForReport** | [Hashtable](../Stimulsoft_System/Collections/Hashtable.md) |  |
+| **getAllStringsForReport** | [Hashtable](../Stimulsoft_System_Collections/Hashtable.md) |  |
 | **loadFromJsonObject** | void |  |
 | **loadFromXmlObject** | void |  |
 | **localizeReport** | void |  |
@@ -58,13 +58,13 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 #### getAllStringsForReport
 
-**getAllStringsForReport**(**report**: [StiReport](StiReport.md)): [Hashtable](../Stimulsoft_System/Collections/Hashtable.md)
+**getAllStringsForReport**(**report**: [StiReport](StiReport.md)): [Hashtable](../Stimulsoft_System_Collections/Hashtable.md)
 
 **Parameters**
 
 - **report** ([StiReport](StiReport.md))  
 
-**Returns** [Hashtable](../Stimulsoft_System/Collections/Hashtable.md)
+**Returns** [Hashtable](../Stimulsoft_System_Collections/Hashtable.md)
 
 
 ---
@@ -82,11 +82,11 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 #### loadFromXmlObject
 
-**loadFromXmlObject**(**xmlNode**: [XmlNode](../Stimulsoft_System/Xml/XmlNode.md)): void
+**loadFromXmlObject**(**xmlNode**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
 
 **Parameters**
 
-- **xmlNode** ([XmlNode](../Stimulsoft_System/Xml/XmlNode.md))  
+- **xmlNode** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
 
 
 ---
@@ -123,3 +123,9 @@ Implements: [IStiJsonReportObject](../Stimulsoft_Base/JsonReportObject/IStiJsonR
 
 **Returns** [StiJson](../Stimulsoft_Base/StiJson.md)
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **cultureName** | any |  |

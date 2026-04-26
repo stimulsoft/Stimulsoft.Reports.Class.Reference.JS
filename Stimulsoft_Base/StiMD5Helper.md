@@ -71,3 +71,94 @@ title: "StiMD5Helper Class"
 - **result** (any)  
 - **12** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **AA** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **a** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **b** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **c** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **d** | any |  |
+| **lBytePosition** | any |  |
+| **lBytePosition** | any |  |
+| **lResult** | any |  |
+| **lWordCount** | any |  |
+| **lWordCount** | any |  |
+| **lX4** | any |  |
+| **lX8** | any |  |
+| **lY4** | any |  |
+| **lY8** | any |  |
+| **string** | any |  |
+| **string** | any |  |
+| **x** | any |  |

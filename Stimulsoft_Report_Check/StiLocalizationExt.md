@@ -73,3 +73,9 @@ title: "StiLocalizationExt Class"
 - **filePath** (string)  
 - **onlyThis** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **language** | any |  |

@@ -166,3 +166,28 @@ title: "StiPdfStructure Class"
 
 **Returns** StiPdfXObjectObjInfo
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **acroForm** | StiPdfAcroFormObjInfo |  |
+| **colorSpace** | [StiPdfObjInfo](StiPdfObjInfo.md) |  |
+| **destOutputProfile** | [StiPdfObjInfo](StiPdfObjInfo.md) |  |
+| **embeddedFilesList** | StiPdfContentObjInfo[] |  |
+| **embeddedJS** | StiPdfContentObjInfo |  |
+| **encode** | [StiPdfObjInfo](StiPdfObjInfo.md) |  |
+| **extGState** | [StiPdfObjInfo](StiPdfObjInfo.md) |  |
+| **fontList** | StiPdfFontObjInfo[] |  |
+| **info** | [StiPdfObjInfo](StiPdfObjInfo.md) |  |
+| **linkList** | [StiPdfObjInfo](StiPdfObjInfo.md)[] |  |
+| **metadata** | [StiPdfObjInfo](StiPdfObjInfo.md) |  |
+| **optionalContentGroup** | [StiPdfObjInfo](StiPdfObjInfo.md) |  |
+| **outlines** | StiPdfOutlinesObjInfo |  |
+| **outputIntents** | [StiPdfObjInfo](StiPdfObjInfo.md) |  |
+| **pageList** | StiPdfContentObjInfo[] |  |
+| **pages** | [StiPdfObjInfo](StiPdfObjInfo.md) |  |
+| **patterns** | StiPdfPatternsObjInfo |  |
+| **root** | [StiPdfObjInfo](StiPdfObjInfo.md) |  |
+| **structTreeRoot** | StiPdfStructTreeRootObjInfo |  |
+| **xObjectList** | StiPdfXObjectObjInfo[] |  |

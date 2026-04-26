@@ -146,11 +146,11 @@ title: "StiDesigner Class"
 
 #### renderHtml
 
-**renderHtml**(**element**: string | HTMLElement): void
+**renderHtml**(**element**: string \| HTMLElement): void
 
 **Parameters**
 
-- **element** (string | HTMLElement)  
+- **element** (string \| HTMLElement)  
 
 
 ---
@@ -163,3 +163,47 @@ title: "StiDesigner Class"
 
 - **theme** ([StiDesignerTheme](StiDesignerTheme.md))  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **callback** | () |  |
+| **callback** | () |  |
+| **callback** | () |  |
+| **callback** | () |  |
+| **callback** | () |  |
+| **callback** | () |  |
+| **callback** | () |  |
+| **clipboard** | string |  |
+| **componentClone** | any |  |
+| **crossTabHelper** | any |  |
+| **currentReport** | any |  |
+| **currentReport** | any |  |
+| **currentReport** | any |  |
+| **currentReport** | any |  |
+| **currentReport** | any |  |
+| **currentReport** | any |  |
+| **currentReport** | any |  |
+| **data** | any |  |
+| **data** | any |  |
+| **designerId** | string |  |
+| **designerId** | any |  |
+| **fileName** | any |  |
+| **filePath** | any |  |
+| **jsObject** | StiJsDesigner |  |
+| **jsonObject** | any |  |
+| **jsonObject** | any |  |
+| **jsonObject** | any |  |
+| **newReport** | any |  |
+| **options** | [StiDesignerOptions](StiDesignerOptions.md) |  |
+| **processImage** | any |  |
+| **renderedReport** | [StiReport](../Stimulsoft_Report/StiReport.md) |  |
+| **reportFile** | any |  |
+| **reportFile** | any |  |
+| **stylesClipboard** | any |  |
+| **tableHelper** | any |  |
+| **theme** | any |  |
+| **theme** | any |  |
+| **undoLevel** | any |  |
+| **viewer** | [StiViewer](../Stimulsoft_Viewer/StiViewer.md) |  |

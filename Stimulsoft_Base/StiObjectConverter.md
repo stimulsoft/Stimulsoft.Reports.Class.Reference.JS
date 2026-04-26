@@ -26,3 +26,9 @@ title: "StiObjectConverter Class"
 
 **Returns** number
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **sval** | any |  |

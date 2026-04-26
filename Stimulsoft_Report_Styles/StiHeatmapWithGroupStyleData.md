@@ -1,0 +1,111 @@
+---
+title: "StiHeatmapWithGroupStyleData Class"
+---
+
+## StiHeatmapWithGroupStyleData Class
+
+**Namespace:** `Stimulsoft.Report.Styles`
+
+### Inheritance
+
+Implements: [IStiJsonReportObject](../Stimulsoft_Base_JsonReportObject/IStiJsonReportObject.md)  
+
+### Constructors
+
+| Constructor | Description |
+| --- | --- |
+| **constructor**([Color](../Stimulsoft_System_Drawing/Color.md)[] colors, [Color](../Stimulsoft_System_Drawing/Color.md) zeroColor, [StiHeatmapFillMode](StiHeatmapFillMode.md) mode) |  |
+
+**constructor**(**colors**: [Color](../Stimulsoft_System_Drawing/Color.md)[], **zeroColor**: [Color](../Stimulsoft_System_Drawing/Color.md), **mode**: [StiHeatmapFillMode](StiHeatmapFillMode.md))
+
+**Parameters**
+
+- **colors** ([Color](../Stimulsoft_System_Drawing/Color.md)[])  
+- **zeroColor** ([Color](../Stimulsoft_System_Drawing/Color.md))  
+- **mode** ([StiHeatmapFillMode](StiHeatmapFillMode.md))  
+
+
+### Methods
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| **clone** | any |  |
+| **implements** | any[] |  |
+| **loadFromJsonObject** | void |  |
+| **loadFromXml** | void |  |
+| **meta** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **saveToJsonObject** | [StiJson](../Stimulsoft_Base/StiJson.md) |  |
+
+---
+
+### Method Details
+
+#### clone
+
+**clone**(): any
+
+**Returns** any
+
+
+---
+
+#### implements
+
+**implements**(): any[]
+
+**Returns** any[]
+
+
+---
+
+#### loadFromJsonObject
+
+**loadFromJsonObject**(**jObject**: [StiJson](../Stimulsoft_Base/StiJson.md)): void
+
+**Parameters**
+
+- **jObject** ([StiJson](../Stimulsoft_Base/StiJson.md))  
+
+
+---
+
+#### loadFromXml
+
+**loadFromXml**(**xmlNode**: [XmlNode](../Stimulsoft_System_Xml/XmlNode.md)): void
+
+**Parameters**
+
+- **xmlNode** ([XmlNode](../Stimulsoft_System_Xml/XmlNode.md))  
+
+
+---
+
+#### meta
+
+**meta**(): [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
+
+**Returns** [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[]
+
+
+---
+
+#### saveToJsonObject
+
+**saveToJsonObject**(**mode**: [StiJsonSaveMode](../Stimulsoft_Base/StiJsonSaveMode.md)): [StiJson](../Stimulsoft_Base/StiJson.md)
+
+**Parameters**
+
+- **mode** ([StiJsonSaveMode](../Stimulsoft_Base/StiJsonSaveMode.md))  
+
+**Returns** [StiJson](../Stimulsoft_Base/StiJson.md)
+
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **ICloneable** | any |  |
+| **_hash** | [StiMeta](../Stimulsoft_Base_Meta/StiMeta.md)[] |  |
+| **colors** | [Color](../Stimulsoft_System_Drawing/Color.md)[] |  |
+| **mode** | [StiHeatmapFillMode](StiHeatmapFillMode.md) |  |
+| **zeroColor** | [Color](../Stimulsoft_System_Drawing/Color.md) |  |

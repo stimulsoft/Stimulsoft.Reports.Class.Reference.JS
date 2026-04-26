@@ -25,3 +25,15 @@ title: "StiHistogramHelper Class"
 - **series** (IStiSeries)  
 - **formatService** (StiFormatService)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **endValueCurrnet** | any |  |
+| **scottH** | any |  |
+| **scottH** | any |  |
+| **startValue** | any |  |
+| **startValue** | any |  |
+| **startValue** | any |  |
+| **sumCurrent** | any |  |

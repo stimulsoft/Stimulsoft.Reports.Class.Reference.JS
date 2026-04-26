@@ -63,3 +63,54 @@ Starts the parsing and execution of the script.
 
 - **thisObject** (any)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **expression** | any |  |
+| **expression** | any |  |
+| **expressionEnd** | any |  |
+| **expressionResult** | any |  |
+| **ident** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **left** | any |  |
+| **position** | any |  |
+| **position** | any |  |
+| **result** | any | The result of the last executed expression. |
+| **resultState** | any |  |
+| **resultState** | any |  |
+| **resultType** | any |  |
+| **resultType** | any |  |
+| **type** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |
+| **value** | any |  |

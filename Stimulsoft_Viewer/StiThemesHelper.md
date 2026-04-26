@@ -111,3 +111,20 @@ title: "StiThemesHelper Class"
 - **name** (string)  
 - **transform** (boolean)  
 
+
+### Fields
+
+| Field | Type | Description |
+| --- | --- | --- |
+| **imageData** | any |  |
+| **imageHeight** | any |  |
+| **imageHeight** | any |  |
+| **imageWidth** | any |  |
+| **imageWidth** | any |  |
+| **scale** | any |  |
+| **styleText** | any |  |
+| **stylesText** | any |  |
+| **themeFolder** | any |  |
+| **themeFolder** | any |  |
+| **themeFolder** | any |  |
+| **themeToneFolder** | any |  |

@@ -13,7 +13,7 @@ title: "StiFileImageCache Class"
 | **clear** `static` | void |  |
 | **exist** `static` | boolean |  |
 | **getImageCacheName** `static` | string |  |
-| **loadImage** `static` | [Image](../Stimulsoft_System/Drawing/Image.md) |  |
+| **loadImage** `static` | [Image](../Stimulsoft_System_Drawing/Image.md) |  |
 | **remove** `static` | void |  |
 | **saveImage** `static` | void |  |
 
@@ -62,14 +62,14 @@ title: "StiFileImageCache Class"
 
 #### loadImage `static`
 
-**loadImage**(**report**: [StiReport](StiReport.md), **path**: string): [Image](../Stimulsoft_System/Drawing/Image.md)
+**loadImage**(**report**: [StiReport](StiReport.md), **path**: string): [Image](../Stimulsoft_System_Drawing/Image.md)
 
 **Parameters**
 
 - **report** ([StiReport](StiReport.md))  
 - **path** (string)  
 
-**Returns** [Image](../Stimulsoft_System/Drawing/Image.md)
+**Returns** [Image](../Stimulsoft_System_Drawing/Image.md)
 
 
 ---
@@ -88,11 +88,11 @@ title: "StiFileImageCache Class"
 
 #### saveImage `static`
 
-**saveImage**(**report**: [StiReport](StiReport.md), **image**: [Image](../Stimulsoft_System/Drawing/Image.md), **path**: string): void
+**saveImage**(**report**: [StiReport](StiReport.md), **image**: [Image](../Stimulsoft_System_Drawing/Image.md), **path**: string): void
 
 **Parameters**
 
 - **report** ([StiReport](StiReport.md))  
-- **image** ([Image](../Stimulsoft_System/Drawing/Image.md))  
+- **image** ([Image](../Stimulsoft_System_Drawing/Image.md))  
 - **path** (string)  
 
